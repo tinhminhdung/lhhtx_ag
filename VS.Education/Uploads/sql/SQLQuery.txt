@@ -1,0 +1,1 @@
+alter table YahooMessenger add TenCongTy nvarchar(550)

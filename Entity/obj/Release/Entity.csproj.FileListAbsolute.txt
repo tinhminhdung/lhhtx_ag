@@ -1,0 +1,15 @@
+H:\Aggroupusa\Aggroupusa.com\Entity\bin\Release\Entity.dll
+H:\Aggroupusa\Aggroupusa.com\Entity\bin\Release\Entity.pdb
+H:\Aggroupusa\Aggroupusa.com\Entity\obj\Release\Entity.dll
+H:\Aggroupusa\Aggroupusa.com\Entity\obj\Release\Entity.pdb
+H:\Aggroupusa\Aggroupusa.com\Entity\obj\Release\Entity.csprojResolveAssemblyReference.cache
+F:\Aggroupusa\Aggroupusa.com\Entity\bin\Release\Entity.dll
+F:\Aggroupusa\Aggroupusa.com\Entity\bin\Release\Entity.pdb
+F:\Aggroupusa\Aggroupusa.com\Entity\obj\Release\Entity.csprojResolveAssemblyReference.cache
+F:\Aggroupusa\Aggroupusa.com\Entity\obj\Release\Entity.dll
+F:\Aggroupusa\Aggroupusa.com\Entity\obj\Release\Entity.pdb
+F:\AGVietNam\Aggroupusa.com_News\Entity\bin\Release\Entity.dll
+F:\AGVietNam\Aggroupusa.com_News\Entity\bin\Release\Entity.pdb
+F:\AGVietNam\Aggroupusa.com_News\Entity\obj\Release\Entity.csprojResolveAssemblyReference.cache
+F:\AGVietNam\Aggroupusa.com_News\Entity\obj\Release\Entity.dll
+F:\AGVietNam\Aggroupusa.com_News\Entity\obj\Release\Entity.pdb

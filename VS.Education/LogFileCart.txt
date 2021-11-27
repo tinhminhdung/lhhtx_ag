@@ -1,0 +1,558 @@
+2/6/2020 9:19:50:  Mã đơn hàng : 251
+2/6/2020 9:19:50: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 33
+2/6/2020 9:39:02:  Mã đơn hàng : 252
+2/6/2020 9:39:02: IDThanhVien:9411 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+8/6/2020 15:41:24:  Mã đơn hàng : 256
+8/6/2020 15:41:24: Đã tìm thấy thành viên có trạng thái là AG Land : iuser_id : 26
+8/6/2020 15:41:24: Đã tìm thấy thành viên có trạng thái là AG Land : iuser_id : 26
+8/6/2020 15:41:24: IDThanhVien:87 - kiểu BẤT ĐỘNG SẢN - Đi tìm trong hệ thống F1 đến .... n có thành viên nào là Agland thì lấy hoa hồng của ng đó F1 : HoaHongs : 33
+9/6/2020 10:41:04:  Mã đơn hàng : 257
+9/6/2020 10:41:04: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+10/6/2020 10:41:27:  Mã đơn hàng : 258
+10/6/2020 10:41:27: Đã tìm thấy thành viên có trạng thái là AG Land : iuser_id : 87
+10/6/2020 10:41:27: Đã tìm thấy thành viên có trạng thái là AG Land : iuser_id : 87
+10/6/2020 10:41:27: IDThanhVien:9430 - kiểu BẤT ĐỘNG SẢN - Đi tìm trong hệ thống F1 đến .... n có thành viên nào là Agland thì lấy hoa hồng của ng đó F1 : HoaHongs : 36
+10/6/2020 14:09:12:  Mã đơn hàng : 259
+10/6/2020 14:09:12: Đã tìm thấy thành viên có trạng thái là AG Land : iuser_id : 26
+10/6/2020 14:09:12: Đã tìm thấy thành viên có trạng thái là AG Land : iuser_id : 26
+10/6/2020 14:09:12: IDThanhVien:87 - kiểu BẤT ĐỘNG SẢN - Đi tìm trong hệ thống F1 đến .... n có thành viên nào là Agland thì lấy hoa hồng của ng đó F1 : HoaHongs : 45
+10/6/2020 14:09:12: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+10/6/2020 14:09:12: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+26/6/2020 15:01:42:  Mã đơn hàng : 260
+26/6/2020 15:01:42: IDThanhVien:9430 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+21/6/2020 10:09:30:  Mã đơn hàng : 261
+21/6/2020 10:09:30: IDThanhVien:9432 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+16/6/2020 10:31:17:  Mã đơn hàng : 262
+16/6/2020 10:31:17: Đã tìm thấy thành viên có trạng thái là AG Land : iuser_id : 87
+16/6/2020 10:31:17: Đã tìm thấy thành viên có trạng thái là AG Land : iuser_id : 87
+16/6/2020 10:31:17: IDThanhVien:9432 - kiểu BẤT ĐỘNG SẢN - Đi tìm trong hệ thống F1 đến .... n có thành viên nào là Agland thì lấy hoa hồng của ng đó F1 : HoaHongs : 36
+25/6/2020 11:28:53:  Mã đơn hàng : 263
+25/6/2020 11:28:53: IDThanhVien:9428 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+25/6/2020 11:29:44:  Mã đơn hàng : 264
+25/6/2020 11:29:44: IDThanhVien:9428 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+30/6/2020 14:34:40:  Mã đơn hàng : 265
+30/6/2020 14:34:40: IDThanhVien:9432 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+30/6/2020 14:37:37:  Mã đơn hàng : 266
+30/6/2020 14:37:37: IDThanhVien:9432 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+30/6/2020 15:36:29:  Mã đơn hàng : 267
+30/6/2020 15:36:29: Đã tìm thấy thành viên có trạng thái là AG Land : iuser_id : 87
+30/6/2020 15:36:29: Đã tìm thấy thành viên có trạng thái là AG Land : iuser_id : 87
+30/6/2020 15:36:29: IDThanhVien:9430 - kiểu BẤT ĐỘNG SẢN - Đi tìm trong hệ thống F1 đến .... n có thành viên nào là Agland thì lấy hoa hồng của ng đó F1 : HoaHongs : 36
+9/7/2020 15:42:19:  Mã đơn hàng : 266
+9/7/2020 15:42:19: IDThanhVien:9435 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+15/7/2020 14:51:34:  Mã đơn hàng : 267
+15/7/2020 14:51:34: IDThanhVien:9432 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+29/7/2020 9:12:14:  Mã đơn hàng : 268
+29/7/2020 9:12:14: Đã tìm thấy thành viên có trạng thái là AG Land : iuser_id : 87
+29/7/2020 9:12:14: Đã tìm thấy thành viên có trạng thái là AG Land : iuser_id : 87
+29/7/2020 9:12:14: IDThanhVien:9432 - kiểu BẤT ĐỘNG SẢN - Đi tìm trong hệ thống F1 đến .... n có thành viên nào là Agland thì lấy hoa hồng của ng đó F1 : HoaHongs : 36
+7/8/2020 9:08:04:  Mã đơn hàng : 269
+7/8/2020 9:08:04: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+7/8/2020 13:55:07:  Mã đơn hàng : 270
+7/8/2020 13:55:11: IDThanhVien:9432 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+7/8/2020 13:58:05:  Mã đơn hàng : 271
+7/8/2020 13:58:05: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+7/8/2020 13:59:28:  Mã đơn hàng : 272
+7/8/2020 13:59:28: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+8/8/2020 13:40:49:  Mã đơn hàng : 276
+8/8/2020 13:40:49: IDThanhVien:9432 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+8/8/2020 14:20:25:  Mã đơn hàng : 277
+8/8/2020 14:20:25: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+8/8/2020 14:52:19:  Mã đơn hàng : 278
+8/8/2020 14:52:19: IDThanhVien:9432 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+8/8/2020 15:23:06:  Mã đơn hàng : 279
+8/8/2020 15:23:06: IDThanhVien:9432 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+8/8/2020 16:25:03:  Mã đơn hàng : 280
+8/8/2020 16:25:03: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+9/8/2020 13:38:35:  Mã đơn hàng : 281
+9/8/2020 13:38:35: IDThanhVien:9432 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+9/8/2020 13:39:02:  Mã đơn hàng : 282
+9/8/2020 13:39:02: IDThanhVien:9432 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+9/8/2020 13:48:59:  Mã đơn hàng : 283
+9/8/2020 13:48:59: IDThanhVien:9428 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+9/8/2020 13:48:59: IDThanhVien:9428 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+9/8/2020 13:49:29:  Mã đơn hàng : 284
+9/8/2020 13:49:29: IDThanhVien:9428 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+9/8/2020 13:49:53:  Mã đơn hàng : 285
+9/8/2020 13:49:53: IDThanhVien:9428 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+9/8/2020 13:58:58:  Mã đơn hàng : 286
+9/8/2020 13:59:01: IDThanhVien:9440 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+9/8/2020 13:59:24:  Mã đơn hàng : 287
+9/8/2020 13:59:24: IDThanhVien:9440 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+9/8/2020 13:59:24: IDThanhVien:9440 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+9/8/2020 13:59:44:  Mã đơn hàng : 288
+9/8/2020 13:59:44: IDThanhVien:9440 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+9/8/2020 14:28:46:  Mã đơn hàng : 289
+9/8/2020 14:28:46: IDThanhVien:9440 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+9/8/2020 14:29:35:  Mã đơn hàng : 290
+9/8/2020 14:29:35: IDThanhVien:9440 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+9/8/2020 14:30:05:  Mã đơn hàng : 291
+9/8/2020 14:30:05: IDThanhVien:9440 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+9/8/2020 14:58:55:  Mã đơn hàng : 292
+9/8/2020 14:58:55: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+10/8/2020 14:38:59:  Mã đơn hàng : 293
+10/8/2020 14:38:59: IDThanhVien:9440 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+10/8/2020 15:01:53:  Mã đơn hàng : 294
+10/8/2020 15:01:53: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+10/8/2020 16:03:46:  Mã đơn hàng : 295
+10/8/2020 16:03:46: IDThanhVien:9436 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+10/8/2020 16:04:47:  Mã đơn hàng : 296
+10/8/2020 16:04:47: IDThanhVien:9437 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+10/8/2020 16:05:14:  Mã đơn hàng : 297
+10/8/2020 16:05:14: IDThanhVien:9438 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+10/8/2020 16:05:37:  Mã đơn hàng : 298
+10/8/2020 16:05:37: IDThanhVien:9439 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+10/8/2020 16:08:51:  Mã đơn hàng : 299
+10/8/2020 16:08:51: IDThanhVien:9432 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+11/8/2020 10:43:28:  Mã đơn hàng : 300
+11/8/2020 10:43:28: Đã tìm thấy thành viên có trạng thái là AG Land : iuser_id : 9432
+11/8/2020 10:43:28: Đã tìm thấy thành viên có trạng thái là AG Land : iuser_id : 9432
+11/8/2020 10:43:28: IDThanhVien:9435 - kiểu BẤT ĐỘNG SẢN - Đi tìm trong hệ thống F1 đến .... n có thành viên nào là Agland thì lấy hoa hồng của ng đó F1 : HoaHongs : 30
+11/8/2020 13:50:24:  Mã đơn hàng : 301
+11/8/2020 13:50:24: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+11/8/2020 13:54:39:  Mã đơn hàng : 302
+11/8/2020 13:54:39: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+13/8/2020 15:08:28:  Mã đơn hàng : 303
+13/8/2020 15:08:28:  for .... n Tìm thành viên AG Land : GioiThieu : 87
+13/8/2020 15:08:28: Đã tìm thấy thành viên có trạng thái là AG Land : iuser_id : 26
+13/8/2020 15:08:28:  for .... n Tìm thành viên AG Land : GioiThieu : 87
+13/8/2020 15:08:28: Đã tìm thấy thành viên có trạng thái là AG Land : iuser_id : 26
+13/8/2020 15:08:28: IDThanhVien:9441 - kiểu BẤT ĐỘNG SẢN - Đi tìm trong hệ thống F1 đến .... n có thành viên nào là Agland thì lấy hoa hồng của ng đó F1 : HoaHongs : 45
+17/8/2020 15:11:02:  Mã đơn hàng : 304
+17/8/2020 15:11:02:  for .... n Tìm thành viên AG Land : GioiThieu : 87
+17/8/2020 15:11:02: Đã tìm thấy thành viên có trạng thái là AG Land : iuser_id : 26
+17/8/2020 15:11:02:  for .... n Tìm thành viên AG Land : GioiThieu : 87
+17/8/2020 15:11:02: Đã tìm thấy thành viên có trạng thái là AG Land : iuser_id : 26
+17/8/2020 15:11:02: IDThanhVien:9441 - kiểu BẤT ĐỘNG SẢN - Đi tìm trong hệ thống F1 đến .... n có thành viên nào là Agland thì lấy hoa hồng của ng đó F1 : HoaHongs : 45
+18/8/2020 14:29:45:  Mã đơn hàng : 305
+18/8/2020 14:29:45: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+18/8/2020 14:32:34:  Mã đơn hàng : 306
+18/8/2020 14:32:34: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+18/8/2020 14:35:20:  Mã đơn hàng : 307
+18/8/2020 14:35:20: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+18/8/2020 15:40:02:  Mã đơn hàng : 308
+18/8/2020 15:40:02: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+18/8/2020 15:42:47:  Mã đơn hàng : 309
+18/8/2020 15:42:47: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+18/8/2020 15:55:16:  Mã đơn hàng : 310
+18/8/2020 15:55:16: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+18/8/2020 15:56:04:  Mã đơn hàng : 311
+18/8/2020 15:56:04: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+18/8/2020 15:59:54:  Mã đơn hàng : 312
+18/8/2020 15:59:54: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+18/8/2020 16:00:48:  Mã đơn hàng : 313
+18/8/2020 16:00:48: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+18/8/2020 16:01:54:  Mã đơn hàng : 314
+18/8/2020 16:01:54: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+19/8/2020 8:43:26:  Mã đơn hàng : 315
+19/8/2020 8:43:26: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+19/8/2020 14:00:12:  Mã đơn hàng : 316
+19/8/2020 14:00:12: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+19/8/2020 14:00:12: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+19/8/2020 14:05:13:  Mã đơn hàng : 317
+19/8/2020 14:05:13: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+19/8/2020 14:09:26:  Mã đơn hàng : 318
+19/8/2020 14:09:26: IDThanhVien:23 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+19/8/2020 16:25:04: IDThanhVien:23 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+19/8/2020 16:25:05: IDThanhVien:23 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+19/8/2020 16:29:58: IDThanhVien:23 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+19/8/2020 16:29:58: IDThanhVien:23 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+19/8/2020 16:31:45: IDThanhVien:23 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+19/8/2020 16:31:45: IDThanhVien:23 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+19/8/2020 16:33:03: IDThanhVien:23 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+19/8/2020 16:33:03: IDThanhVien:23 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+19/8/2020 16:33:03: IDThanhVien:23 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+19/8/2020 16:34:42: IDThanhVien:23 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+19/8/2020 16:34:42: IDThanhVien:23 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+19/8/2020 16:34:42: IDThanhVien:23 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+19/8/2020 16:37:07: IDThanhVien:23 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+19/8/2020 16:37:07: IDThanhVien:23 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+19/8/2020 16:43:49: IDThanhVien:23 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+19/8/2020 16:43:49: IDThanhVien:23 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+19/8/2020 16:54:27: IDThanhVien:23 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+19/8/2020 16:54:27: IDThanhVien:23 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+19/8/2020 16:55:10: IDThanhVien:23 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+19/8/2020 16:55:10: IDThanhVien:23 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+19/8/2020 16:55:10: IDThanhVien:23 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+20/8/2020 8:30:29: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+20/8/2020 8:38:48: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+20/8/2020 8:38:48: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+20/8/2020 8:39:35: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+20/8/2020 8:39:35: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+20/8/2020 8:41:00: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+20/8/2020 8:43:55: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+20/8/2020 8:56:21: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+20/8/2020 8:56:21: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+20/8/2020 8:56:21: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+20/8/2020 10:16:52: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+20/8/2020 10:16:52: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+20/8/2020 10:22:29: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+20/8/2020 10:22:29: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+20/8/2020 10:22:29: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+20/8/2020 10:31:39: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+20/8/2020 10:31:39: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+20/8/2020 10:31:39: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+20/8/2020 10:31:39: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+20/8/2020 11:46:15: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+20/8/2020 11:46:15: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+20/8/2020 11:46:15: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+20/8/2020 13:48:27: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+20/8/2020 13:48:27: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+20/8/2020 13:48:27: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+20/8/2020 13:48:27: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+20/8/2020 13:48:27: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+20/8/2020 13:48:27: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+20/8/2020 13:48:27: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+20/8/2020 13:48:27: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+20/8/2020 14:17:09: IDThanhVien:9428 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+20/8/2020 14:33:08: IDThanhVien:9428 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+20/8/2020 14:34:59: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+20/8/2020 14:34:59: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+20/8/2020 14:48:46: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+20/8/2020 14:50:15: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+20/8/2020 15:36:58: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+20/8/2020 15:40:10: IDThanhVien:9428 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+20/8/2020 15:40:40: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+20/8/2020 15:43:31: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+20/8/2020 15:46:11: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+20/8/2020 15:49:11: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+21/8/2020 8:52:32: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+21/8/2020 9:31:02: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+21/8/2020 9:40:54: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+21/8/2020 9:40:54: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+21/8/2020 9:52:31:  for .... n Tìm thành viên AG Land : GioiThieu : 87
+21/8/2020 9:52:31: Đã tìm thấy thành viên có trạng thái là AG Land : iuser_id : 26
+21/8/2020 9:52:31:  for .... n Tìm thành viên AG Land : GioiThieu : 87
+21/8/2020 9:52:31: Đã tìm thấy thành viên có trạng thái là AG Land : iuser_id : 26
+21/8/2020 9:52:31: IDThanhVien:9441 - kiểu BẤT ĐỘNG SẢN - Đi tìm trong hệ thống F1 đến .... n có thành viên nào là Agland thì lấy hoa hồng của ng đó F1 : HoaHongs : 45
+21/8/2020 9:52:31: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+21/8/2020 9:52:31: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+21/8/2020 10:46:55: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+21/8/2020 10:46:55: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+20/8/2020 14:18:26: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+20/8/2020 14:21:53: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+20/8/2020 14:27:56: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+20/8/2020 14:32:42: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+25/8/2020 10:05:44: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+25/8/2020 10:12:08: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+25/8/2020 10:16:45: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+25/8/2020 10:19:57: IDThanhVien:9428 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+25/8/2020 10:21:21: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+25/8/2020 10:23:37: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+25/8/2020 10:53:07: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+25/8/2020 10:56:37: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+25/8/2020 11:00:24: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+26/8/2020 9:40:09:  for .... n Tìm thành viên AG Land : GioiThieu : 87
+26/8/2020 9:40:09: Đã tìm thấy thành viên có trạng thái là AG Land : iuser_id : 26
+26/8/2020 9:40:09:  for .... n Tìm thành viên AG Land : GioiThieu : 87
+26/8/2020 9:40:09: Đã tìm thấy thành viên có trạng thái là AG Land : iuser_id : 26
+26/8/2020 9:40:09: IDThanhVien:9441 - kiểu BẤT ĐỘNG SẢN - Đi tìm trong hệ thống F1 đến .... n có thành viên nào là Agland thì lấy hoa hồng của ng đó F1 : HoaHongs : 45
+26/8/2020 10:16:19: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+26/8/2020 13:54:38: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+26/8/2020 13:54:38: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+26/8/2020 13:55:26:  for .... n Tìm thành viên AG Land : GioiThieu : 87
+26/8/2020 13:55:26: Đã tìm thấy thành viên có trạng thái là AG Land : iuser_id : 26
+26/8/2020 13:55:26:  for .... n Tìm thành viên AG Land : GioiThieu : 87
+26/8/2020 13:55:26: Đã tìm thấy thành viên có trạng thái là AG Land : iuser_id : 26
+26/8/2020 13:55:26: IDThanhVien:9441 - kiểu BẤT ĐỘNG SẢN - Đi tìm trong hệ thống F1 đến .... n có thành viên nào là Agland thì lấy hoa hồng của ng đó F1 : HoaHongs : 45
+26/8/2020 15:23:18: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+26/8/2020 16:03:33: IDThanhVien:67648 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+26/8/2020 16:03:33: IDThanhVien:67648 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+26/8/2020 16:03:34: IDThanhVien:67648 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+27/8/2020 8:25:07: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+27/8/2020 10:29:00: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+27/8/2020 10:29:52: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+27/8/2020 10:39:41: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+27/8/2020 10:39:41: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+27/8/2020 10:55:06: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+27/8/2020 11:19:05: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+27/8/2020 11:28:05: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+27/8/2020 11:30:54: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+27/8/2020 11:31:21: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+27/8/2020 11:36:56: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+27/8/2020 11:39:19: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+27/8/2020 11:40:56: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+27/8/2020 11:41:23: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+27/8/2020 11:42:02: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+27/8/2020 11:43:14: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+27/8/2020 11:45:03: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+27/8/2020 11:46:10: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+27/8/2020 11:49:22: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+27/8/2020 11:50:25: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+27/8/2020 11:52:46: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+27/8/2020 11:53:16: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+27/8/2020 14:35:45: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+27/8/2020 14:36:23: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+27/8/2020 14:42:14: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+27/8/2020 14:43:49: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+27/8/2020 14:44:50: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+27/8/2020 14:47:54: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+27/8/2020 14:47:54: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+27/8/2020 14:58:19: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+27/8/2020 15:25:11: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+27/8/2020 15:25:25: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+27/8/2020 15:25:25: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+27/8/2020 15:32:04: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+27/8/2020 15:35:02: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+27/8/2020 15:41:41: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+27/8/2020 15:44:42: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+27/8/2020 15:44:42: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+27/8/2020 15:47:20: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+27/8/2020 15:48:21: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+27/8/2020 15:50:55: Đã tìm thấy thành viên có trạng thái là AG Land : iuser_id : 26
+27/8/2020 15:50:55: Đã tìm thấy thành viên có trạng thái là AG Land : iuser_id : 26
+27/8/2020 15:50:55: IDThanhVien:87 - kiểu BẤT ĐỘNG SẢN - Đi tìm trong hệ thống F1 đến .... n có thành viên nào là Agland thì lấy hoa hồng của ng đó F1 : HoaHongs : 45
+27/8/2020 16:02:29: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+27/8/2020 16:03:53: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+27/8/2020 16:05:11: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+27/8/2020 16:06:09: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+27/8/2020 16:07:07: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+27/8/2020 16:21:42: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+27/8/2020 16:21:42: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+27/8/2020 16:35:25: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+27/8/2020 16:36:37: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+28/8/2020 9:10:20: IDThanhVien:9438 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+28/8/2020 9:25:41:  for .... n Tìm thành viên AG Land : GioiThieu : 9437
+28/8/2020 9:25:41: Đã tìm thấy thành viên có trạng thái là AG Land : iuser_id : 9436
+28/8/2020 9:25:41:  for .... n Tìm thành viên AG Land : GioiThieu : 9437
+28/8/2020 9:25:41: Đã tìm thấy thành viên có trạng thái là AG Land : iuser_id : 9436
+28/8/2020 9:25:41: IDThanhVien:9438 - kiểu BẤT ĐỘNG SẢN - Đi tìm trong hệ thống F1 đến .... n có thành viên nào là Agland thì lấy hoa hồng của ng đó F1 : HoaHongs : 30
+28/8/2020 10:11:12: IDThanhVien:9438 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+28/8/2020 10:35:24: IDThanhVien:9428 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+28/8/2020 10:36:19: IDThanhVien:9438 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+28/8/2020 10:56:57: IDThanhVien:9438 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+28/8/2020 11:08:21: IDThanhVien:9438 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+28/8/2020 11:17:09: IDThanhVien:9438 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+28/8/2020 11:18:57: IDThanhVien:9438 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+28/8/2020 11:23:28: IDThanhVien:9438 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+28/8/2020 11:25:44: IDThanhVien:9438 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+28/8/2020 11:57:27: IDThanhVien:9438 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+28/8/2020 14:34:15: Đã tìm thấy thành viên có trạng thái là AG Land : iuser_id : 87
+28/8/2020 14:34:15: Đã tìm thấy thành viên có trạng thái là AG Land : iuser_id : 87
+28/8/2020 14:34:15: IDThanhVien:9441 - kiểu BẤT ĐỘNG SẢN - Đi tìm trong hệ thống F1 đến .... n có thành viên nào là Agland thì lấy hoa hồng của ng đó F1 : HoaHongs : 36
+28/8/2020 14:34:45: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+28/8/2020 14:35:11: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+28/8/2020 14:35:54: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+31/8/2020 14:49:00: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+31/8/2020 14:55:42: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+31/8/2020 14:58:04: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+31/8/2020 15:03:15: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+31/8/2020 15:07:30: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+31/8/2020 15:07:30: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+31/8/2020 15:13:03: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+31/8/2020 15:13:03: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+31/8/2020 15:15:40: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+31/8/2020 15:21:59: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+31/8/2020 15:38:40: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+31/8/2020 15:50:45: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+1/9/2020 8:44:38: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+1/9/2020 8:51:53: IDThanhVien:9428 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+1/9/2020 8:52:50: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+1/9/2020 8:55:45: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+1/9/2020 8:57:03: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+1/9/2020 8:59:04: IDThanhVien:9428 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+1/9/2020 8:59:38: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+1/9/2020 9:00:27: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+1/9/2020 9:05:22: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+1/9/2020 9:10:41: IDThanhVien:9428 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+1/9/2020 9:11:39: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+1/9/2020 9:12:39: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+1/9/2020 9:14:24: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+1/9/2020 9:18:06: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+1/9/2020 9:18:06: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+1/9/2020 9:18:06: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+1/9/2020 9:20:17: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+1/9/2020 9:21:32: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+1/9/2020 9:21:32: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+1/9/2020 9:23:27: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+1/9/2020 13:55:05: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+1/9/2020 13:55:05: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+1/9/2020 13:56:58: IDThanhVien:9428 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+1/9/2020 14:31:25: IDThanhVien:9428 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+1/9/2020 14:40:17: IDThanhVien:9428 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+1/9/2020 14:40:57: IDThanhVien:9428 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+1/9/2020 14:40:57: IDThanhVien:9428 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+1/9/2020 14:43:51: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+10/9/2020 9:59:02: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+10/9/2020 10:00:37: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+3/9/2020 10:01:57: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+3/9/2020 10:03:53: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+3/9/2020 10:09:01: IDThanhVien:9428 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+12/9/2020 10:11:08: IDThanhVien:9428 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+12/9/2020 10:12:24: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+3/9/2020 10:13:22: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+3/9/2020 11:21:15: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+3/9/2020 15:16:36: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+3/9/2020 15:16:36: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+3/9/2020 15:16:36: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+3/9/2020 19:30:03: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+3/9/2020 19:30:03: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+3/9/2020 19:32:00: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+3/9/2020 19:32:00: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+3/9/2020 19:32:50: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+4/9/2020 11:58:11: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+4/9/2020 13:36:25: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+4/9/2020 13:38:30: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+4/9/2020 13:41:43: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+4/9/2020 13:42:37: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+4/9/2020 13:43:43: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 45
+4/9/2020 14:54:02: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+4/9/2020 14:54:02: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+4/9/2020 14:54:02: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+4/9/2020 15:02:11: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+4/9/2020 15:02:11: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+4/9/2020 15:05:36: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+4/9/2020 15:05:36: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+4/9/2020 15:28:46: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+4/9/2020 15:28:46: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+7/9/2020 9:04:38: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+7/9/2020 9:05:59: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+7/9/2020 9:12:41: IDThanhVien:9428 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+7/9/2020 9:12:41: IDThanhVien:9428 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+7/9/2020 9:12:41: IDThanhVien:9428 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+7/9/2020 9:12:41: IDThanhVien:9428 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+7/9/2020 9:12:41: IDThanhVien:9428 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+7/9/2020 9:12:41: IDThanhVien:9428 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+7/9/2020 9:12:41: IDThanhVien:9428 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+7/9/2020 9:12:41: IDThanhVien:9428 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+7/9/2020 9:21:18: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+7/9/2020 9:22:32: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+7/9/2020 9:42:15: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+11/9/2020 9:44:48: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+11/9/2020 9:44:49: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+7/9/2020 9:51:45: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+7/9/2020 9:51:45: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+7/9/2020 9:57:38: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+7/9/2020 9:57:38: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+10/9/2020 10:01:09: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+10/9/2020 10:01:09: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+7/9/2020 10:02:12: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+7/9/2020 10:04:04: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+7/9/2020 10:06:22: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+7/9/2020 10:13:42: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+7/9/2020 10:16:24: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+7/9/2020 10:19:38: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+7/9/2020 10:22:54: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+7/9/2020 10:22:54: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+7/9/2020 10:22:54: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+7/9/2020 10:22:54: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+7/9/2020 10:24:28: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+7/9/2020 10:24:28: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+7/9/2020 10:26:18: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+7/9/2020 10:26:18: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+7/9/2020 13:56:22: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+7/9/2020 13:56:23: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+7/9/2020 16:44:10: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+10/9/2020 14:46:19: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+11/9/2020 10:02:19: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+11/9/2020 10:08:11: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+11/9/2020 10:09:16: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+11/9/2020 10:12:45: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+11/9/2020 10:16:00: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+11/9/2020 10:36:18: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+11/9/2020 10:37:56: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+11/9/2020 10:40:33: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+11/9/2020 10:41:23: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+11/9/2020 10:46:13: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+11/9/2020 10:46:13: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+11/9/2020 10:57:46: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+11/9/2020 10:57:46: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+11/9/2020 11:03:22: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+11/9/2020 11:03:22: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+11/9/2020 11:15:42: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+11/9/2020 11:15:42: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+11/9/2020 11:20:12: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+11/9/2020 11:22:01: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+11/9/2020 11:22:01: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+11/9/2020 11:23:40: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+11/9/2020 11:23:40: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+11/9/2020 11:32:47: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+11/9/2020 11:32:47: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+11/9/2020 11:37:27: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+11/9/2020 11:37:27: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+11/9/2020 11:40:58: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+11/9/2020 11:40:58: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+14/9/2020 13:51:37: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+14/9/2020 13:51:37: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+14/9/2020 13:53:53: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+14/9/2020 13:53:53: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+14/9/2020 13:56:48: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+14/9/2020 13:56:48: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+14/9/2020 14:00:38: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+14/9/2020 14:03:16: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+14/9/2020 14:03:16: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+14/9/2020 14:04:25: Đã tìm thấy thành viên có trạng thái là AG Land : iuser_id : 9441
+14/9/2020 14:04:25: Đã tìm thấy thành viên có trạng thái là AG Land : iuser_id : 9441
+14/9/2020 14:04:25: IDThanhVien:9442 - kiểu BẤT ĐỘNG SẢN - Đi tìm trong hệ thống F1 đến .... n có thành viên nào là Agland thì lấy hoa hồng của ng đó F1 : HoaHongs : 30
+14/9/2020 14:07:50: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+14/9/2020 14:07:50: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+14/9/2020 14:12:07: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+16/9/2020 8:36:18: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+16/9/2020 8:40:27: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+16/9/2020 8:42:41: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+16/9/2020 8:47:14: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+16/9/2020 8:55:17: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+16/9/2020 8:56:15: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+16/9/2020 8:57:07: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+17/9/2020 13:49:00: Đã tìm thấy thành viên có trạng thái là AG Land : iuser_id : 87
+17/9/2020 13:49:00: Đã tìm thấy thành viên có trạng thái là AG Land : iuser_id : 87
+17/9/2020 13:49:00: IDThanhVien:9441 - kiểu BẤT ĐỘNG SẢN - Đi tìm trong hệ thống F1 đến .... n có thành viên nào là Agland thì lấy hoa hồng của ng đó F1 : HoaHongs : 36
+17/9/2020 14:02:50: Đã tìm thấy thành viên có trạng thái là AG Land : iuser_id : 87
+17/9/2020 14:02:50: Đã tìm thấy thành viên có trạng thái là AG Land : iuser_id : 87
+17/9/2020 14:02:50: IDThanhVien:9441 - kiểu BẤT ĐỘNG SẢN - Đi tìm trong hệ thống F1 đến .... n có thành viên nào là Agland thì lấy hoa hồng của ng đó F1 : HoaHongs : 36
+17/9/2020 14:10:42: Đã tìm thấy thành viên có trạng thái là AG Land : iuser_id : 87
+17/9/2020 14:10:42: Đã tìm thấy thành viên có trạng thái là AG Land : iuser_id : 87
+17/9/2020 14:10:42: IDThanhVien:9441 - kiểu BẤT ĐỘNG SẢN - Đi tìm trong hệ thống F1 đến .... n có thành viên nào là Agland thì lấy hoa hồng của ng đó F1 : HoaHongs : 36
+17/9/2020 14:15:31: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+17/9/2020 14:16:01: Đã tìm thấy thành viên có trạng thái là AG Land : iuser_id : 87
+17/9/2020 14:16:01: Đã tìm thấy thành viên có trạng thái là AG Land : iuser_id : 87
+17/9/2020 14:16:01: IDThanhVien:9441 - kiểu BẤT ĐỘNG SẢN - Đi tìm trong hệ thống F1 đến .... n có thành viên nào là Agland thì lấy hoa hồng của ng đó F1 : HoaHongs : 36
+17/9/2020 14:16:48: Đã tìm thấy thành viên có trạng thái là AG Land : iuser_id : 87
+17/9/2020 14:16:48: Đã tìm thấy thành viên có trạng thái là AG Land : iuser_id : 87
+17/9/2020 14:16:48: IDThanhVien:9441 - kiểu BẤT ĐỘNG SẢN - Đi tìm trong hệ thống F1 đến .... n có thành viên nào là Agland thì lấy hoa hồng của ng đó F1 : HoaHongs : 36
+22/9/2020 8:40:26: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+22/9/2020 8:40:47: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+22/9/2020 8:41:05: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 36
+25/9/2020 8:35:32: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+25/9/2020 8:36:03: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+25/9/2020 8:36:03: IDThanhVien:9441 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+28/9/2020 15:47:12: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 33
+28/9/2020 15:48:19: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 33
+28/9/2020 15:49:05: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 33
+28/9/2020 15:51:27: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 33
+28/9/2020 16:30:15: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 33
+28/9/2020 16:30:15: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 33
+28/9/2020 16:32:33: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 33
+28/9/2020 16:32:33: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 33
+29/9/2020 8:25:24: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+29/9/2020 8:28:02: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+29/9/2020 8:32:27: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+29/9/2020 8:32:43: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+29/9/2020 8:38:48: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+29/9/2020 8:38:48: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+29/9/2020 8:49:06: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+29/9/2020 8:49:06: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+29/9/2020 8:50:23: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+29/9/2020 8:50:23: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+29/9/2020 8:50:45: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+29/9/2020 8:51:26: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+29/9/2020 8:51:26: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+29/9/2020 8:52:25: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+29/9/2020 8:52:25: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+29/9/2020 8:56:07: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+29/9/2020 8:57:14: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+29/9/2020 8:57:31: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+29/9/2020 9:06:52: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+29/9/2020 9:07:54: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+29/9/2020 9:08:53: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+29/9/2020 9:08:53: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+29/9/2020 9:08:53: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+29/9/2020 9:09:34: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+29/9/2020 9:09:34: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+29/9/2020 10:01:26: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 33
+29/9/2020 14:27:32: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 33
+29/9/2020 14:29:06: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 33
+30/9/2020 10:05:15: IDThanhVien:87 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 33
+30/9/2020 14:28:08: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+30/9/2020 14:32:11: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30
+30/9/2020 14:51:44: IDThanhVien:9442 - kiểu sản phẩm Lấy Hoa hồng F1 : HoaHongs : 30

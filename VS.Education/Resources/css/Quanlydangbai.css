@@ -1,0 +1,72 @@
+﻿i { font-size: 20px; }
+.frm_search select { width: 15.8%; float: left; margin-right: 6px; }
+.timkiem{ width:400px; float:left;}
+
+.phantrang{text-align:center;padding-top:5px;padding-bottom:5px;}
+.phantrang a{padding:3px;margin-left:3px;text-decoration:none;color:#999;font-weight:bold;}
+.phantrang a.current{color:red;}
+.phantrang a:hover{color:red;text-decoration:underline;}
+.phantrang b{color:red;}
+
+/*Thêm nhiều ảnh*/
+#container-img{ margin:0 0 7px 0px !important}
+.box-img{width:100%;height:100%;border:1px solid #ccc}
+#container-img li{display:block;position:relative;margin:3px 3px 3px 0;padding:5px;float:left;width:90px;height:90px}
+.box-img img{width:100%;height:100%;object-fit:cover}
+
+#container-imgSS{ margin:0 0 7px 0px !important}
+.box-imgSS{width:100%;height:100%;border:1px solid #ccc}
+#container-imgSS li{display:block;position:relative;margin:3px 3px 3px 0;padding:5px;float:left;width:90px;height:90px}
+.box-imgSS img{width:100%;height:100%;object-fit:cover}
+.box-imgSS .btn-close { position: absolute; top: -6px; right: -4px; font-size: 25px; line-height: 13px; display: block; background: red; color: #fff; padding-top: 4px; border-radius: 60px; width: 26px; height: 26px; padding-left: 7px; }
+
+
+.active > i {color: #16757c; }
+.Imgsmall img{ height:70px;object-fit: scale-down;}
+.box-img .btn-close { position: absolute; top: -6px; right: -4px; font-size: 25px; line-height: 13px; display: block; background: red; color: #fff; padding-top: 4px; border-radius: 60px; width: 26px; height: 26px; padding-left: 7px; }
+/*.list_item table tr:nth-child(even) { background-color: #fafafa; }*/
+.list_item .table textarea, .list_item  .table input[type="text"] { font-size: 12px; height: 15px; line-height: 15px; margin-bottom: 0; padding: 4px 6px; }
+.list_items > li{padding:0 16px 12px 0}
+td.header { font-weight: 600; color: #808080; }
+.nutsukien{padding-left: 120px;}
+
+.frm_SanPham{margin-top:0px;color:#404040;}
+.frm_SanPham table tr td{padding-top:10px;padding-bottom:5px;border-bottom:dashed 1px #d7d7d7;}
+.frm_SanPham table tr td table tr td{border-bottom:none;}
+.frm_SanPham input{margin:0 auto;border:1px solid #C4C4C4;border-radius:3px;color:#5C5C5C;font-size:1em;height:23px;padding:0 0.6em;}
+.frm_SanPham textarea{margin:0 auto;border:1px solid #C4C4C4;border-radius:3px;color:#5C5C5C;font-size:1em;height:23px;padding:0 0.6em;}
+.frm_SanPham .Tieudesp{width:20%;float:left}
+.frm_SanPham .froms{width:80%;float:left}
+.frm_SanPham .cottongfrom { padding-top: 10px; padding-bottom: 5px; width: 100%; float: left; }
+.frm_SanPham{margin-top:10px;color:#404040;line-height:30px;}
+.frm_SanPham table tr td{padding-top:10px;padding-bottom:5px;}
+.frm_SanPham table tr td table tr td{border-bottom:none;}
+.frm_SanPham textarea{margin:0 auto;border:1px solid #C4C4C4;border-radius:3px;color:#5C5C5C;font-size:1em;height:23px;padding:0 0.6em;}
+.frm_SanPham .txt_file{float:left}
+.frm_SanPham input {     float: left;margin: 0 auto; border: 1px solid #C4C4C4; border-radius: 3px; color: #5C5C5C; font-size: 1em; height: 33px!important; padding: 0 0.6em; padding-left: 9px; margin-right: 9px; }
+.frm_SanPham select {    float: left; margin: 0 auto; border: 1px solid #C4C4C4; border-radius: 3px; color: #5C5C5C; font-size: 1em; height: 33px!important; padding: 0 0.6em;padding-left: 9px; margin-right: 9px; }
+.btsent { padding-left: 180px; clear: both; padding-top: 10px; }
+
+
+@media screen and (min-width:1px) and (max-width:1000px)
+{
+.frm-add table tr td { border: none; float: left !important; width: 100%; }
+
+.frm_SanPham{margin-top:0px;color:#404040;}
+.frm_SanPham table tr td{padding-top:10px;padding-bottom:5px;border-bottom:dashed 1px #d7d7d7;}
+.frm_SanPham table tr td table tr td{border-bottom:none;}
+.frm_SanPham input{margin:0 auto;border:1px solid #C4C4C4;border-radius:3px;color:#5C5C5C;font-size:1em;height:23px;padding:0 0.6em;}
+.frm_SanPham textarea{margin:0 auto;border:1px solid #C4C4C4;border-radius:3px;color:#5C5C5C;font-size:1em;height:23px;padding:0 0.6em;}
+.frm_SanPham .Tieudesp{width:100%;font-weight:bold;float:none}
+.frm_SanPham .froms{width:100%;font-weight:bold;float:none}
+.frm_SanPham .cottongfrom { padding-top: 10px; padding-bottom: 5px; width: 100%; float: left; }
+.frm_SanPham{margin-top:10px;color:#404040;line-height:30px;}
+.frm_SanPham table tr td{padding-top:10px;padding-bottom:5px;}
+.frm_SanPham table tr td table tr td{border-bottom:none;}
+.frm_SanPham textarea{margin:0 auto;border:1px solid #C4C4C4;border-radius:3px;color:#5C5C5C;font-size:1em;height:23px;padding:0 0.6em;}
+.frm_SanPham .txt_file{float:left}
+.frm_SanPham input {margin-top: 3px;float: left;margin: 0 auto; border: 1px solid #C4C4C4; border-radius: 3px; color: #5C5C5C; font-size: 1em; height: 33px!important; padding: 0 0.6em; padding-left: 9px; margin-right: 9px; }
+.frm_SanPham select {margin-top: 3px;float: left; margin: 0 auto; border: 1px solid #C4C4C4; border-radius: 3px; color: #5C5C5C; font-size: 1em; height: 33px!important; padding: 0 0.6em; padding-left: 9px; margin-right: 9px; }
+.btsent { padding-left: 180px; clear: both; padding-top: 10px; }
+
+}

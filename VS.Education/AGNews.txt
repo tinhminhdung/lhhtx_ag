@@ -1,0 +1,28 @@
+﻿Trang mua bán bình thường, có giỏ hàng, 
+Đăng Ký thành viên, .. lịch sử mua bán, lịch sử được hoa hồng... cập nhật sửa thông tin
+Có ví điểm và hoa hồng ?? có mấy ví
+admin duyệt đơn , sinh hoa hồng, hay lúc mua sinh ra hoa hồng luôn ??? cói ví thì mới dc mua hay cứ mua xong admin duyệt (admin phải so sánh số tiền đã nạp qua kế toán hoặc atm)
+--> Yêu cầu admin check tài khoản ngan hàng xem thời gian nhận dc tiền của ai trước thì duyệt đơn cho người đó để người đó được xếp vào vòng chơi theo đúng quy trình
+--> Khi duyệt đơn xong mới xét vào cây (xét thời gian trong cây)
+--> Có thể dựa vào đơn hàng để truy vấn sắp xếp 7 cây ra để chia hoa hồng hoặc căn cứ vào sét thời gian của bảng thành viên
+
+
+
+Mỗi lần đăng nhập vào đếm  có bao nhiêu F1 trực tiếp (Cập nhật vào DB)
+
+Có 3 F1 mới dc rút tiền
+
+Có 3 F1 và 7 người phía dưới mình mới rơi số tiền là 5760.000 hoặc treo khi chưa đủ số tiền. (Khi đăng nhập --> Đếm đủ F1 rơi tiền 5760.000)
+
+Có Link aff giới thiệu
+
+Lưu số lần được tái vòng (sẽ phải mua 1 sản phẩm) và mỗi vòng cần thêm 3 người F1 nữa mới được rút tiền
+Lưu dạng thời gian để sắp xếp vòng chơi sau 7 lần và s
+Chỉ cho mua 1 sản phẩm  / 1 lần
+
+Lưu các lần giao dịch lại thành lích sử gồm có những ai trong vòng 7 ID tham giam (dựa vào ID đơn hàng--> truy vấn ngược ra là hôm quay có những ai tham gia vòng quay đó)
+--> lưu dạng MTree (ID đơn hàng và ID của 7 người tham gia theo thứ tự --> #88|1*|2*|3|4|5|6|7*)
+
+
+
+

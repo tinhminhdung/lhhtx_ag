@@ -1,0 +1,30 @@
+
+1, thành viên khi tham gia có chức năng kích hoạt trong hồ sơ thành viên có tham gia QRcode hay ko và lúc đó sẽ xuất hiện ảnh QRcode////OOOOOOOOOKKKK
+2, Cho phép cấu hình hoa hồng: ??////OOOOOOOOOKKKK
+  - 1: % chiết khấu////OOOOOOOOOKKKK
+  - 2: % hoa hồng cho người mua////OOOOOOOOOKKKK
+  - 3: % Hoa hồng cho hệ thống (Dựa vào hệ thống cũ khi phát sinh hoa hồng) ////OOOOOOOOOKKKK
+
+  -4 ,làm them khi thay đổi giá trị hoa hồng theo ngày , ai thay đổi, admin hay khách hàng..lưu lịch sử////OOOOOOOOOKKKK
+
+
+3,Admin  có thể cấu hình :////OOOOOOOOOKKKK
+   - 1: 1 lần cho toàn bộ hoa hồng QRcode////OOOOOOOOOKKKK
+   - 2: Cấu hình cho từng thành viên riêng biệt////OOOOOOOOOKKKK
+   -4 ,làm them khi thay đổi giá trị hoa hồng theo ngày , ai thay đổi, admin hay khách hàng..lưu lịch sử////OOOOOOOOOKKKK
+
+4, Lọc theo thành viên QRCode ////OOOOOOOOOKKKK
+5, Có ví Qrcode riêng ////OOOOOOOOOKKKK
+6, Xuất Exel có kèm theo ví QRcode ////OOOOOOOOOKKKK
+7, Danh sách Lịch sử sửa hoa hồng QR code cho từng thành viên ////OOOOOOOOOKKKK
+8, Lịch sử chuyển diểm QRcode
+
+
+
+9, Khi chuyển điểm từ ví QRcode thì đổ về ví thương mại và đổ về ví QRcode để xem lịch sử giao dịch////OOOOOOOOOKKKK
+10, Giao diện chuyển điểm QRcode////OOOOOOOOOKKKK validate
+
+Tổng chi phí 5,5 triệu:
+Thời gian triển khai từ 4 đến 5 hôm
+
+? cứ ai chơi qrocde thì mới nhận dc hoa hồng và hiển thị danh sách hh và ví hh hay ko cần ???
