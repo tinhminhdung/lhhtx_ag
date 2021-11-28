@@ -440,7 +440,7 @@ public class ChiaHoaHongBatDongSan
                     {
                         if (Other.Giatri("TruongPhongKinhDoanhF1") != "" && Other.Giatri("TruongPhongKinhDoanhF1") != "0")// đếm F1
                         {
-                            List<Entity.users> Cap22 = Susers.Name_Text("SELECT top " + Other.Giatri("TruongPhongKinhDoanhF1") + " *  FROM users  WHERE  ((MTree LIKE N'%|" + IDThanhVien + "|%')) and ID!=" + IDThanhVien + " and LevelThanhVien=2 ");
+                            List<Entity.users> Cap22 = Susers.Name_Text("SELECT top " + Other.Giatri("TruongPhongKinhDoanhF1") + " *  FROM users  WHERE  ((MTree LIKE N'%|" + IDThanhVien + "|%')) and iuser_id!=" + IDThanhVien + " and LevelThanhVien=2 ");
                             if (Cap22.Count > 0)
                             {
                                 if (Convert.ToDouble(Cap22.Count) >= Convert.ToDouble(Other.Giatri("TruongPhongKinhDoanhF1")))
@@ -468,7 +468,7 @@ public class ChiaHoaHongBatDongSan
                     {
                         if (Other.Giatri("PhoGiamDocF1") != "" && Other.Giatri("PhoGiamDocF1") != "0")// đếm F1
                         {
-                            List<Entity.users> Cap22 = Susers.Name_Text("SELECT top " + Other.Giatri("PhoGiamDocF1") + " *  FROM users  WHERE  ((MTree LIKE N'%|" + IDThanhVien + "|%')) and ID!=" + IDThanhVien + "   and LevelThanhVien=3");
+                            List<Entity.users> Cap22 = Susers.Name_Text("SELECT top " + Other.Giatri("PhoGiamDocF1") + " *  FROM users  WHERE  ((MTree LIKE N'%|" + IDThanhVien + "|%')) and iuser_id!=" + IDThanhVien + "   and LevelThanhVien=3");
                             if (Cap22.Count > 0)
                             {
                                 if (Convert.ToDouble(Cap22.Count) >= Convert.ToDouble(Other.Giatri("PhoGiamDocF1")))
@@ -496,7 +496,7 @@ public class ChiaHoaHongBatDongSan
                     {
                         if (Other.Giatri("GiamDocKinhDoanhF1") != "" && Other.Giatri("GiamDocKinhDoanhF1") != "0")// đếm F1
                         {
-                            List<Entity.users> Cap22 = Susers.Name_Text("SELECT top " + Other.Giatri("GiamDocKinhDoanhF1") + " *  FROM users  WHERE  ((MTree LIKE N'%|" + IDThanhVien + "|%')) and ID!=" + IDThanhVien + " and LevelThanhVien=4");
+                            List<Entity.users> Cap22 = Susers.Name_Text("SELECT top " + Other.Giatri("GiamDocKinhDoanhF1") + " *  FROM users  WHERE  ((MTree LIKE N'%|" + IDThanhVien + "|%')) and iuser_id!=" + IDThanhVien + " and LevelThanhVien=4");
                             if (Cap22.Count > 0)
                             {
                                 if (Convert.ToDouble(Cap22.Count) >= Convert.ToDouble(Other.Giatri("GiamDocKinhDoanhF1")))

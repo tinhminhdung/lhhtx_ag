@@ -34,6 +34,7 @@
                         <li id="lnkthanhvien" runat="server">
                             <a class="LinkButton" href="/admin.aspx?u=Thanhvien"><span class="SubMenuText">Thành viên đăng ký</span></a>
                         </li>
+                         
                         <li runat="server">
                             <a class="LinkButton" href="/admin.aspx?u=LSchuyendiem"><span class="SubMenuText">Danh sách chuyển điểm</span></a>
                         </li>
@@ -44,7 +45,7 @@
                             <a class="LinkButton" href="/admin.aspx?u=checkIP"><span class="SubMenuText">Check IP đăng nhập</span></a>
                         </li>
                         <li runat="server">
-                            <a class="LinkButton" href="/admin.aspx?u=DSMuaHangTheoThang"><span class="SubMenuText">DS kích hoạt THƯỞNG MUA HÀNG</span></a>
+                            <a class="LinkButton" href="/admin.aspx?u=DSMuaHangTheoThang"><span class="SubMenuText">K/hoạt THƯỞNG MUA HÀNG</span></a>
                         </li>
 
                         <li id="Level" runat="server">
@@ -126,13 +127,16 @@
                     </a>
                     <ul>
                         <li id="Li6" runat="server">
-                            <a class="LinkButton" href="/admin.aspx?u=CauHinhBDS"><span class="SubMenuText">Cấu hình hoa hồng</span></a>
+                            <a class="LinkButton" href="/admin.aspx?u=ChiaHHBDS"><span class="SubMenuText">Cấu hình hoa hồng</span></a>
                         </li>
                          <li id="Li7" runat="server">
                             <a class="LinkButton" href="/admin.aspx?u=LichSuLoiNhuanBDS"><span class="SubMenuText">Lợi nhuận HH</span></a>
                         </li>
                          <li id="Li8" runat="server">
-                            <a class="LinkButton" href="/admin.aspx?u=ChiaHHBDS"><span class="SubMenuText">Chia Hoa hồng</span></a>
+                            <a class="LinkButton" href="/admin.aspx?u=CauHinhBDS"><span class="SubMenuText">Chia Hoa hồng BĐS</span></a>
+                        </li>
+                         <li id="Li9" runat="server">
+                            <a class="LinkButton" href="/admin.aspx?u=Dautu"><span class="SubMenuText">ĐẦU TƯ BĐS</span></a>
                         </li>
                     </ul>
                 </li>

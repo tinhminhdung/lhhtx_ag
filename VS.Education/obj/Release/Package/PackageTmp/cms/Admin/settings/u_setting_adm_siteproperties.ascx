@@ -109,6 +109,14 @@
                             <CKEditor:CKEditorControl ID="txtcontactcontent" runat="server" Toolbar="Basic"></CKEditor:CKEditorControl>
                         </td>
                     </tr>
+                     <tr>
+                        <td></td>
+                        <td style="width: 143px">Nội dung đầu tư bđs
+                        </td>
+                        <td>
+                            <CKEditor:CKEditorControl ID="NDDauTuBDS" runat="server" Toolbar="Basic"></CKEditor:CKEditorControl>
+                        </td>
+                    </tr>
                     <tr>
                         <td></td>
                         <td style="width: 143px"></td>

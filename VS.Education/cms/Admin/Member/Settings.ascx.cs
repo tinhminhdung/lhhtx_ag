@@ -120,6 +120,11 @@ namespace VS.E_Commerce.cms.Admin.Member
                     {
                         this.GiamDocKinhDoanhF1.Text = its.Value;
                     }
+                    if (its.Properties == "NguoiBan")
+                    {
+                        this.NguoiBan.Text = its.Value;
+                    }
+
                 }
             }
 
@@ -227,6 +232,12 @@ namespace VS.E_Commerce.cms.Admin.Member
                 obj.Properties = "GiamDocKinhDoanhTien";
                 obj.Value = GiamDocKinhDoanhTien.Text;
                 SSetting.UPDATE(obj);
+
+                obj.Lang = lang;
+                obj.Properties = "NguoiBan";
+                obj.Value = NguoiBan.Text;
+                SSetting.UPDATE(obj);
+
 
                 this.binddata();
                 this.ltmsg.Text = "Thiết lập th\x00e0nh c\x00f4ng!";

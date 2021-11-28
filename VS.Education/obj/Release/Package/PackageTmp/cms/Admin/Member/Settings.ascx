@@ -39,6 +39,16 @@
                                         <td></td>
                                         <td></td>
                                     </tr>
+                                      <tr>
+                                        <td style="padding-left: 15px; width: 294px;">Điền số người bán 
+                                        </td>
+                                        <td></td>
+                                        <td>
+                                            <asp:TextBox ID="NguoiBan" runat="server" Width="133px" CssClass="txt">0</asp:TextBox>
+                                       <span style="font-size: 8pt; color: #ed1c24"><em>(Điền số điện thoại người bán bất động sản)</em></span>
+                                        </td>
+                                    </tr>
+                                    
                                     <tr>
                                         <td style="padding-left: 15px; width: 294px;">Hoa hồng trực tiếp
                                         </td>
@@ -79,7 +89,7 @@
                                         <td></td>
                                         <td>
                                             <asp:TextBox ID="Nhanvien" runat="server" Width="133px" CssClass="txt">0</asp:TextBox>
-                                            <span style="font-size: 8pt; color: #ed1c24"><em>(Tìm ra dc <asp:TextBox ID="NhanVienTimRa1F1" runat="server" Width="50px" CssClass="txt">0</asp:TextBox> F1 và Mua với giá  <asp:TextBox ID="NhanVienTongTien" runat="server" Width="133px" CssClass="txt">0</asp:TextBox> triệu)</em></span>
+                                            <span style="font-size: 8pt; color: #ed1c24"><em>(Tìm ra dc <asp:TextBox ID="NhanVienTimRa1F1" runat="server" Width="153px" CssClass="txt">0</asp:TextBox> F1 và Mua với giá  <asp:TextBox ID="NhanVienTongTien" runat="server" Width="133px" CssClass="txt">0</asp:TextBox> triệu)</em></span>
                                         </td>
                                     </tr>
                                     <tr>
@@ -88,7 +98,7 @@
                                         <td></td>
                                         <td>
                                             <asp:TextBox ID="TruongNhomKinhDoanh" runat="server" Width="133px" CssClass="txt">0</asp:TextBox>
-                                            <span style="font-size: 8pt; color: #ed1c24"><em>(Tổng hệ thống phải đạt <asp:TextBox ID="TruongNhomKDTongTien" runat="server" Width="50px" CssClass="txt">0</asp:TextBox> triệu và Có <asp:TextBox ID="TruongNhomKDF1" runat="server" Width="50px" CssClass="txt">0</asp:TextBox> F1)</em></span>
+                                            <span style="font-size: 8pt; color: #ed1c24"><em>(Tổng hệ thống phải đạt <asp:TextBox ID="TruongNhomKDTongTien" runat="server" Width="153px" CssClass="txt">0</asp:TextBox> triệu và Có <asp:TextBox ID="TruongNhomKDF1" runat="server" Width="50px" CssClass="txt">0</asp:TextBox> F1)</em></span>
                                         </td>
                                     </tr>
                                     <tr>
@@ -97,7 +107,7 @@
                                         <td></td>
                                         <td>
                                             <asp:TextBox ID="TruongPhongKinhDoanh" runat="server" Width="133px" CssClass="txt">0</asp:TextBox>
-                                            <span style="font-size: 8pt; color: #ed1c24"><em>(Tổng hệ thống phải đạt <asp:TextBox ID="TruongPhongKinhDoanhTongTien" runat="server" Width="50px" CssClass="txt">0</asp:TextBox> tỷ và Có <asp:TextBox ID="TruongPhongKinhDoanhF1" runat="server" Width="50px" CssClass="txt">0</asp:TextBox> trưởng nhóm)</em></span>
+                                            <span style="font-size: 8pt; color: #ed1c24"><em>(Tổng hệ thống phải đạt <asp:TextBox ID="TruongPhongKinhDoanhTongTien" runat="server" Width="153px" CssClass="txt">0</asp:TextBox> tỷ và Có <asp:TextBox ID="TruongPhongKinhDoanhF1" runat="server" Width="50px" CssClass="txt">0</asp:TextBox> trưởng nhóm)</em></span>
                                         </td>
                                     </tr>
                                     <tr>
@@ -106,7 +116,7 @@
                                         <td></td>
                                         <td>
                                             <asp:TextBox ID="PhoGiamDoc" runat="server" Width="133px" CssClass="txt">0</asp:TextBox>
-                                            <span style="font-size: 8pt; color: #ed1c24"><em>(Tổng hệ thống phải đạt <asp:TextBox ID="PhoGiamDocTien" runat="server" Width="50px" CssClass="txt">0</asp:TextBox> tỷ và Có <asp:TextBox ID="PhoGiamDocF1" runat="server" Width="50px" CssClass="txt">0</asp:TextBox> trưởng phòng KD)</em></span>
+                                            <span style="font-size: 8pt; color: #ed1c24"><em>(Tổng hệ thống phải đạt <asp:TextBox ID="PhoGiamDocTien" runat="server" Width="153px" CssClass="txt">0</asp:TextBox> tỷ và Có <asp:TextBox ID="PhoGiamDocF1" runat="server" Width="50px" CssClass="txt">0</asp:TextBox> trưởng phòng KD)</em></span>
                                         </td>
                                     </tr>
 
@@ -116,7 +126,7 @@
                                         <td></td>
                                         <td>
                                             <asp:TextBox ID="GiamDocKinhDoanh" runat="server" Width="133px" CssClass="txt">0</asp:TextBox>
-                                            <span style="font-size: 8pt; color: #ed1c24"><em>(Tổng hệ thống phải đạt 5<asp:TextBox ID="GiamDocKinhDoanhTien" runat="server" Width="50px" CssClass="txt">0</asp:TextBox> tỷ và Có <asp:TextBox ID="GiamDocKinhDoanhF1" runat="server" Width="50px" CssClass="txt">0</asp:TextBox> phó giám đốc)</em></span>
+                                            <span style="font-size: 8pt; color: #ed1c24"><em>(Tổng hệ thống phải đạt 5<asp:TextBox ID="GiamDocKinhDoanhTien" runat="server" Width="153px" CssClass="txt">0</asp:TextBox> tỷ và Có <asp:TextBox ID="GiamDocKinhDoanhF1" runat="server" Width="50px" CssClass="txt">0</asp:TextBox> phó giám đốc)</em></span>
                                         </td>
                                     </tr>
                                     <tr>

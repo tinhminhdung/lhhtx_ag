@@ -1150,6 +1150,14 @@ namespace MoreAll
             }
             return "";
         }
+        public static string ChuyenTien(string image)
+        {
+            if (image.Length > 0)
+            {
+                return ("<a href=\"/Uploads/ChuyenTien/" + image + "\" target=\"_blank\"> <img src='/Uploads/ChuyenTien/" + image + "' style='border:1px solid #9EC3CB;' width=100px  height=65px></a>");
+            }
+            return "";
+        }
         public static string ImagesCMT(string image)
         {
             if (image.Length > 0)

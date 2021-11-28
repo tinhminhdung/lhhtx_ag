@@ -28,7 +28,13 @@ namespace VS.E_Commerce.cms.Admin.Member
             this.Page.Form.DefaultButton = btnsetup.UniqueID;
             if (!base.IsPostBack)
             {
-                this.binddata();
+                List<Entity.users> dt = Susers.Name_Text("select * from users where (vphone ='" + Commond.Setting("NguoiBan") + "')");
+                if (dt.Count >= 1)
+                {
+                    hdThanhVienBan.Value = dt[0].iuser_id.ToString();
+                    ThanhVienBan.Text = dt[0].vphone.ToString();
+                    ltthongtin1.Text = dt[0].vfname.ToString() + " - " + dt[0].vuserun.ToString();
+                }
             }
         }
 

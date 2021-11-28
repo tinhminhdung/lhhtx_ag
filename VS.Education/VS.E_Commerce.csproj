@@ -210,6 +210,7 @@
     <Content Include="cms\Admin\Member\LoiNhuanMuaBDS.ascx" />
     <Content Include="cms\Admin\Member\MLichSuLevel.ascx" />
     <Content Include="cms\Admin\Member\LSMChuyenDiem.ascx" />
+    <Content Include="cms\Admin\Member\MDauTuBatDongSan.ascx" />
     <Content Include="cms\Admin\Member\MLSCCapDiem.ascx" />
     <Content Include="cms\Admin\Member\LichSuDangNhap.ascx" />
     <Content Include="cms\Admin\Member\LoiNhuanChechLechGia.ascx" />
@@ -247,6 +248,7 @@
     <Content Include="cms\Display\QuanLyDangBai\MLichSuChuyenDiem_TruThue.ascx" />
     <Content Include="cms\Display\QuanLyDangBai\MLichSuDuyetViTamGiu.ascx" />
     <Content Include="cms\Display\QuanLyDangBai\MLichSuThanhToanQRCode.ascx" />
+    <Content Include="cms\Display\QuanLyDangBai\MDauTuBatDongSan.ascx" />
     <Content Include="cms\Display\QuanLyDangBai\ThanhToanQRCode.ascx" />
     <Content Include="cms\Display\QuanLyDangBai\ThongBaoXuLyDonHang.ascx" />
     <Content Include="cms\Display\QuanLyDangBai\TinNhanCuaBan.ascx" />
@@ -1772,6 +1774,13 @@
     <Compile Include="cms\Admin\Member\LSMChuyenDiem.ascx.designer.cs">
       <DependentUpon>LSMChuyenDiem.ascx</DependentUpon>
     </Compile>
+    <Compile Include="cms\Admin\Member\MDauTuBatDongSan.ascx.cs">
+      <DependentUpon>MDauTuBatDongSan.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\Admin\Member\MDauTuBatDongSan.ascx.designer.cs">
+      <DependentUpon>MDauTuBatDongSan.ascx</DependentUpon>
+    </Compile>
     <Compile Include="cms\Admin\Member\MLSCCapDiem.ascx.cs">
       <DependentUpon>MLSCCapDiem.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -2009,6 +2018,13 @@
     </Compile>
     <Compile Include="cms\Display\QuanLyDangBai\MLichSuThanhToanQRCode.ascx.designer.cs">
       <DependentUpon>MLichSuThanhToanQRCode.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\Display\QuanLyDangBai\MDauTuBatDongSan.ascx.cs">
+      <DependentUpon>MDauTuBatDongSan.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\Display\QuanLyDangBai\MDauTuBatDongSan.ascx.designer.cs">
+      <DependentUpon>MDauTuBatDongSan.ascx</DependentUpon>
     </Compile>
     <Compile Include="cms\Display\QuanLyDangBai\ThanhToanQRCode.ascx.cs">
       <DependentUpon>ThanhToanQRCode.ascx</DependentUpon>
@@ -3668,6 +3684,7 @@
     <Folder Include="Uploads\Album\Multiupload\" />
     <Folder Include="Uploads\All\" />
     <Folder Include="Uploads\ChungMinhThu\" />
+    <Folder Include="Uploads\ChuyenTien\" />
     <Folder Include="Uploads\DangKyKinhDoanh\" />
     <Folder Include="Uploads\excel\" />
     <Folder Include="Uploads\Flash\" />

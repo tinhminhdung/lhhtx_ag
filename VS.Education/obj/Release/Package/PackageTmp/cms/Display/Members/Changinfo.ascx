@@ -129,7 +129,7 @@
                             <asp:TextBox CssClass='contact3' ID="txtemail" Enabled="false"  runat="server" Width="358px"></asp:TextBox>
                         </div>
                     </div>
-                    <div class="gachke">
+                    <div class="gachke" style=" display:none">
                         <div class="tenthanhvien"><%=label("l_phone")%></div>
                         <div class="Phone">
                             <asp:TextBox CssClass='contact3' ID="txtphone" Enabled="false"  ValidationGroup="GInfo" runat="server" Width="358px"></asp:TextBox>

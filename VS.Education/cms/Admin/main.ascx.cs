@@ -57,7 +57,10 @@ namespace VS.E_Commerce.cms.Admin
             string u = Request.QueryString["u"];
             switch (u)
             {
-
+                case "Dautu":
+                    phcontrol.Controls.Add(LoadControl("Member/MDauTuBatDongSan.ascx"));
+                    break;
+                    
                 case "CauHinhBDS":
                     phcontrol.Controls.Add(LoadControl("Member/ChiHoaHong.ascx"));
                     break;

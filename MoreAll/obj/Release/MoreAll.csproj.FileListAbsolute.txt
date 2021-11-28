@@ -34,3 +34,15 @@ F:\AGVietNam\Aggroupusa.com_News\MoreAll\bin\Release\Framework.pdb
 F:\AGVietNam\Aggroupusa.com_News\MoreAll\obj\Release\MoreAll.csprojResolveAssemblyReference.cache
 F:\AGVietNam\Aggroupusa.com_News\MoreAll\obj\Release\MoreAll.dll
 F:\AGVietNam\Aggroupusa.com_News\MoreAll\obj\Release\MoreAll.pdb
+F:\AGVietNam\AG_Lienhiephoptac.vn\MoreAll\bin\Release\MoreAll.dll
+F:\AGVietNam\AG_Lienhiephoptac.vn\MoreAll\bin\Release\MoreAll.pdb
+F:\AGVietNam\AG_Lienhiephoptac.vn\MoreAll\bin\Release\Entity.dll
+F:\AGVietNam\AG_Lienhiephoptac.vn\MoreAll\bin\Release\Framework.dll
+F:\AGVietNam\AG_Lienhiephoptac.vn\MoreAll\bin\Release\Services.dll
+F:\AGVietNam\AG_Lienhiephoptac.vn\MoreAll\bin\Release\Database.dll
+F:\AGVietNam\AG_Lienhiephoptac.vn\MoreAll\bin\Release\Services.pdb
+F:\AGVietNam\AG_Lienhiephoptac.vn\MoreAll\bin\Release\Entity.pdb
+F:\AGVietNam\AG_Lienhiephoptac.vn\MoreAll\bin\Release\Framework.pdb
+F:\AGVietNam\AG_Lienhiephoptac.vn\MoreAll\obj\Release\MoreAll.csprojResolveAssemblyReference.cache
+F:\AGVietNam\AG_Lienhiephoptac.vn\MoreAll\obj\Release\MoreAll.dll
+F:\AGVietNam\AG_Lienhiephoptac.vn\MoreAll\obj\Release\MoreAll.pdb

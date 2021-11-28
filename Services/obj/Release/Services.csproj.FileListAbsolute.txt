@@ -28,3 +28,13 @@ F:\AGVietNam\Aggroupusa.com_News\Services\bin\Release\Framework.pdb
 F:\AGVietNam\Aggroupusa.com_News\Services\obj\Release\Services.csprojResolveAssemblyReference.cache
 F:\AGVietNam\Aggroupusa.com_News\Services\obj\Release\Services.dll
 F:\AGVietNam\Aggroupusa.com_News\Services\obj\Release\Services.pdb
+F:\AGVietNam\AG_Lienhiephoptac.vn\Services\bin\Release\Services.dll
+F:\AGVietNam\AG_Lienhiephoptac.vn\Services\bin\Release\Services.pdb
+F:\AGVietNam\AG_Lienhiephoptac.vn\Services\bin\Release\Database.dll
+F:\AGVietNam\AG_Lienhiephoptac.vn\Services\bin\Release\Entity.dll
+F:\AGVietNam\AG_Lienhiephoptac.vn\Services\bin\Release\Framework.dll
+F:\AGVietNam\AG_Lienhiephoptac.vn\Services\bin\Release\Entity.pdb
+F:\AGVietNam\AG_Lienhiephoptac.vn\Services\bin\Release\Framework.pdb
+F:\AGVietNam\AG_Lienhiephoptac.vn\Services\obj\Release\Services.csprojResolveAssemblyReference.cache
+F:\AGVietNam\AG_Lienhiephoptac.vn\Services\obj\Release\Services.dll
+F:\AGVietNam\AG_Lienhiephoptac.vn\Services\obj\Release\Services.pdb

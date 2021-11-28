@@ -18,3 +18,13 @@ F:\AGVietNam\Aggroupusa.com_News\Services\bin\Debug\Framework.pdb
 F:\AGVietNam\Aggroupusa.com_News\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
 F:\AGVietNam\Aggroupusa.com_News\Services\obj\Debug\Services.dll
 F:\AGVietNam\Aggroupusa.com_News\Services\obj\Debug\Services.pdb
+F:\AGVietNam\AG_Lienhiephoptac.vn\Services\bin\Debug\Services.dll
+F:\AGVietNam\AG_Lienhiephoptac.vn\Services\bin\Debug\Services.pdb
+F:\AGVietNam\AG_Lienhiephoptac.vn\Services\bin\Debug\Database.dll
+F:\AGVietNam\AG_Lienhiephoptac.vn\Services\bin\Debug\Entity.dll
+F:\AGVietNam\AG_Lienhiephoptac.vn\Services\bin\Debug\Framework.dll
+F:\AGVietNam\AG_Lienhiephoptac.vn\Services\bin\Debug\Entity.pdb
+F:\AGVietNam\AG_Lienhiephoptac.vn\Services\bin\Debug\Framework.pdb
+F:\AGVietNam\AG_Lienhiephoptac.vn\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+F:\AGVietNam\AG_Lienhiephoptac.vn\Services\obj\Debug\Services.dll
+F:\AGVietNam\AG_Lienhiephoptac.vn\Services\obj\Debug\Services.pdb

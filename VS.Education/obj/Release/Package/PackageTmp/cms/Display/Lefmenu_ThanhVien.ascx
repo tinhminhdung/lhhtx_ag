@@ -22,6 +22,10 @@
                    <a href="/lich-su-tru-thue.html"><i class="fa fa-credit-card"></i>LS chuyển điểm thu nhập cá nhân</a>
                 </span>
 
+                 <span class="tag-item <%=returnCSS("DauTu") %>">
+                    <a href="/dau-tu.html"><i class="fa fa-credit-card"></i>Đầu tư</a>
+                </span>
+                
                 <span class="tag-item <%=returnCSS("RutTien") %>">
                     <a href="/rut-tien.html"><i class="fa fa-credit-card"></i>Rút điểm</a>
                 </span>

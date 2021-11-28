@@ -71,7 +71,16 @@ namespace VS.E_Commerce.cms.Display.control
                 case "Register":
                     phcontrol.Controls.Add(LoadControl("~/cms/Display/Members/Register.ascx"));
                     break;
-
+                case "Dautu":
+                    if (MoreAll.MoreAll.GetCookies("Members") != "")
+                    {
+                        phcontrol.Controls.Add(LoadControl("~/cms/Display/QuanLyDangBai/MDauTuBatDongSan.ascx"));
+                    }
+                    else
+                    {
+                        Response.Redirect("/dang-nhap.html?ReturnUrl=" + Request.RawUrl.ToString() + "");
+                    }
+                    break;
                 case "ChuyenDiemViDiem":
                     if (MoreAll.MoreAll.GetCookies("Members") != "")
                     {

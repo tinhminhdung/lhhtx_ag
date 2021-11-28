@@ -42,7 +42,7 @@
                                 </td>
                                 <td></td>
                                 <td>
-                                    <asp:TextBox ID="ThanhVienMua" AutoPostBack="true" OnTextChanged="ThanhVienMua_TextChanged" ValidationGroup="GInfo" placeholder="Điền tên User người Mua" runat="server" Width="233px" CssClass="txt">0</asp:TextBox>
+                                    <asp:TextBox ID="ThanhVienMua" AutoPostBack="true" OnTextChanged="ThanhVienMua_TextChanged" ValidationGroup="GInfo" placeholder="Điền số điện thoại người Mua" runat="server" Width="233px" CssClass="txt">0</asp:TextBox>
                                     <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ValidationGroup="GInfo" ControlToValidate="ThanhVienMua" ErrorMessage="*"></asp:RequiredFieldValidator>
                                     <br />
                                     <asp:Label ID="ltthongtin2" runat="server" Font-Bold="True" ForeColor="Red"></asp:Label>
@@ -55,7 +55,7 @@
                                 </td>
                                 <td></td>
                                 <td>
-                                    <asp:TextBox ID="ThanhVienBan" AutoPostBack="true" OnTextChanged="ThanhVienBan_TextChanged" ValidationGroup="GInfo" placeholder="Điền tên User người bán" runat="server" Width="233px" CssClass="txt">0</asp:TextBox>
+                                    <asp:TextBox ID="ThanhVienBan" Enabled="false" AutoPostBack="true" OnTextChanged="ThanhVienBan_TextChanged" ValidationGroup="GInfo" placeholder="Điền số điện thoại người bán" runat="server" Width="233px" CssClass="txt">0</asp:TextBox>
                                     <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ValidationGroup="GInfo" ControlToValidate="ThanhVienBan" ErrorMessage="*"></asp:RequiredFieldValidator>
                                     <br />
                                     <asp:Label ID="ltthongtin1" runat="server" Font-Bold="True" ForeColor="Red"></asp:Label>
@@ -63,11 +63,13 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td style="padding-left: 15px; width: 294px;">Số tiền
+                                <td style="padding-left: 15px; width: 294px; color: #ed1c24">Số điểm cần chia
                                 </td>
                                 <td></td>
                                 <td>
-                                    <asp:TextBox ID="SoTien" ValidationGroup="GInfo" runat="server" Width="233px" CssClass="txt">0</asp:TextBox>
+                                    <asp:TextBox ID="SoTien" ValidationGroup="GInfo" runat="server" Width="233px" placeholder="Số điểm cầm chia" CssClass="txt">0</asp:TextBox>
+                                   
+                                     <span style="font-size: 10pt; color: #ed1c24"><em>( Lưu ý: Số điểm cần chia  ---> chứ ko phải số tiền, hệ thống này đang dùng bằng điểm)</em></span>
                                     <cc1:FilteredTextBoxExtender ID="FilteredTextBoxExtender1" runat="server" FilterType="Numbers" TargetControlID="SoTien"></cc1:FilteredTextBoxExtender>
                                     <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ValidationGroup="GInfo" ControlToValidate="SoTien" ErrorMessage="*"></asp:RequiredFieldValidator>
                                 </td>

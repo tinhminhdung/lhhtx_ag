@@ -1,6 +1,6 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="ViTienThanhVien.ascx.cs" Inherits="VS.E_Commerce.cms.Display.QuanLyDangBai.ViTienThanhVien" %>
 <div class="page-title m992">
-    <h1 class="title-head margin-top-0"><a href="#" style="color:#fd0000">Ví tiền thành viên</a></h1>
+    <h1 class="title-head margin-top-0"><a href="#" style="color:#127ec2">Ví tiền thành viên</a></h1>
 </div>
 <asp:Panel ID="pnKichHoat" Visible="false" runat="server">
 <div class="col-12 kichhoattaikhan nhapnhay">
@@ -174,7 +174,7 @@
             <div style="clear: both"></div>
             <hr />
             <div class="page-title m992" style="display:none">
-                <h1 class="title-head margin-top-0"><a href="#" style="color:#fd0000">Điểm tạm giữa mua bán hàng</a></h1>
+                <h1 class="title-head margin-top-0"><a href="#" style="color:#127ec2">Điểm tạm giữa mua bán hàng</a></h1>
             </div>
             <div style="clear: both"></div>
 

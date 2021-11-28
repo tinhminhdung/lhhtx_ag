@@ -55,7 +55,7 @@
                                 </td>
                                 <td></td>
                                 <td>
-                                    <asp:TextBox ID="ThanhVienBan" AutoPostBack="true" OnTextChanged="ThanhVienBan_TextChanged" ValidationGroup="GInfo" placeholder="Điền số điện thoại người bán" runat="server" Width="233px" CssClass="txt">0</asp:TextBox>
+                                    <asp:TextBox ID="ThanhVienBan" Enabled="false" AutoPostBack="true" OnTextChanged="ThanhVienBan_TextChanged" ValidationGroup="GInfo" placeholder="Điền số điện thoại người bán" runat="server" Width="233px" CssClass="txt">0</asp:TextBox>
                                     <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ValidationGroup="GInfo" ControlToValidate="ThanhVienBan" ErrorMessage="*"></asp:RequiredFieldValidator>
                                     <br />
                                     <asp:Label ID="ltthongtin1" runat="server" Font-Bold="True" ForeColor="Red"></asp:Label>

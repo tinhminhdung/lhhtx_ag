@@ -25,12 +25,28 @@
 
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <fieldset class="form-group">
+                                       <%-- <fieldset class="form-group">
                                             <label>
                                                 Tên đăng nhập<span class="required">*</span>
                                             </label>
                                             <asp:TextBox ID="txtusername" TabIndex="1" runat="server" class="form-control form-control-lg" ValidationGroup="GInfo"></asp:TextBox>
                                             <asp:RequiredFieldValidator ID="RequiredFieldValidator1" SetFocusOnError="true" runat="server" ValidationGroup="GInfo" ControlToValidate="txtusername" ErrorMessage=" Tên đăng nhập không được để trống !"></asp:RequiredFieldValidator>
+                                        </fieldset>--%>
+                                        
+                                        <fieldset class="form-group">
+                                            <label>
+                                                Họ và tên <span class="required">*</span>
+                                            </label>
+                                            <asp:TextBox ID="txtlastname" TabIndex="4" runat="server" ValidationGroup="GInfo" class="form-control form-control-lg"></asp:TextBox>
+                                            <asp:RequiredFieldValidator ID="RequiredFieldValidator3" SetFocusOnError="true" runat="server" ValidationGroup="GInfo" ControlToValidate="txtlastname" ErrorMessage="Họ và tên không được để trống !"></asp:RequiredFieldValidator>
+                                        </fieldset>
+                                        <fieldset class="form-group">
+                                            <label>
+                                                Điện thoại <span class="required">*</span>
+                                            </label>
+                                            <asp:TextBox ID="txt_phone" TabIndex="5" runat="server" class="form-control form-control-lg" ValidationGroup="GInfo" MaxLength="11"></asp:TextBox>
+                                            <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ControlToValidate="txt_phone" Display="Dynamic" ErrorMessage="Số di động không được để trống !" SetFocusOnError="True" ValidationGroup="GInfo"></asp:RequiredFieldValidator>
+                                            <asp:RegularExpressionValidator ID="RequiredFieldValidator6" runat="server" ControlToValidate="txt_phone" Display="Dynamic" ErrorMessage="Số điện thoại phải là số !" SetFocusOnError="True" ValidationExpression="\d*" ValidationGroup="GInfo"></asp:RegularExpressionValidator>
                                         </fieldset>
                                         <fieldset class="form-group">
                                             <label>
@@ -47,22 +63,6 @@
                                             <asp:TextBox ID="txtxacnhanmatkhau" TabIndex="3" runat="server" TextMode="Password" ValidationGroup="GInfo" class="form-control form-control-lg"></asp:TextBox>
                                             <asp:RequiredFieldValidator ID="RequiredFieldValidator10" SetFocusOnError="true" runat="server" ValidationGroup="GInfo" ControlToValidate="txtxacnhanmatkhau" ErrorMessage="Xác nhận mật khẩu không được để trống !"></asp:RequiredFieldValidator>
                                         </fieldset>
-                                        <fieldset class="form-group">
-                                            <label>
-                                                Họ và tên <span class="required">*</span>
-                                            </label>
-                                            <asp:TextBox ID="txtlastname" TabIndex="4" runat="server" ValidationGroup="GInfo" class="form-control form-control-lg"></asp:TextBox>
-                                            <asp:RequiredFieldValidator ID="RequiredFieldValidator3" SetFocusOnError="true" runat="server" ValidationGroup="GInfo" ControlToValidate="txtlastname" ErrorMessage="Họ và tên không được để trống !"></asp:RequiredFieldValidator>
-                                        </fieldset>
-                                        <fieldset class="form-group">
-                                            <label>
-                                                Điện thoại <span class="required">*</span>
-                                            </label>
-                                            <asp:TextBox ID="txt_phone" TabIndex="5" runat="server" class="form-control form-control-lg" ValidationGroup="GInfo" MaxLength="11"></asp:TextBox>
-                                            <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ControlToValidate="txt_phone" Display="Dynamic" ErrorMessage="Số di động không được để trống !" SetFocusOnError="True" ValidationGroup="GInfo"></asp:RequiredFieldValidator>
-                                            <asp:RegularExpressionValidator ID="RequiredFieldValidator6" runat="server" ControlToValidate="txt_phone" Display="Dynamic" ErrorMessage="Số điện thoại phải là số !" SetFocusOnError="True" ValidationExpression="\d*" ValidationGroup="GInfo"></asp:RegularExpressionValidator>
-                                        </fieldset>
-
                                         <fieldset class="form-group">
                                             <label>
                                                 Email <span class="required">*</span>
@@ -103,8 +103,8 @@
                                             <label>
                                                 Người giới thiệu
                                             </label>
-                                            <asp:TextBox ID="txtnguoigioithieu" TabIndex="9" placeholder="Tên đăng nhập của người giới thiệu" runat="server" ValidationGroup="GInfo" class="form-control form-control-lg"></asp:TextBox>
-                                            <asp:RequiredFieldValidator ID="RequiredFieldValidator11" SetFocusOnError="true" runat="server" ValidationGroup="GInfo" ControlToValidate="txtnguoigioithieu" ErrorMessage="Vui lòng điền người giới thiệu."></asp:RequiredFieldValidator>
+                                            <asp:TextBox ID="txtnguoigioithieu" TabIndex="9" placeholder="Số điện thoại của người giới thiệu" runat="server" ValidationGroup="GInfo" class="form-control form-control-lg"></asp:TextBox>
+                                            <asp:RequiredFieldValidator ID="RequiredFieldValidator11" SetFocusOnError="true" runat="server" ValidationGroup="GInfo" ControlToValidate="txtnguoigioithieu" ErrorMessage="Vui lòng điền Số điện thoại giới thiệu."></asp:RequiredFieldValidator>
                                             <div style="color: red; font-weight: bold">
                                                 <asp:Literal ID="ltgoithieu" runat="server"></asp:Literal>
                                             </div>

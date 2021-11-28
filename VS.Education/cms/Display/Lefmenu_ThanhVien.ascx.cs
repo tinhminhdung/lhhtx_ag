@@ -75,7 +75,7 @@ namespace VS.E_Commerce.cms.Display
                     {
                         ltagland.Text += "<span class=\"tag-item  " + returnCSS("lichsuduyetvitamgiu") + "\"> <a href=\"/lich-su-duyet-vi-tam-giu.html\"><i class=\"fa fa-clock-o\"></i> L/S duyệt ví tạm giữ bán hàng</a></span>";
                     }
-                    lttinnhan.Text = "<a href=\"/tin-nhan.html\"><i class=\"fa fa-bell\" style=\" color:red\"></i> Tin nhắn của tôi (" + ShowTongThongBao(table.iuser_id.ToString()) + ")</a>";
+                    lttinnhan.Text = "<a href=\"/tin-nhan.html\"><i class=\"fa fa-bell\" style=\" color:#127ec2\"></i> Tin nhắn của tôi (" + ShowTongThongBao(table.iuser_id.ToString()) + ")</a>";
 
                     //if (table.iuser_id.ToString() == Commond.SetThanhVienChuyenGia())
                     //{

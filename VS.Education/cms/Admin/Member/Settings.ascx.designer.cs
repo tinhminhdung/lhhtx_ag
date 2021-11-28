@@ -31,6 +31,15 @@ namespace VS.E_Commerce.cms.Admin.Member {
         protected global::System.Web.UI.WebControls.Literal ltmsg;
         
         /// <summary>
+        /// NguoiBan control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox NguoiBan;
+        
+        /// <summary>
         /// HHTrucTiep control.
         /// </summary>
         /// <remarks>

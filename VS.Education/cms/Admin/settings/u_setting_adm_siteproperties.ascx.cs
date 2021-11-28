@@ -92,7 +92,10 @@ namespace VS.E_Commerce.cms.Admin.settings
                 obj.Value = txtfooterEmail.Text;
                 SSetting.UPDATE(obj);
 
-
+                obj.Lang = lang;
+                obj.Properties = "NDDauTuBDS";
+                obj.Value = NDDauTuBDS.Text;
+                SSetting.UPDATE(obj);
                 #endregion
             }
             this.load();
@@ -148,6 +151,10 @@ namespace VS.E_Commerce.cms.Admin.settings
                     else if (its.Properties == "txtfooterEmail")
                     {
                         this.txtfooterEmail.Text = its.Value;
+                    }
+                    else if (its.Properties == "NDDauTuBDS")
+                    {
+                        this.NDDauTuBDS.Text = its.Value;
                     }
 
                     #region MyRegion

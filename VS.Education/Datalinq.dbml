@@ -1036,6 +1036,26 @@
       <Column Name="NguoiDuyet" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
     </Type>
   </Table>
+  <Table Name="dbo.DauTuBatDongSan" Member="DauTuBatDongSans">
+    <Type Name="DauTuBatDongSan">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="IDThanhVien" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TongTienDauTu" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="TenNganHang" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="HoVaTen" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="DiaChi" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="DienThoai" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="CMND" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="SoTaiKHoan" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="ChiNhanh" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="Anh" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="GhiChu" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="TrangThai" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="NgayTao" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="NgayDuyet" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="NguoiDuyet" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+    </Type>
+  </Table>
   <Function Name="dbo.S_Trunggian_Delete" Method="S_Trunggian_Delete">
     <Parameter Name="Proid" Parameter="proid" Type="System.Int32" DbType="Int" />
     <Return Type="System.Int32" />

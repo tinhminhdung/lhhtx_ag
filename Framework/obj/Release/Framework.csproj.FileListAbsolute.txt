@@ -22,3 +22,11 @@ F:\AGVietNam\Aggroupusa.com_News\Framework\bin\Release\Entity.pdb
 F:\AGVietNam\Aggroupusa.com_News\Framework\obj\Release\Framework.csprojResolveAssemblyReference.cache
 F:\AGVietNam\Aggroupusa.com_News\Framework\obj\Release\Framework.dll
 F:\AGVietNam\Aggroupusa.com_News\Framework\obj\Release\Framework.pdb
+F:\AGVietNam\AG_Lienhiephoptac.vn\Framework\bin\Release\Framework.dll
+F:\AGVietNam\AG_Lienhiephoptac.vn\Framework\bin\Release\Framework.pdb
+F:\AGVietNam\AG_Lienhiephoptac.vn\Framework\bin\Release\Database.dll
+F:\AGVietNam\AG_Lienhiephoptac.vn\Framework\bin\Release\Entity.dll
+F:\AGVietNam\AG_Lienhiephoptac.vn\Framework\bin\Release\Entity.pdb
+F:\AGVietNam\AG_Lienhiephoptac.vn\Framework\obj\Release\Framework.csprojResolveAssemblyReference.cache
+F:\AGVietNam\AG_Lienhiephoptac.vn\Framework\obj\Release\Framework.dll
+F:\AGVietNam\AG_Lienhiephoptac.vn\Framework\obj\Release\Framework.pdb

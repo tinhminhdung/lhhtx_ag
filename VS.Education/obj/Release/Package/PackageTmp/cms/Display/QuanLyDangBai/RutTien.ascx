@@ -11,7 +11,7 @@
                     <div style="width: 100%">
                         <div class="tbinput">
                             <div style=" font-size:20px; color:red; text-transform:uppercase">
-                               Tổng điểm trong ví: <asp:Literal ID="lttongtien" runat="server"></asp:Literal> điểm
+                               Tổng điểm trong ví: <asp:Literal ID="lttongtien" runat="server"></asp:Literal> 
                             </div>
                         </div>
                         <div class="tbinput">

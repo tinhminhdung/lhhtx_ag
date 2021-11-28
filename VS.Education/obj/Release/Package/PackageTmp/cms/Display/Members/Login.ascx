@@ -23,7 +23,7 @@
                                 <div class="form-signup clearfix">
                                     <fieldset class="form-group">
                                         <label>
-                                            <%=label("l_username")%> <span class="required">*</span>
+                                           Tên đăng nhập số điện thoại <span class="required">*</span>
                                         </label>
                                         <asp:TextBox ID="txt_Uname" runat="server" class="form-control form-control-lg" ValidationGroup="GInfo"></asp:TextBox>
                                         <asp:RequiredFieldValidator ID="RequiredFieldValidator1" SetFocusOnError="true" runat="server" ValidationGroup="GInfo" ControlToValidate="txt_Uname" ErrorMessage=" Tên đăng nhập không được để trống !"></asp:RequiredFieldValidator>

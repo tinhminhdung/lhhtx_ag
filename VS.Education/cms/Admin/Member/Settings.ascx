@@ -39,6 +39,16 @@
                                         <td></td>
                                         <td></td>
                                     </tr>
+                                      <tr>
+                                        <td style="padding-left: 15px; width: 294px;">Điền số người bán 
+                                        </td>
+                                        <td></td>
+                                        <td>
+                                            <asp:TextBox ID="NguoiBan" runat="server" Width="133px" CssClass="txt">0</asp:TextBox>
+                                       <span style="font-size: 8pt; color: #ed1c24"><em>(Điền số điện thoại người bán bất động sản)</em></span>
+                                        </td>
+                                    </tr>
+                                    
                                     <tr>
                                         <td style="padding-left: 15px; width: 294px;">Hoa hồng trực tiếp
                                         </td>

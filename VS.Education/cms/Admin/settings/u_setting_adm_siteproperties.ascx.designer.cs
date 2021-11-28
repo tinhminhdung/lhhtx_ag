@@ -112,6 +112,15 @@ namespace VS.E_Commerce.cms.Admin.settings {
         protected global::CKEditor.NET.CKEditorControl txtcontactcontent;
         
         /// <summary>
+        /// NDDauTuBDS control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::CKEditor.NET.CKEditorControl NDDauTuBDS;
+        
+        /// <summary>
         /// btnsetup control.
         /// </summary>
         /// <remarks>

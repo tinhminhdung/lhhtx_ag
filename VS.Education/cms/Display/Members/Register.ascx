@@ -103,8 +103,8 @@
                                             <label>
                                                 Người giới thiệu
                                             </label>
-                                            <asp:TextBox ID="txtnguoigioithieu" TabIndex="9" placeholder="Tên đăng nhập của người giới thiệu" runat="server" ValidationGroup="GInfo" class="form-control form-control-lg"></asp:TextBox>
-                                            <asp:RequiredFieldValidator ID="RequiredFieldValidator11" SetFocusOnError="true" runat="server" ValidationGroup="GInfo" ControlToValidate="txtnguoigioithieu" ErrorMessage="Vui lòng điền người giới thiệu."></asp:RequiredFieldValidator>
+                                            <asp:TextBox ID="txtnguoigioithieu" TabIndex="9" placeholder="Số điện thoại của người giới thiệu" runat="server" ValidationGroup="GInfo" class="form-control form-control-lg"></asp:TextBox>
+                                            <asp:RequiredFieldValidator ID="RequiredFieldValidator11" SetFocusOnError="true" runat="server" ValidationGroup="GInfo" ControlToValidate="txtnguoigioithieu" ErrorMessage="Vui lòng điền Số điện thoại giới thiệu."></asp:RequiredFieldValidator>
                                             <div style="color: red; font-weight: bold">
                                                 <asp:Literal ID="ltgoithieu" runat="server"></asp:Literal>
                                             </div>
