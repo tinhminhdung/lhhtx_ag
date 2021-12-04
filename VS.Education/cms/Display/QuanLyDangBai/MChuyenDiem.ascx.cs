@@ -56,17 +56,20 @@ namespace VS.E_Commerce.cms.Display.QuanLyDangBai
                     this.ltemail.Text = table.vemail.ToString();
                     this.ltdienthoai.Text = table.vphone.ToString();
 
-                    try
+
+                    List<Entity.users> obj = Susers.Name_Text("SELECT *  FROM users WHERE iuser_id=" + table.iuser_id + " ");
+                    if (obj.Count() > 0)
                     {
-                        List<Entity.users> obj = Susers.Name_Text("SELECT *  FROM users WHERE ((MTree LIKE N'%|" + table.iuser_id + "|%'))  and iuser_id=" + table.iuser_id + " ");
-                        if (obj.Count() <= 0)
+                        string Mtr = "|" + obj[0].MTree.ToString();
+                        if (Mtr.Contains("|" + MoreAll.MoreAll.GetCookies("MembersID").ToString() + "|"))
+                        {
+                        }
+                        else
                         {
                             string Cay = table.MTree + table.iuser_id + "|";
                             Susers.Name_Text("UPDATE [users] SET MTree='" + Cay + "' WHERE iuser_id =" + table.iuser_id + "");
                         }
                     }
-                    catch (Exception)
-                    { }
 
                     txtnguoinhan.Text = "";
                     txtmatkhau.Text = "";

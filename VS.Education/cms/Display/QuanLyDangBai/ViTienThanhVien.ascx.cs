@@ -37,9 +37,26 @@ namespace VS.E_Commerce.cms.Display.QuanLyDangBai
             {
                 try
                 {
+
+
                     user table = db.users.SingleOrDefault(p => p.iuser_id == Convert.ToInt32(MoreAll.MoreAll.GetCookies("MembersID").ToString()));
                     if (table != null)
                     {
+
+                        List<Entity.users> obj = Susers.Name_Text("SELECT *  FROM users WHERE iuser_id=" + table.iuser_id + " ");
+                        if (obj.Count() > 0)
+                        {
+                            string Mtr = "|" + obj[0].MTree.ToString();
+                            if (Mtr.Contains("|" + MoreAll.MoreAll.GetCookies("MembersID").ToString() + "|"))
+                            {
+                            }
+                            else
+                            {
+                                string Cay = table.MTree + table.iuser_id + "|";
+                                Susers.Name_Text("UPDATE [users] SET MTree='" + Cay + "' WHERE iuser_id =" + table.iuser_id + "");
+                            }
+                        }
+
                         if (table.TrangThaiThongBao == 1)
                         {
                             ltjavascript.Text = ("<script type=\"text/javascript\" > $.toast({ heading: 'Thông báo', text: '<p><strong>Công ty cổ phần Ag Ecom trân trọng thông báo.</strong></p> <p>Tài khoản của quý khách đã hết hạn 1 năm kích hoạt làm đại lý .<br /> Quý khách vui lòng kích hoạt lại để được nhận các quyền lợi theo chính sách của công ty.<br /> &nbsp;</p> <p>&nbsp;</p>', position: 'top-center', stack: false }) </script>");
@@ -114,7 +131,7 @@ namespace VS.E_Commerce.cms.Display.QuanLyDangBai
                 //    this.ltViQRCode.Text = table.ViQRCode;
                 //}
 
-               ltvimuahang.Text = table.ViMuaHangAFF;
+                ltvimuahang.Text = table.ViMuaHangAFF;
 
                 this.ltViHoaHongMuaBan.Text = table.ViHoaHongMuaBan;
                 // this.ltViHoaHongAFF.Text = table.ViHoaHongAFF;
@@ -3359,7 +3376,7 @@ namespace VS.E_Commerce.cms.Display.QuanLyDangBai
                                 }
                             }
                             #endregion
-                            
+
                         }
                         #endregion
 
@@ -3523,7 +3540,7 @@ namespace VS.E_Commerce.cms.Display.QuanLyDangBai
                         }
                         #endregion
 
-                        
+
                         #endregion
 
 

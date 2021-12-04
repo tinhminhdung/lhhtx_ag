@@ -51,7 +51,6 @@ namespace VS.E_Commerce.cms.Display.QuanLyDangBai
                     else
                     {
                         WebMsgBox.Show("Bạn ko có quyền xem ID này. Vì ID này không nằm trong hệ thống của bạn");
-
                     }
                 }
             }
