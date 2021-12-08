@@ -247,6 +247,7 @@
     <Content Include="cms\Display\QuanLyDangBai\List_HoaHong_QRCode.ascx" />
     <Content Include="cms\Display\QuanLyDangBai\MLichSuChuyenDiem_TruThue.ascx" />
     <Content Include="cms\Display\QuanLyDangBai\MLichSuDuyetViTamGiu.ascx" />
+    <Content Include="cms\Display\QuanLyDangBai\MDauTuBDS.ascx" />
     <Content Include="cms\Display\QuanLyDangBai\MLichSuThanhToanQRCode.ascx" />
     <Content Include="cms\Display\QuanLyDangBai\MDauTuBatDongSan.ascx" />
     <Content Include="cms\Display\QuanLyDangBai\ThanhToanQRCode.ascx" />
@@ -2011,6 +2012,13 @@
     </Compile>
     <Compile Include="cms\Display\QuanLyDangBai\MLichSuDuyetViTamGiu.ascx.designer.cs">
       <DependentUpon>MLichSuDuyetViTamGiu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\Display\QuanLyDangBai\MDauTuBDS.ascx.cs">
+      <DependentUpon>MDauTuBDS.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\Display\QuanLyDangBai\MDauTuBDS.ascx.designer.cs">
+      <DependentUpon>MDauTuBDS.ascx</DependentUpon>
     </Compile>
     <Compile Include="cms\Display\QuanLyDangBai\MLichSuThanhToanQRCode.ascx.cs">
       <DependentUpon>MLichSuThanhToanQRCode.ascx</DependentUpon>

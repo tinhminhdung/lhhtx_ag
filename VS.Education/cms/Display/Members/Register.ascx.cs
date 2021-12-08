@@ -38,7 +38,7 @@ namespace VS.E_Commerce.cms.Display.Members
                 SetCapCha();
                 if (link != "0")// trường hợp có coupon và không có link ?aff
                 {
-                    List<Entity.users> iEmail = Susers.Name_Text("select * from users  where iuser_id=" + link + " and istatus=1");//and iuser_id !=" + MoreAll.MoreAll.GetCookies("MembersID") + " 
+                    List<Entity.users> iEmail = Susers.Name_Text("select * from users  where vphone='" + link + "' and istatus=1");//and iuser_id !=" + MoreAll.MoreAll.GetCookies("MembersID") + " 
                     if (iEmail.Count > 0)
                     {
                         txtnguoigioithieu.Text = iEmail[0].vuserun.ToString();

@@ -34,7 +34,7 @@ namespace VS.E_Commerce.cms.Display.QuanLyDangBai
                     //}
 
                     // hdid.Value = table.iuser_id.ToString();
-                    txtlinkgioithieu.Text = ssl + Request.Url.Host + "?link=" + table.iuser_id.ToString() + "";
+                    txtlinkgioithieu.Text = ssl + Request.Url.Host + "?link=" + table.vphone.ToString() + "";
                 }
             }
         }

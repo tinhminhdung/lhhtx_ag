@@ -72,6 +72,7 @@
                                     <div  style=" display:none"><a href="/lich-su-tru-thue.html">LS thu nhập cá nhân</a></div>
                                      <div><a href="/tich-diem-hoa-hong-mua.html">Danh sách hoa hồng</a></div>
                                     <div><a href="/dau-tu.html">Đầu tư</a></div>
+                                    <div><a href="/lich-su-dau-tu.html">Lịch sử đầu tư</a></div>
 
                                     <div><a href="/rut-tien.html">Rút điểm</a></div>
                                     <div><a href="/lich-su-rut-tien.html">Lịch sử rút điểm</a></div>
@@ -169,6 +170,7 @@
                                         <div  style=" display:none"><a href="/lich-su-tru-thue.html"><i class="fa fa-credit-card"></i> LS chuyển điểm thu nhập cá nhân</a></div>
                                                 <div><a href="/tich-diem-hoa-hong-mua.html"><i class="fa fa-gift"></i> Danh sách hoa hồng</a></div>
                                         <div><a href="/dau-tu.html"> <i class="fa fa-gift"></i>  Đầu tư</a></div>
+                                         <div><a href="/lich-su-dau-tu.html"> <i class="fa fa-gift"></i> Lịch sử đầu tư</a></div>
 
                                         <div><a href="/rut-tien.html"><i class="fa fa-credit-card"></i> Rút điểm</a></div>
                                         <div><a href="/lich-su-rut-tien.html"><i class="fa fa-credit-card"></i> Lịch sử rút điểm</a></div>

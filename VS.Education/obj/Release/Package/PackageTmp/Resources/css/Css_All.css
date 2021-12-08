@@ -196,7 +196,7 @@ a.morecomment:hover{color:#555555;text-decoration:none}
 .frm-contact{margin:10px;color:#404040}
 .frm-contact table tr td{padding-top:10px;padding-bottom:5px;border-bottom:dashed 1px #d7d7d7}
 .frm-contact table tr td table tr td{border-bottom:none}
-.frm-contact input{float:left;margin:0 auto;border:1px solid #C4C4C4;border-radius:3px;color:#5C5C5C;font-size:1em;height:23px;padding:0 .6em;width:300px}
+.frm-contact input{float:left;margin:0 auto;border:1px solid #C4C4C4;border-radius:3px;color:#5C5C5C;font-size:1em;height:34px;padding:0 .6em;width:300px}
 .frm-contact textarea{margin:0 auto;border:1px solid #C4C4C4;border-radius:3px;color:#5C5C5C;font-size:1em;height:23px;padding:0 .6em;width:300px}
 .Anhmap img{border:medium none;height:auto;line-height:normal;margin:0;max-width:100%;padding:0;vertical-align:middle;width:auto}
 .tbinput{width:100%}

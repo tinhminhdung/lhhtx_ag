@@ -263,13 +263,13 @@ namespace MoreAll
         {
             if (enable.Trim().Equals("0"))
             {
-                return "<span style='font-size:12px; background:red;padding: 4px;margin-right:3px;margin-left:5px;color:#fff;border-radius: 3px;font-weight: 600;'>Chưa duyệt</span>";
+                return "<span style='display: table-caption;font-size:12px; background:red;padding: 4px;margin-right:3px;margin-left:5px;color:#fff;border-radius: 3px;font-weight: 600;'>Chưa duyệt</span>";
             }
            else if (enable.Trim().Equals("1"))
             {
-                return "<span style='font-size:12px; background:#00a9d2;padding: 4px;margin-right:3px;margin-left:5px;color:#fff;border-radius: 3px;font-weight: 600;'>Đã duyệt</span>";
+                return "<span style='display: table-caption;font-size:12px; background:#00a9d2;padding: 4px;margin-right:3px;margin-left:5px;color:#fff;border-radius: 3px;font-weight: 600;'>Đã duyệt</span>";
             }
-            return "<span style='font-size:12px; background:red;padding: 4px;margin-right:3px;margin-left:5px;color:#fff;border-radius: 3px;font-weight: 600;'>Đã Hủy</span>";
+            return "<span style='display: table-caption;font-size:12px; background:red;padding: 4px;margin-right:3px;margin-left:5px;color:#fff;border-radius: 3px;font-weight: 600;'>Đã Hủy</span>";
         }
 
 

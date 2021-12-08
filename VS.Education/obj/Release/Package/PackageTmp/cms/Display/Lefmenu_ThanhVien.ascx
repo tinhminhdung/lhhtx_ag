@@ -25,7 +25,9 @@
                  <span class="tag-item <%=returnCSS("DauTu") %>">
                     <a href="/dau-tu.html"><i class="fa fa-credit-card"></i>Đầu tư</a>
                 </span>
-                
+                  <span class="tag-item <%=returnCSS("LSDauTu") %>">
+                    <a href="/lich-su-dau-tu.html"><i class="fa fa-credit-card"></i>Lịch sử đầu tư</a>
+                </span>
                 <span class="tag-item <%=returnCSS("RutTien") %>">
                     <a href="/rut-tien.html"><i class="fa fa-credit-card"></i>Rút điểm</a>
                 </span>

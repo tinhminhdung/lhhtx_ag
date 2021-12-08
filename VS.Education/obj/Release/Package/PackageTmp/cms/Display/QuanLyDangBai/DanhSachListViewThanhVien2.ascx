@@ -1,7 +1,7 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="DanhSachListViewThanhVien2.ascx.cs" Inherits="VS.E_Commerce.cms.Display.QuanLyDangBai.DanhSachListViewThanhVien2" %>
 <%@ Register TagPrefix="cc1" Namespace="SiteUtils" Assembly="CollectionPager" %>
 <h1 class="title-head">
-    <span>Danh sách Thành viên cấp dưới</span>
+    <span>Thành viên kết nối trực tiếp</span>
 </h1>
  <asp:LinkButton ID="lnkxuatExel" runat="server" OnClick="lnkxuatExel_Click" CssClass="vadd toolbar btn btn-info"> Xuất Exel</asp:LinkButton>
 
