@@ -22420,6 +22420,10 @@ namespace VS.E_Commerce
 		
 		private string _NguoiDuyet;
 		
+		private string _CMNDTruoc;
+		
+		private string _CMNDSau;
+		
     #region Extensibility Method Definitions
     partial void OnLoaded();
     partial void OnValidate(System.Data.Linq.ChangeAction action);
@@ -22456,6 +22460,10 @@ namespace VS.E_Commerce
     partial void OnNgayDuyetChanged();
     partial void OnNguoiDuyetChanging(string value);
     partial void OnNguoiDuyetChanged();
+    partial void OnCMNDTruocChanging(string value);
+    partial void OnCMNDTruocChanged();
+    partial void OnCMNDSauChanging(string value);
+    partial void OnCMNDSauChanged();
     #endregion
 		
 		public DauTuBatDongSan()
@@ -22779,6 +22787,46 @@ namespace VS.E_Commerce
 					this._NguoiDuyet = value;
 					this.SendPropertyChanged("NguoiDuyet");
 					this.OnNguoiDuyetChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_CMNDTruoc", DbType="NVarChar(500)")]
+		public string CMNDTruoc
+		{
+			get
+			{
+				return this._CMNDTruoc;
+			}
+			set
+			{
+				if ((this._CMNDTruoc != value))
+				{
+					this.OnCMNDTruocChanging(value);
+					this.SendPropertyChanging();
+					this._CMNDTruoc = value;
+					this.SendPropertyChanged("CMNDTruoc");
+					this.OnCMNDTruocChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_CMNDSau", DbType="NVarChar(500)")]
+		public string CMNDSau
+		{
+			get
+			{
+				return this._CMNDSau;
+			}
+			set
+			{
+				if ((this._CMNDSau != value))
+				{
+					this.OnCMNDSauChanging(value);
+					this.SendPropertyChanging();
+					this._CMNDSau = value;
+					this.SendPropertyChanged("CMNDSau");
+					this.OnCMNDSauChanged();
 				}
 			}
 		}

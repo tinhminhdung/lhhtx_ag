@@ -94,6 +94,15 @@ namespace VS.E_Commerce.cms.Display.QuanLyDangBai {
         protected global::System.Web.UI.WebControls.Literal ltvivip;
         
         /// <summary>
+        /// lttongtiendautu control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Literal lttongtiendautu;
+        
+        /// <summary>
         /// Panel2 control.
         /// </summary>
         /// <remarks>

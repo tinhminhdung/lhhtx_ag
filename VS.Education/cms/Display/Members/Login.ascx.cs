@@ -41,15 +41,19 @@ namespace VS.E_Commerce.cms.Display.Members
         {
             if ((this.txt_Uname.Text.Trim().Length < 1) || (this.txt_password.Text.Trim().Length < 1))
             {
-                this.ltmsg.Text = label("login1");
+                this.ltmsg.Text = "Vui lòng điền thông tin đăng nhập";
             }
             else
             {
                 Fusers item = new Fusers();
-                List<Entity.users> table = Susers.Name_Text("select * from users where vuserun='" + this.txt_Uname.Text.Trim().ToLower() + "' and vuserpwd='" + (this.txt_password.Text.Trim().ToLower()) + "' and istatus=1");// and DuyetTienDanap=1 phải nạp tiền xong mới cho đăng nhập
+                string pp = txt_password.Text.Replace("'or''='", "").Replace("'or''='", "").Trim().ToLower();
+                string uu = txt_Uname.Text.Replace("'or''='", "").Replace("'or''='", "").Trim().ToLower();
+
+                List<Entity.users> table = item.DETAIL(uu.Trim(), pp.Trim(), "1");
+               // List<Entity.users> table = Susers.Name_Text("select * from users where vuserun='" + uu.Replace("'or''='", "").Replace("'or''='", "").Trim().ToLower() + "' and vuserpwd='" + (pp.Replace("'or''='", "").Replace("'or''='", "").Trim().ToLower()) + "' and istatus=1");// and DuyetTienDanap=1 phải nạp tiền xong mới cho đăng nhập
                 if (table.Count < 1)
                 {
-                    this.ltmsg.Text = label("login2");
+                    this.ltmsg.Text = "Tài khoản không đúng hoặc chưa được kích hoạt";
                 }
                 else
                 {

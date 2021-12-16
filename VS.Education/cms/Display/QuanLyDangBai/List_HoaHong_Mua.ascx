@@ -14,7 +14,15 @@
                                 <asp:DropDownList ID="ddlkieu" CssClass="form-control" AutoPostBack="true"
                                     runat="server" OnSelectedIndexChanged="ddlkieu_SelectedIndexChanged">
                                     <asp:ListItem Value="0">Tất cả loại Hoa Hồng</asp:ListItem>
-                                      <asp:ListItem Value="1">Hoa Hồng Quản Lý</asp:ListItem>
+
+                                          <asp:ListItem Value="500">Hoa hồng gián tiếp</asp:ListItem>
+                                             <asp:ListItem Value="504">Hoa hồng Trực tiếp</asp:ListItem>
+                                            <asp:ListItem Value="501">Hoa hồng Văn phòng  - BĐS</asp:ListItem>
+                                            <asp:ListItem Value="502">Hoa hồng Đồng hưởng - BĐS</asp:ListItem>
+                                            <asp:ListItem Value="503">Hoa hồng Cấp bậc - BĐS</asp:ListItem>
+
+
+                                   <%--   <asp:ListItem Value="1">Hoa Hồng Quản Lý</asp:ListItem>
                                     <asp:ListItem Value="2">Hoa Hồng Quản Lý Leader</asp:ListItem>
                                     <asp:ListItem Value="3">Hoa Hồng Quản Lý ...</asp:ListItem>
                                     <asp:ListItem Value="5">Hoa Hồng Quản Lý Chi Nhánh</asp:ListItem>
@@ -55,7 +63,7 @@
                             <asp:ListItem Value="211">Hoa Hồng (Chi Nhánh Mua Hàng)</asp:ListItem>
                             <asp:ListItem Value="212">Hoa Hồng (Leader - Mua Hàng)</asp:ListItem>
                                 <asp:ListItem Value="213">Hoa Hồng cho người mua</asp:ListItem>
-                            <asp:ListItem Value="214">Thanh toán điểm QRCode cho người bán</asp:ListItem>
+                            <asp:ListItem Value="214">Thanh toán điểm QRCode cho người bán</asp:ListItem>--%>
                                 </asp:DropDownList>
                                 <asp:DropDownList ID="DropDownList1" CssClass="form-control" AutoPostBack="true" Width="170px"
                                     runat="server" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged">

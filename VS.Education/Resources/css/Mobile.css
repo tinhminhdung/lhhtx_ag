@@ -27,26 +27,43 @@
 {
 .ketquangay .tongngay {padding-left: 152px;  }
 .Gachke { width: 56%;}
+.dropdown-content { display: none; position: absolute; background-color: #f1f1f1; min-width: 271px; overflow: auto; box-shadow: 0 8px 6px 0 rgb(0 0 0 / 20%); z-index: 1; margin-left: -288px; float: left; text-align: left; margin-top: 32px; }
+
 }
 
 @media screen and (min-width:640px) and (max-width:767px)
 {
 .ketquangay .tongngay {padding-left: 152px;  }
 .Gachke { width: 56%;}
+.dropdown-content { display: none; position: absolute; background-color: #f1f1f1; min-width: 271px; overflow: auto; box-shadow: 0 8px 6px 0 rgb(0 0 0 / 20%); z-index: 1; margin-left: -288px; float: left; text-align: left; margin-top: 32px; }
+
 }
 
 @media screen and (min-width:480px) and (max-width:639px)
 {
 .ketquangay .tongngay {padding-left: 152px;  }
 .Gachke { width: 56%;}
+.dropdown-content { display: none; position: absolute; background-color: #f1f1f1; min-width: 271px; overflow: auto; box-shadow: 0 8px 6px 0 rgb(0 0 0 / 20%); z-index: 1; margin-left: -288px; float: left; text-align: left; margin-top: 32px; }
 
 }
-@media screen and (min-width:1px) and (max-width:479px)
+@media screen and (min-width:281px) and (max-width:479px)
 {
 .vithanhtoan{ width: 100% !important;}
 .csscapcha{  width:100% !important;margin-right:0px !important;}
 .ketquangay .tongngay {padding-left: 0px;  }
 .Gachke { width: 100%;}
+.dropdown-content { display: none; position: absolute; background-color: #f1f1f1; min-width: 271px; overflow: auto; box-shadow: 0 8px 6px 0 rgb(0 0 0 / 20%); z-index: 1; margin-left: -288px; float: left; text-align: left; margin-top: 32px; }
+
+}
+@media screen and (max-width: 1px) and (min-width: 280px)
+{
+.vithanhtoan{ width: 100% !important;}
+.csscapcha{  width:100% !important;margin-right:0px !important;}
+.ketquangay .tongngay {padding-left: 0px;  }
+.Gachke { width: 100%;}
+.dropdown-content {
+    min-width: -256px;
+}
 }
 @media screen and (min-width:1px) and (max-width:1000px)
 {
@@ -233,7 +250,6 @@ section.awe-section-2d .container { padding: 0px; }
 .img_footer a img { width: 100%!important; border: 1px solid #d7d7d7; }
 .img_footer a { padding-bottom: 8px; background: #fff; margin: 0px; border-radius: 3px; display: block; }
 .line_branch { font-size: 20px; position: relative; text-align: center; }
-.dropdown-content { display: none; position: absolute; background-color: #f1f1f1; min-width: 271px; overflow: auto; box-shadow: 0 8px 6px 0 rgb(0 0 0 / 20%); z-index: 1; margin-left: -288px; float: left; text-align: left; margin-top: 32px; }
 
 .site-header .logo { padding-top: 3px; margin-left: 80px; }
 .News-content .contents img { text-align: center; margin: auto; width: 100%; padding: 0px; }

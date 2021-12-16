@@ -37,8 +37,6 @@ namespace VS.E_Commerce.cms.Display.QuanLyDangBai
             {
                 try
                 {
-
-
                     user table = db.users.SingleOrDefault(p => p.iuser_id == Convert.ToInt32(MoreAll.MoreAll.GetCookies("MembersID").ToString()));
                     if (table != null)
                     {
@@ -64,6 +62,21 @@ namespace VS.E_Commerce.cms.Display.QuanLyDangBai
                         if (table.DuyetTienDanap == 0)
                         {
                             pnKichHoat.Visible = true;
+                        }
+                        string sqls = "SELECT * from DauTuBatDongSan where  IDThanhVien=" + table.iuser_id + " order by NgayTao desc";
+                        List<DauTuBatDongSan> tabledt = db.ExecuteQuery<DauTuBatDongSan>(@"" + sqls + "").ToList();
+                        if (tabledt.Count > 0)
+                        {
+                            double tien = 0.0;
+                            for (int i = 0; i < tabledt.Count; i++)
+                            {
+                                tien += Convert.ToDouble(tabledt[i].TongTienDauTu.ToString());
+                            }
+                            lttongtiendautu.Text = AllQuery.MorePro.FormatMoney_VND(tien.ToString());
+                        }
+                        else
+                        {
+                            lttongtiendautu.Text = "0 đ";
                         }
                         hdCauHinhDuyetTuDong.Value = table.CauHinhDuyetDonTuDong.ToString();
                     }

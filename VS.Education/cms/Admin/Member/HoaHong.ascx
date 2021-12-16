@@ -55,6 +55,7 @@
                                             runat="server" OnSelectedIndexChanged="ddlkieu_SelectedIndexChanged">
                                             <asp:ListItem Value="0">Tất cả loại Hoa Hồng</asp:ListItem>
                                             <asp:ListItem Value="500">Hoa hồng Trực tiếp</asp:ListItem>
+                                             <asp:ListItem Value="504">Hoa hồng Trực tiếp</asp:ListItem>
                                             <asp:ListItem Value="501">Hoa hồng Văn phòng  - BĐS</asp:ListItem>
                                             <asp:ListItem Value="502">Hoa hồng Đồng hưởng - BĐS</asp:ListItem>
                                             <asp:ListItem Value="503">Hoa hồng Cấp bậc - BĐS</asp:ListItem>

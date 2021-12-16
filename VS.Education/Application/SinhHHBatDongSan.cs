@@ -66,11 +66,35 @@ public class SinhHHBatDongSan
                 {
                     double HoaHongF1 = Convert.ToDouble(Commond.Setting("HHTrucTiep"));
                     double TienHoaHongF2 = (TienDauVao * HoaHongF1) / 100;
-
-                    if (TrangThaiThuPhi(F2[0].iuser_id.ToString()) == true)
+                    if (HoaHongF1 != 0)
                     {
-                        TongTienDaChia += TienHoaHongF2;
-                        ChiaHoaHongBatDongSan.ThemHoaHong("0", "500", "Hoa hồng trực tiếp", IDThanhVien.Trim(), F2[0].GioiThieu.ToString(), HoaHongF1.ToString(), TienHoaHongF2.ToString(), IDDonHang.ToString(), "");
+                        if (TrangThaiThuPhi(F2[0].iuser_id.ToString()) == true)
+                        {
+                            TongTienDaChia += TienHoaHongF2;
+                            ChiaHoaHongBatDongSan.ThemHoaHong("0", "500", "Hoa hồng trực tiếp", IDThanhVien.Trim(), F2[0].GioiThieu.ToString(), HoaHongF1.ToString(), TienHoaHongF2.ToString(), IDDonHang.ToString(), "");
+                        }
+                    }
+                    //
+                    if (F2[0].GioiThieu.ToString() != "0")
+                    {
+                        List<Entity.users> FGianTiep = Susers.GET_BY_ID(F2[0].GioiThieu.ToString());
+                        if (FGianTiep.Count > 0)
+                        {
+                            if (FGianTiep[0].iuser_id.ToString() != "0")
+                            {
+                                double HoaHongGT = Convert.ToDouble(Commond.Setting("GianTiepBDS"));
+                                if (HoaHongGT != 0)
+                                {
+                                    double TienHoaHongGT = (TienHoaHongF2 * HoaHongGT) / 100;
+                                    if (TrangThaiThuPhi(F2[0].iuser_id.ToString()) == true)
+                                    {
+                                        TongTienDaChia += TienHoaHongGT;
+                                        ChiaHoaHongBatDongSan.ThemHoaHong("0", "504", "Hoa hồng gián tiếp", IDThanhVien.Trim(), FGianTiep[0].GioiThieu.ToString(), HoaHongGT.ToString(), TienHoaHongGT.ToString(), IDDonHang.ToString(), "");
+                                    }
+                                }
+                                //GianTiepBDS
+                            }
+                        }
                     }
                 }
             }
@@ -86,8 +110,11 @@ public class SinhHHBatDongSan
             double TienHoaHongVP = (TienDauVao * HoaHongVP) / 100;
             if (TrangThaiThuPhi(VanPhongChiNhanh()) == true)
             {
-                TongTienDaChia += TienHoaHongVP;
-                ChiaHoaHongBatDongSan.ThemHoaHong("0", "501", "Văn Phòng", IDThanhVien.Trim(), VanPhongChiNhanh(), HoaHongVP.ToString(), TienHoaHongVP.ToString(), IDDonHang.ToString(), "");
+                if (HoaHongVP != 0)
+                {
+                    TongTienDaChia += TienHoaHongVP;
+                    ChiaHoaHongBatDongSan.ThemHoaHong("0", "501", "Văn Phòng", IDThanhVien.Trim(), VanPhongChiNhanh(), HoaHongVP.ToString(), TienHoaHongVP.ToString(), IDDonHang.ToString(), "");
+                }
             }
         }
         #endregion
@@ -100,8 +127,11 @@ public class SinhHHBatDongSan
             double TienHoaHongDT = (TienDauVao * HoaHongDT) / 100;
             if (TrangThaiThuPhi(DongHuong()) == true)
             {
-                TongTienDaChia += TienHoaHongDT;
-                ChiaHoaHongBatDongSan.ThemHoaHong("0", "502", "Đồng hưởng", IDThanhVien.Trim(), DongHuong(), HoaHongDT.ToString(), TienHoaHongDT.ToString(), IDDonHang.ToString(), "");
+                if (HoaHongDT != 0)
+                {
+                    TongTienDaChia += TienHoaHongDT;
+                    ChiaHoaHongBatDongSan.ThemHoaHong("0", "502", "Đồng hưởng", IDThanhVien.Trim(), DongHuong(), HoaHongDT.ToString(), TienHoaHongDT.ToString(), IDDonHang.ToString(), "");
+                }
             }
         }
         #endregion

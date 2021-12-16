@@ -41,11 +41,37 @@ namespace VS.E_Commerce.cms.Display.QuanLyDangBai
             {
                 ServerInfoUtlitities utlitities = new ServerInfoUtlitities();
                 string extension = Path.GetExtension(Path.GetFileName(this.flAnh.PostedFile.FileName));
+                if (this.hdNganhang.Value.Length > 0)
+                {
+                    try
+                    {
+                        File.Delete(utlitities.APPL_PHYSICAL_PATH + "/Uploads/ChuyenTien/" + this.hdNganhang.Value);
+                    }
+                    catch (Exception)
+                    {
+                    }
+                }
+                string str = DateTime.Now.Ticks.ToString() + extension;
+                this.hdNganhang.Value = str;
+                try
+                {
+                    this.flAnh.PostedFile.SaveAs(utlitities.APPL_PHYSICAL_PATH + "/Uploads/ChuyenTien/" + str);
+                }
+                catch (Exception)
+                {
+                }
+            }
+
+
+            if (this.flchungminhthutruoc.HasFile)
+            {
+                ServerInfoUtlitities utlitities = new ServerInfoUtlitities();
+                string extension = Path.GetExtension(Path.GetFileName(this.flchungminhthutruoc.PostedFile.FileName));
                 if (this.hdchungminhthumattruoc.Value.Length > 0)
                 {
                     try
                     {
-                        File.Delete(utlitities.APPL_PHYSICAL_PATH + "/Uploads/ChuyenTien/" + this.hdchungminhthumattruoc.Value);
+                        File.Delete(utlitities.APPL_PHYSICAL_PATH + "/Uploads/ChungMinhThu/" + this.hdchungminhthumattruoc.Value);
                     }
                     catch (Exception)
                     {
@@ -55,15 +81,42 @@ namespace VS.E_Commerce.cms.Display.QuanLyDangBai
                 this.hdchungminhthumattruoc.Value = str;
                 try
                 {
-                    this.flAnh.PostedFile.SaveAs(utlitities.APPL_PHYSICAL_PATH + "/Uploads/ChuyenTien/" + str);
+                    this.flchungminhthutruoc.PostedFile.SaveAs(utlitities.APPL_PHYSICAL_PATH + "/Uploads/ChungMinhThu/" + str);
                 }
                 catch (Exception)
                 {
                 }
             }
+
+            if (this.flchungminhthusau.HasFile)
+            {
+                ServerInfoUtlitities utlitities = new ServerInfoUtlitities();
+                string extension = Path.GetExtension(Path.GetFileName(this.flchungminhthusau.PostedFile.FileName));
+                if (this.hdchungminhthumatsau.Value.Length > 0)
+                {
+                    try
+                    {
+                        File.Delete(utlitities.APPL_PHYSICAL_PATH + "/Uploads/ChungMinhThu/" + this.hdchungminhthumatsau.Value);
+                    }
+                    catch (Exception)
+                    {
+                    }
+                }
+                string str = DateTime.Now.Ticks.ToString() + extension;
+                this.hdchungminhthumatsau.Value = str;
+                try
+                {
+                    this.flchungminhthusau.PostedFile.SaveAs(utlitities.APPL_PHYSICAL_PATH + "/Uploads/ChungMinhThu/" + str);
+                }
+                catch (Exception)
+                {
+                }
+            }
+
+
             DauTuBatDongSan obj = new DauTuBatDongSan();
             obj.IDThanhVien = int.Parse(hdid.Value);
-            obj.TongTienDauTu = txtsotiencanrut.Text.Replace(",","").Replace(".","");
+            obj.TongTienDauTu = txtsotiencanrut.Text.Replace(",", "").Replace(".", "");
             obj.HoVaTen = txthovaten.Text;
             obj.DiaChi = DiaChi.Text;
             obj.DienThoai = DienThoai.Text;
@@ -71,12 +124,16 @@ namespace VS.E_Commerce.cms.Display.QuanLyDangBai
             obj.TenNganHang = txttennganhang.Text;
             obj.SoTaiKHoan = txtsotaikhoan.Text;
             obj.ChiNhanh = txtchinhanh.Text;
-            obj.Anh = hdchungminhthumattruoc.Value;
+            obj.Anh = hdNganhang.Value;
             obj.GhiChu = txtghichu.Text;
             obj.TrangThai = 0;
             obj.NgayTao = DateTime.Now;
             obj.NgayDuyet = "";
             obj.NguoiDuyet = "";
+
+            obj.CMNDTruoc = hdchungminhthumattruoc.Value;
+            obj.CMNDSau = hdchungminhthumatsau.Value;
+
             db.DauTuBatDongSans.InsertOnSubmit(obj);
             db.SubmitChanges();
 

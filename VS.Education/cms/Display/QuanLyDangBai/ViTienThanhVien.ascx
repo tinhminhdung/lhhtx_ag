@@ -147,7 +147,29 @@
                     </div>
                 </div>
             </div>
-
+             <div class="col-xs-6 col-sm-12 col-md-4 vithanhtoan">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col mt-0">
+                                <h5 class="card-title">Tiền đầu tư</h5>
+                            </div>
+                            <div class="col-auto">
+                                <div class="avatar">
+                                    <div class="avatar-title rounded-circle bg-primary-dark">
+                                        <i class="fa fa-credit-card" style="color: #fff"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <h1 class="display-5 mt-1 mb-3">
+                            <asp:Literal ID="lttongtiendautu" runat="server"></asp:Literal></h1>
+                        <div class="mb-0">
+                        Tổng số tiền đầu tư
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             <asp:Panel ID="Panel2" Visible="false" runat="server">
                 <div class="col-xs-6 col-sm-12 col-md-4 vithanhtoan">

@@ -1054,6 +1054,8 @@
       <Column Name="NgayTao" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
       <Column Name="NgayDuyet" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
       <Column Name="NguoiDuyet" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="CMNDTruoc" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="CMNDSau" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
     </Type>
   </Table>
   <Function Name="dbo.S_Trunggian_Delete" Method="S_Trunggian_Delete">

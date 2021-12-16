@@ -57,6 +57,14 @@
                                             <asp:TextBox ID="HHTrucTiep" runat="server" Width="133px" CssClass="txt">0</asp:TextBox>
                                         </td>
                                     </tr>
+                                     <tr>
+                                        <td style="padding-left: 15px; width: 294px;">Hoa hồng gián tiếp
+                                        </td>
+                                        <td></td>
+                                        <td>
+                                            <asp:TextBox ID="GianTiepBDS" runat="server" Width="133px" CssClass="txt">0</asp:TextBox>
+                                        </td>
+                                    </tr>
                                     <tr>
                                         <td style="padding-left: 15px; width: 294px;">Văn phòng chi nhánh
                                         </td>

@@ -66,7 +66,7 @@ namespace VS.E_Commerce.cms.Display.QuanLyDangBai
 
             string sql = "";
             sql += " and IDThanhVien=" + hdid.Value + "";
-            string sqls = "SELECT * from DauTuBatDongSan where 1=1 " + sql + "  order by NgayTao desc";
+            string sqls = "SELECT * from DauTuBatDongSan where 1=1 " + sql + " and TrangThai=1 order by NgayTao desc";
             List<DauTuBatDongSan> table = db.ExecuteQuery<DauTuBatDongSan>(@"" + sqls + "").ToList();
             if (table.Count > 0)
             {

@@ -356,10 +356,10 @@
         <elementListCompartment Id="e99a73b1-77ef-4047-947a-9f47d1c33d4e" absoluteBounds="6.015, 1.085, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <classShape Id="da70e644-0bcc-455c-9b87-5d8df4a97eb0" absoluteBounds="4.75, 0.625, 2, 3.8862125651041666">
+    <classShape Id="1d93d1ef-b48e-4940-8615-429ae4d37d66" absoluteBounds="4.75, 0.5, 2, 4.2708154296875">
       <DataClassMoniker Name="/DatalinqDataContext/DauTuBatDongSan" />
       <nestedChildShapes>
-        <elementListCompartment Id="53674af6-0760-4804-95af-0a719450b902" absoluteBounds="4.765, 1.085, 1.9700000000000002, 3.3262125651041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="15e6c2d2-e17f-4f09-98bd-9306fc7dbf78" absoluteBounds="4.765, 0.96, 1.9700000000000002, 3.7108154296875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
   </nestedChildShapes>

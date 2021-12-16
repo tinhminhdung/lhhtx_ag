@@ -84,7 +84,7 @@
                             <ItemTemplate>
                                 <tr>
                                     <td align="left" style="padding-left: 10px; line-height: 22px; color: #646465" width="350px">
-                                        <%#MoreAll.MoreImage.ChuyenTien(Eval("Anh").ToString())%>
+                                        <%#MoreAll.MoreImage.ChuyenTien(Eval("Anh").ToString())%><%#MoreAll.MoreImage.ImagesCMT(Eval("CMNDTruoc").ToString())%><%#MoreAll.MoreImage.ImagesCMT(Eval("CMNDSau").ToString())%>
                                         <br />
                                         Họ và tên:<span style="color: #444444; padding-left: 27px; font-weight: bold"> <%#ShowtThanhVien(DataBinder.Eval(Container.DataItem,"IDThanhVien").ToString())%></span><br />
                                         Địa chỉ:<span style="color: #444444; padding-left: 40px; font-weight: bold"><%#DataBinder.Eval(Container.DataItem, "DiaChi")%></span><br />

@@ -1336,6 +1336,29 @@ namespace Framework
         }
         #endregion
 
+
+        public List<Entity.users> DETAIL(string vuserun, string vuserpwd, string istatus)
+        {
+            SqlConnection conn = Database.Connection();
+            SqlCommand comm = new SqlCommand("S_Member_login", conn);
+            comm.CommandType = CommandType.StoredProcedure;
+            comm.Parameters.Add(new SqlParameter("@vuserun", vuserun));
+            comm.Parameters.Add(new SqlParameter("@vuserpwd", vuserpwd));
+            comm.Parameters.Add(new SqlParameter("@istatus", istatus));
+            try
+            {
+                return Database.Bind_List_Reader<Entity.users>(comm);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                conn.Close();
+            }
+        }
+
         #region Name Text
         public List<users> Name_Text(string Name_Text)
         {

@@ -445,12 +445,12 @@ public class AllQuery
                 }
                 else
                 {
-                    return "";
+                    return "0 " + Dongiapro();
                 }
             }
             catch (Exception)
             {
-                return "";
+                return "0 " + Dongiapro();
             }
         }
         public static string FormatMoney_TV(string money)

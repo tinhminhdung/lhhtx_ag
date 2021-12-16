@@ -124,7 +124,10 @@ namespace VS.E_Commerce.cms.Admin.Member
                     {
                         this.NguoiBan.Text = its.Value;
                     }
-
+                    if (its.Properties == "GianTiepBDS")
+                    {
+                        this.GianTiepBDS.Text = its.Value;
+                    }
                 }
             }
 
@@ -238,6 +241,10 @@ namespace VS.E_Commerce.cms.Admin.Member
                 obj.Value = NguoiBan.Text;
                 SSetting.UPDATE(obj);
 
+                obj.Lang = lang;
+                obj.Properties = "GianTiepBDS";
+                obj.Value = GianTiepBDS.Text;
+                SSetting.UPDATE(obj);
 
                 this.binddata();
                 this.ltmsg.Text = "Thiết lập th\x00e0nh c\x00f4ng!";

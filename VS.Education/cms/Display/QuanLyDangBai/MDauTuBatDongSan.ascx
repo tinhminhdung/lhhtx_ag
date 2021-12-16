@@ -16,7 +16,7 @@
                 </div>
                 <div>
                     <asp:TextBox ID="txtsotiencanrut" placeholder="Nhập số tiền cần đầu tư" class="Rutien" ValidationGroup="Rutien" runat="server"></asp:TextBox>
-                    <asp:RequiredFieldValidator SetFocusOnError="true" ID="RequiredFieldValidator7" runat="server" ValidationGroup="Rutien" ControlToValidate="txtsotiencanrut" ErrorMessage="*"></asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator SetFocusOnError="true" ID="RequiredFieldValidator7" runat="server" ValidationGroup="Rutien" ControlToValidate="txtsotiencanrut" ErrorMessage=" (*Bắt buộc)"></asp:RequiredFieldValidator>
                     <cc1:FilteredTextBoxExtender ID="FilteredTextBoxExtender1" runat="server" FilterType="Numbers" TargetControlID="txtsotiencanrut"></cc1:FilteredTextBoxExtender>
                 </div>
             </div>
@@ -26,7 +26,7 @@
                 </div>
                 <div>
                     <asp:TextBox ID="txthovaten" class="Rutien" ValidationGroup="Rutien" runat="server"></asp:TextBox>
-                    <asp:RequiredFieldValidator SetFocusOnError="true" ID="RequiredFieldValidator4" runat="server" ValidationGroup="Rutien" ControlToValidate="txthovaten" ErrorMessage="*"></asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator SetFocusOnError="true" ID="RequiredFieldValidator4" runat="server" ValidationGroup="Rutien" ControlToValidate="txthovaten" ErrorMessage=" (*Bắt buộc)"></asp:RequiredFieldValidator>
                 </div>
             </div>
             <div class="tbinput">
@@ -35,7 +35,7 @@
                 </div>
                 <div>
                     <asp:TextBox ID="DiaChi" class="Rutien" ValidationGroup="Rutien" runat="server"></asp:TextBox>
-                    <asp:RequiredFieldValidator SetFocusOnError="true" ID="RequiredFieldValidator2" runat="server" ValidationGroup="Rutien" ControlToValidate="DiaChi" ErrorMessage="*"></asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator SetFocusOnError="true" ID="RequiredFieldValidator2" runat="server" ValidationGroup="Rutien" ControlToValidate="DiaChi" ErrorMessage=" (*Bắt buộc)"></asp:RequiredFieldValidator>
                 </div>
             </div>
             <div class="tbinput">
@@ -44,7 +44,7 @@
                 </div>
                 <div>
                     <asp:TextBox ID="DienThoai" class="Rutien" ValidationGroup="Rutien" runat="server"></asp:TextBox>
-                    <asp:RequiredFieldValidator SetFocusOnError="true" ID="RequiredFieldValidator6" runat="server" ValidationGroup="Rutien" ControlToValidate="DienThoai" ErrorMessage="*"></asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator SetFocusOnError="true" ID="RequiredFieldValidator6" runat="server" ValidationGroup="Rutien" ControlToValidate="DienThoai" ErrorMessage=" (*Bắt buộc)"></asp:RequiredFieldValidator>
                 </div>
             </div>
             <div class="tbinput">
@@ -53,7 +53,7 @@
                 </div>
                 <div>
                     <asp:TextBox ID="CMND" class="Rutien" ValidationGroup="Rutien" runat="server"></asp:TextBox>
-                    <asp:RequiredFieldValidator SetFocusOnError="true" ID="RequiredFieldValidator8" runat="server" ValidationGroup="Rutien" ControlToValidate="CMND" ErrorMessage="*"></asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator SetFocusOnError="true" ID="RequiredFieldValidator8" runat="server" ValidationGroup="Rutien" ControlToValidate="CMND" ErrorMessage=" (*Bắt buộc)"></asp:RequiredFieldValidator>
                 </div>
             </div>
             <div class="tbinput">
@@ -62,7 +62,7 @@
                 </div>
                 <div>
                     <asp:TextBox ID="txttennganhang" class="Rutien" ValidationGroup="Rutien" runat="server"></asp:TextBox>
-                    <asp:RequiredFieldValidator SetFocusOnError="true" ID="RequiredFieldValidator3" runat="server" ValidationGroup="Rutien" ControlToValidate="txttennganhang" ErrorMessage="*"></asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator SetFocusOnError="true" ID="RequiredFieldValidator3" runat="server" ValidationGroup="Rutien" ControlToValidate="txttennganhang" ErrorMessage=" (*Bắt buộc)"></asp:RequiredFieldValidator>
                 </div>
             </div>
             <div class="tbinput">
@@ -71,7 +71,7 @@
                 </div>
                 <div>
                     <asp:TextBox ID="txtsotaikhoan" class="Rutien" ValidationGroup="Rutien" runat="server"></asp:TextBox>
-                    <asp:RequiredFieldValidator SetFocusOnError="true" ID="RequiredFieldValidator1" runat="server" ValidationGroup="Rutien" ControlToValidate="txtsotaikhoan" ErrorMessage="*"></asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator SetFocusOnError="true" ID="RequiredFieldValidator1" runat="server" ValidationGroup="Rutien" ControlToValidate="txtsotaikhoan" ErrorMessage=" (*Bắt buộc)"></asp:RequiredFieldValidator>
                 </div>
             </div>
             <div class="tbinput">
@@ -89,9 +89,29 @@
                 <div>
                     <asp:FileUpload ID="flAnh" runat="server" CssClass="contact3 anhdaidien" ValidationGroup="Rutien" Height="24px" Width="250px" /><br />
                 </div>
-                <asp:RequiredFieldValidator SetFocusOnError="true" ID="RequiredFieldValidator5" runat="server" ValidationGroup="Rutien" ControlToValidate="flAnh" ErrorMessage="*"></asp:RequiredFieldValidator>
+                <asp:RequiredFieldValidator SetFocusOnError="true" ID="RequiredFieldValidator5" runat="server" ValidationGroup="Rutien" ControlToValidate="flAnh" ErrorMessage=" (*Bắt buộc)"></asp:RequiredFieldValidator>
             </div>
 
+            <div class="tbinput">
+                <div class="labelll">
+                   Ảnh chứng minh thư <span style="font-size: 12px; color: #ed1c24">(Mặt trước)</span>
+                </div>
+                <div>
+                    <asp:FileUpload ID="flchungminhthutruoc" runat="server" CssClass="contact3 anhdaidien" Height="24px" Width="250px" /><br />
+                </div>
+                <asp:RequiredFieldValidator SetFocusOnError="true" ID="RequiredFieldValidator9" runat="server" ValidationGroup="Rutien" ControlToValidate="flchungminhthutruoc" ErrorMessage=" (*Bắt buộc)"></asp:RequiredFieldValidator>
+            </div>
+    
+            <div class="tbinput">
+                <div class="labelll">
+                   Ảnh chứng minh thư <span style="font-size: 12px; color: #ed1c24">(Mặt sau)</span>
+                </div>
+                <div>
+                    <asp:FileUpload ID="flchungminhthusau" runat="server" CssClass="contact3 anhdaidien" Height="24px" Width="250px"  /><br />
+                </div>
+                <asp:RequiredFieldValidator SetFocusOnError="true" ID="RequiredFieldValidator10" runat="server" ValidationGroup="Rutien" ControlToValidate="flchungminhthusau" ErrorMessage=" (*Bắt buộc)"></asp:RequiredFieldValidator>
+            </div>
+                   
             <div class="tbinput">
                 <div class="labelll">
                     Ghi chú:
@@ -112,7 +132,10 @@
     </div>
 </div>
 <asp:HiddenField ID="hdid" runat="server" />
-<asp:HiddenField ID="hdchungminhthumattruoc" runat="server" />
+<asp:HiddenField ID="hdNganhang" runat="server" />
+
+           <asp:HiddenField ID="hdchungminhthumattruoc" runat="server" />
+                <asp:HiddenField ID="hdchungminhthumatsau" runat="server" />
 <%--<script>
     $("#<%=txtsotiencanrut.ClientID%>").on('keyup', function () {
         var n = parseInt($(this).val().replace(/\D/g, ''), 10);

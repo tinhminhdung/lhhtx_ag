@@ -376,6 +376,26 @@ namespace VS.E_Commerce.cms.Display.QuanLyDangBai
             {
                 return "Hoa hồng  - Danh số đồng hưởng";
             }
+            else if (enable.Trim().Equals("500"))
+            {
+                return "Hoa hồng Trực tiếp BĐS";
+            }
+            else if (enable.Trim().Equals("504"))
+            {
+                return "Hoa hồng gián tiếp BĐS";
+            }
+            else if (enable.Trim().Equals("501"))
+            {
+                return "Hoa hồng Văn phòng  - BĐS";
+            }
+            else if (enable.Trim().Equals("502"))
+            {
+                return "Hoa hồng Đồng hưởng - BĐS";
+            }
+            else if (enable.Trim().Equals("503"))
+            {
+                return "Hoa hồng Cấp bậc - BĐS";
+            }
             return "";
         }
         protected string ShowPro(string id)
