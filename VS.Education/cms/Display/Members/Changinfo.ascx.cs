@@ -412,7 +412,7 @@ namespace VS.E_Commerce.cms.Display.Members
                 }
                 user data = db.users.SingleOrDefault(p => p.iuser_id == int.Parse(hdid.Value));
                 data.iuser_id = int.Parse(hdid.Value);
-                data.vuserun = MoreAll.MoreAll.GetCookies("Members").ToString();
+                data.vuserun = this.txtphone.Text;
                 data.vfname = this.txtname.Text;
                 data.vlname = this.txtname.Text;
                 data.igender = 0;

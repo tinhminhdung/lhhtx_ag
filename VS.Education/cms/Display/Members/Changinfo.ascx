@@ -129,10 +129,10 @@
                             <asp:TextBox CssClass='contact3' ID="txtemail" Enabled="false"  runat="server" Width="358px"></asp:TextBox>
                         </div>
                     </div>
-                    <div class="gachke" style=" display:none">
+                    <div class="gachke" >
                         <div class="tenthanhvien"><%=label("l_phone")%></div>
                         <div class="Phone">
-                            <asp:TextBox CssClass='contact3' ID="txtphone" Enabled="false"  ValidationGroup="GInfo" runat="server" Width="358px"></asp:TextBox>
+                            <asp:TextBox CssClass='contact3' ID="txtphone"  ValidationGroup="GInfo" runat="server" Width="358px"></asp:TextBox>
                         </div>
                         <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ControlToValidate="txtphone" Display="Dynamic" ErrorMessage="*" SetFocusOnError="True" ValidationGroup="GInfo"></asp:RequiredFieldValidator>
                         <asp:RegularExpressionValidator ID="RequiredFieldValidator6" runat="server" ControlToValidate="txtphone" Display="Dynamic" ErrorMessage="*" SetFocusOnError="True" ValidationExpression="\d*" ValidationGroup="GInfo"></asp:RegularExpressionValidator>
