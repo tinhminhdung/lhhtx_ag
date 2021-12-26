@@ -215,7 +215,7 @@ namespace VS.E_Commerce.cms.Display
             //sql = sql + " and  Status=0 ";
             //sql = sql + " order by Create_Date desc";
             //List<LCart> dt = db.ExecuteQuery<LCart>(@"" + sql + "").ToList();
-            List<CartDetail> dt = db.ExecuteQuery<CartDetail>(@"select * from CartDetail where IDNhaCungCap=" + id + " and TrangThaiNhaCungCap=3").ToList();
+            List<CartDetail> dt = db.ExecuteQuery<CartDetail>(@"select * from CartDetail where IDNhaCungCap=" + id + " and TrangThaiNguoiMuaHang=3").ToList();
             if (dt.Count > 0)
             {
                 return dt.Count.ToString();

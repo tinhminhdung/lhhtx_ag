@@ -58,15 +58,6 @@ namespace VS.E_Commerce.cms.Display.Products {
         protected global::System.Web.UI.WebControls.Literal ltprice;
         
         /// <summary>
-        /// ltthuongthanhvien control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal ltthuongthanhvien;
-        
-        /// <summary>
         /// ltgiadaily control.
         /// </summary>
         /// <remarks>
@@ -74,15 +65,6 @@ namespace VS.E_Commerce.cms.Display.Products {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Literal ltgiadaily;
-        
-        /// <summary>
-        /// ltgiacuahang control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal ltgiacuahang;
         
         /// <summary>
         /// ltcode control.

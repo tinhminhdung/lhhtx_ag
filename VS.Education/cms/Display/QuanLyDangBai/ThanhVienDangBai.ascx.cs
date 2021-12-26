@@ -323,7 +323,7 @@ namespace VS.E_Commerce.cms.Display.QuanLyDangBai
                             obj.Equals = 0;
                             obj.Quantity = 1;// int.Parse(txtquantity.Text.Trim());
                             obj.Price = txtprice.Text;
-                            obj.OldPrice = txtprice.Text;
+                            obj.OldPrice = txtgiacongtynhapvao.Text;
                             obj.Views = 0;
                             obj.Chekdata = Chek;
                             obj.Create_Date = dcreatedate;
@@ -474,7 +474,7 @@ namespace VS.E_Commerce.cms.Display.QuanLyDangBai
                             obj.Equals = 0;
                             obj.Quantity = 1;// int.Parse(txtquantity.Text.Trim());
                             obj.Price = txtprice.Text;
-                            obj.OldPrice = txtprice.Text;
+                            obj.OldPrice = txtgiacongtynhapvao.Text;
                             obj.Views = 0;
                             obj.Chekdata = Chek;
                             obj.Create_Date = dcreatedate;
@@ -598,13 +598,13 @@ namespace VS.E_Commerce.cms.Display.QuanLyDangBai
                         // ltimg.Text = MoreImage.Image(dtdetail[0].ImagesSmall.ToString());
                         this.txtquantity.Text = dtdetail[0].Quantity.ToString();
                         this.txtprice.Text = dtdetail[0].Price.ToString();
-                        // txtoldprice.Text = dtdetail[0].OldPrice.ToString();
+
                         txtRewriteUrl.Text = dtdetail[0].TangName.ToString();
                         txtAlt.Text = dtdetail[0].Alt;
                         txttrongluong.Text = dtdetail[0].TrongLuong;
                        // txtGiaThanhVien.Text = dtdetail[0].GiaThanhVien;
                         //  txtdiemmuahang.Text = dtdetail[0].DiemMuaHang.ToString();
-                        txtgiacongtynhapvao.Text = dtdetail[0].Giacongtynhapvao.ToString();
+                        txtgiacongtynhapvao.Text = dtdetail[0].OldPrice.ToString();
 
                       //  txtprice.Text = dtdetail[0].GiaCuaHang.ToString();
 

@@ -598,6 +598,24 @@ namespace VS.E_Commerce.cms.Admin.Products {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator10;
         
         /// <summary>
+        /// txtoldprice control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtoldprice;
+        
+        /// <summary>
+        /// FilteredTextBoxExtender2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::AjaxControlToolkit.FilteredTextBoxExtender FilteredTextBoxExtender2;
+        
+        /// <summary>
         /// txtprice control.
         /// </summary>
         /// <remarks>
@@ -625,15 +643,6 @@ namespace VS.E_Commerce.cms.Admin.Products {
         protected global::System.Web.UI.WebControls.TextBox txtGiaThanhVien;
         
         /// <summary>
-        /// FilteredTextBoxExtender3 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::AjaxControlToolkit.FilteredTextBoxExtender FilteredTextBoxExtender3;
-        
-        /// <summary>
         /// txtthanhvienFree control.
         /// </summary>
         /// <remarks>
@@ -643,15 +652,6 @@ namespace VS.E_Commerce.cms.Admin.Products {
         protected global::System.Web.UI.WebControls.TextBox txtthanhvienFree;
         
         /// <summary>
-        /// FilteredTextBoxExtender5 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::AjaxControlToolkit.FilteredTextBoxExtender FilteredTextBoxExtender5;
-        
-        /// <summary>
         /// txtgiachietkhaudaily control.
         /// </summary>
         /// <remarks>
@@ -659,15 +659,6 @@ namespace VS.E_Commerce.cms.Admin.Products {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtgiachietkhaudaily;
-        
-        /// <summary>
-        /// FilteredTextBoxExtender6 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::AjaxControlToolkit.FilteredTextBoxExtender FilteredTextBoxExtender6;
         
         /// <summary>
         /// txtgiacongtynhapvao control.
@@ -695,33 +686,6 @@ namespace VS.E_Commerce.cms.Admin.Products {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtgiacuahang;
-        
-        /// <summary>
-        /// FilteredTextBoxExtender7 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::AjaxControlToolkit.FilteredTextBoxExtender FilteredTextBoxExtender7;
-        
-        /// <summary>
-        /// txtoldprice control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtoldprice;
-        
-        /// <summary>
-        /// FilteredTextBoxExtender2 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::AjaxControlToolkit.FilteredTextBoxExtender FilteredTextBoxExtender2;
         
         /// <summary>
         /// txttitleseo control.

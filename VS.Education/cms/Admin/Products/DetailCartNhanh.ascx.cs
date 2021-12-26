@@ -591,7 +591,7 @@ namespace VS.E_Commerce.cms.Admin.Products
                         {
                             //Gửi email
                             string Noidung = "";
-                            Noidung += "<b>Duyệt nhanh đơn hàng thành công. Đơn hàng đã được chấp nhận và người mua đã nhận được hàng.! </b><br /> Đơn hàng <a href=\"http://aggroup365.com/account/orders/" + dtcart[0].ID_Cart.ToString() + "\" target=\"_blank\"><b>#" + dtcart[0].ID_Cart.ToString() + "</b></a> .<br />";
+                            Noidung += "<b>Duyệt nhanh đơn hàng thành công. Đơn hàng đã được chấp nhận và người mua đã nhận được hàng.! </b><br /> Đơn hàng <a href=\"http://lienhiephoptac.vn/account/orders/" + dtcart[0].ID_Cart.ToString() + "\" target=\"_blank\"><b>#" + dtcart[0].ID_Cart.ToString() + "</b></a> .<br />";
                             Noidung += "<br />";
                             for (int k = 0; k < dtcart.Count; k++)
                             {

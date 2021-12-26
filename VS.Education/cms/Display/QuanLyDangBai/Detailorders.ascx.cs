@@ -343,7 +343,7 @@ namespace VS.E_Commerce.cms.Display.QuanLyDangBai
                             string Noidung = "";
                             Noidung += "Kính gửi nhà cung cấp: <b>" + ShowNameNhaCungCap(ds[0].IDNhaCungCap.ToString()) + "</b><br />";
                             // 
-                            Noidung += "<b> Chúc mừng đơn hàng của bạn đã được người mua chấp nhận thành công, và người mua đã nhận được hàng. ! </b><br /> Đơn hàng <a href=\"http://aggroup365.com/account/orders/" + ds[0].ID_Cart.ToString() + "\" target=\"_blank\"><b>#" + ds[0].ID_Cart.ToString() + "</b></a> . Vui lòng xem nội dung ở phía dưới.<br />";
+                            Noidung += "<b> Chúc mừng đơn hàng của bạn đã được người mua chấp nhận thành công, và người mua đã nhận được hàng. ! </b><br /> Đơn hàng <a href=\"http://lienhiephoptac.vn/account/orders/" + ds[0].ID_Cart.ToString() + "\" target=\"_blank\"><b>#" + ds[0].ID_Cart.ToString() + "</b></a> . Vui lòng xem nội dung ở phía dưới.<br />";
                             Noidung += "<br />";
 
                             Noidung += "<b>Tên sản phẩm :  </b>" + Commond.ShowPro(ds[0].ipid.ToString()) + "<br />";
@@ -393,7 +393,7 @@ namespace VS.E_Commerce.cms.Display.QuanLyDangBai
                     //         string Emails = dc[0].vemail.ToString();
                     //         string Noidung = "";
                     //         Noidung += "Kính gửi nhà cung cấp: <b>" + ShowNameNhaCungCap(item[0].IDNhaCungCap.ToString()) + "</b><br />";
-                    //         Noidung += "<b>Chúng tôi rất xin lỗi! </b><br /> Đơn hàng <a href=\"http://aggroup365.com/account/orders/" + item[0].ID_Cart.ToString() + "\" target=\"_blank\"><b>#" + item[0].ID_Cart.ToString() + "</b></a> của bạn đã trả lại. Vui lòng xem nội dung ở phía dưới.<br />";
+                    //         Noidung += "<b>Chúng tôi rất xin lỗi! </b><br /> Đơn hàng <a href=\"http://lienhiephoptac.vn/account/orders/" + item[0].ID_Cart.ToString() + "\" target=\"_blank\"><b>#" + item[0].ID_Cart.ToString() + "</b></a> của bạn đã trả lại. Vui lòng xem nội dung ở phía dưới.<br />";
                     //         Noidung += "<br />";
 
                     //         Noidung += "<b>Tên sản phẩm :  </b>" + Commond.ShowPro(item[0].ipid.ToString()) + "<br />";
@@ -499,7 +499,7 @@ namespace VS.E_Commerce.cms.Display.QuanLyDangBai
                                 //Noidung += " <b>Website</b>: <span style=\"color:red\">" + MoreAll.MoreAll.RequestUrl(Request.Url.Authority) + "</span><br /><br />";
 
                                 Noidung += "Kính gửi nhà cung cấp: <b>" + ShowNameNhaCungCap(dt[0].IDNhaCungCap.ToString()) + "</b><br />";
-                                Noidung += "<b>Chúng tôi rất xin lỗi! </b><br /> Đơn hàng <a href=\"http://aggroup365.com/account/orders/" + dt[0].ID_Cart.ToString() + "\" target=\"_blank\"><b>#" + dt[0].ID_Cart.ToString() + "</b></a> của bạn đã bị hủy do người mua đã hủy mua sản phẩm này.<br />";
+                                Noidung += "<b>Chúng tôi rất xin lỗi! </b><br /> Đơn hàng <a href=\"http://lienhiephoptac.vn/account/orders/" + dt[0].ID_Cart.ToString() + "\" target=\"_blank\"><b>#" + dt[0].ID_Cart.ToString() + "</b></a> của bạn đã bị hủy do người mua đã hủy mua sản phẩm này.<br />";
                                 Noidung += "<br />";
                                 Noidung += "<b>Tên sản phẩm :  </b>" + Commond.ShowPro(dt[0].ipid.ToString()) + "<br />";
                                 Noidung += "<b>Số lượng sản phẩm :  </b>" + dt[0].Quantity.ToString() + "<br />";
@@ -4445,7 +4445,7 @@ namespace VS.E_Commerce.cms.Display.QuanLyDangBai
                     string Emails = dc[0].vemail.ToString();
                     string Noidung = "";
                     Noidung += "Kính gửi nhà cung cấp: <b>" + ShowNameNhaCungCap(item[0].IDNhaCungCap.ToString()) + "</b><br />";
-                    Noidung += "<b>Chúng tôi rất xin lỗi! </b><br /> Đơn hàng <a href=\"http://aggroup365.com/account/orders/" + item[0].ID_Cart.ToString() + "\" target=\"_blank\"><b>#" + item[0].ID_Cart.ToString() + "</b></a> của bạn đã trả lại. Vui lòng xem nội dung ở phía dưới.<br />";
+                    Noidung += "<b>Chúng tôi rất xin lỗi! </b><br /> Đơn hàng <a href=\"http://lienhiephoptac.vn/account/orders/" + item[0].ID_Cart.ToString() + "\" target=\"_blank\"><b>#" + item[0].ID_Cart.ToString() + "</b></a> của bạn đã trả lại. Vui lòng xem nội dung ở phía dưới.<br />";
                     Noidung += "<br />";
 
                     Noidung += "<b>Tên sản phẩm :  </b>" + Commond.ShowPro(item[0].ipid.ToString()) + "<br />";

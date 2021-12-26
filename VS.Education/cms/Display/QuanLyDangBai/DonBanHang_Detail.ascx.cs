@@ -272,30 +272,7 @@ namespace VS.E_Commerce.cms.Display.QuanLyDangBai
             return "";
         }
 
-        //protected void ddltrangthai_SelectedIndexChanged(object sender, EventArgs e)
-        //{
-        //    DropDownList ddltrangthai = (DropDownList)sender;
-        //    var id = (HiddenField)ddltrangthai.FindControl("hdids");
-        //    List<Entity.CartDetail> list = SCartDetail.Name_Text("select * from CartDetail where id=" + id.Value + "  ");
-        //    if (list.Count > 0)
-        //    {
-        //        SCartDetail.Name_Text("UPDATE [CartDetail] SET [TrangThaiNhaCungCap] = " + ddltrangthai.SelectedValue + " WHERE ID =" + id.Value + "");
-        //    }
-        //    ShowProducts();
-        //    ltthongbao.Text = " <span style=\"color:red; font-weight:bold\">Cập nhật trạng thái đơn hàng thành công</span>";
-        //}
-        //protected void rpcartdetail_ItemDataBound(object sender, RepeaterItemEventArgs e)
-        //{
-        //    if (e.Item.ItemType == ListItemType.Item || e.Item.ItemType == ListItemType.AlternatingItem)
-        //    {
-        //        DropDownList ddltrangthai = (e.Item.FindControl("ddltrangthai") as DropDownList);
-        //        HiddenField id = (e.Item.FindControl("hdStatus") as HiddenField);
-        //        if (id.Value != "")
-        //        {
-        //            ddltrangthai.SelectedValue = id.Value;
-        //        }
-        //    }
-        //}
+        
         protected bool EnableLock(string id)
         {
             List<Carts> table2 = SCarts.Carts_GetById(id.ToString());
@@ -333,7 +310,7 @@ namespace VS.E_Commerce.cms.Display.QuanLyDangBai
             // 4: Bị người mua trả lại hàng
             // 5: Hoàn tiền
             // 6: Khiếu kiện gửi admin
-            if (Enable.ToString() == "4")
+            if (Enable.ToString() == "2")
             {
                 return true;
             }
@@ -347,11 +324,11 @@ namespace VS.E_Commerce.cms.Display.QuanLyDangBai
             // 4: Bị người mua trả lại hàng
             // 5: Hoàn tiền
             // 6: Khiếu kiện gửi admin
-            if (Enable.ToString() == "8" || Enable.ToString() == "7" || Enable.ToString() == "1" || Enable.ToString() == "6" || Enable.ToString() == "5" || Enable.ToString() == "2" || Enable.ToString() == "4")
+            if (Enable.ToString() == "3")
             {
-                return false;
+                return true;
             }
-            return true;
+            return false;
         }
         public static string EnableLock_DuyetHangstyle(string Enable)
         {
@@ -422,344 +399,114 @@ namespace VS.E_Commerce.cms.Display.QuanLyDangBai
 
             switch (e.CommandName)
             {
-                #region DuyetDon code Cũ đã bỏ
-                /// đây là code cũ , hiện đang dùng code mới ở sự kiện btduyetdon_Click
-                //////case "DuyetDon":
-                //////    //// duyệt đơn kiểu Cũ ,Không có phần nội dung thông báo ngày chuyển hàng
-                //////    // hiện tạm hàm này ko dùng đến 
-                //////    List<CartDetail> table = db.CartDetails.Where(s => s.ID == int.Parse(str2)).ToList();
-                //////    if (table.Count > 0)
-                //////    {
-                //////        // Trừ tiền người mua hàng
-                //////        // lưu vào bảng tạm
-                //////        #region Tính tiền trừ vào bảng User TongTienCoinDuocCap
-                //////        user iiit = db.users.SingleOrDefault(p => p.iuser_id == int.Parse(table[0].IDThanhVien.ToString()));// nguoi mua hang
-                //////        if (iiit != null)
-                //////        {
-                //////            double ViHienTai = Convert.ToDouble(iiit.TongTienCoinDuocCap);
-                //////            double ViAFF = Convert.ToDouble(iiit.ViMuaHangAFF);// lấy hoa hồng quản lý (AFF) đi mua hàng
-                //////            double TongVi = 0;
-                //////            int LayTienTuViNao = 0;
-                //////            // 0 : Vi AFF
-                //////            // 1: Ví Thương mại
-
-                //////            // Quy đổi VND ra số Coin
-                //////            double SoTienPhaiThanhToanCoin = Convert.ToDouble(table[0].Money.ToString());
-                //////            double SoTienCoin = (SoTienPhaiThanhToanCoin) / 1000;
-                //////            if (ViAFF >= SoTienCoin)
-                //////            {
-                //////                TongVi = ViAFF;
-                //////                LayTienTuViNao = 0;
-                //////            }
-                //////            else if (ViHienTai >= SoTienCoin)
-                //////            {
-                //////                TongVi = ViHienTai;
-                //////                LayTienTuViNao = 1;
-                //////            }
-
-                //////            if (TongVi >= SoTienCoin)
-                //////            {
-                //////                // Tạm thời trừ tiền và lưu vào bảng tạm
-                //////                double ConglaiCoin = ((TongVi) - (SoTienCoin));
-                //////                if (LayTienTuViNao == 0)// AFF
-                //////                {
-                //////                    iiit.ViMuaHangAFF = ConglaiCoin.ToString();
-                //////                    db.SubmitChanges();
-                //////                    //TienTuViNao 1 là ví aff
-                //////                    SCartDetail.Name_Text("update CartDetail set TienTuViNao=1  where ID=" + table[0].ID.ToString() + "");
-                //////                }
-                //////                else// Ví thương mại
-                //////                {
-                //////                    iiit.TongTienCoinDuocCap = ConglaiCoin.ToString();
-                //////                    db.SubmitChanges();
-                //////                    //TienTuViNao 2 là ví Thương mại
-                //////                    SCartDetail.Name_Text("update CartDetail set TienTuViNao=2  where ID=" + table[0].ID.ToString() + "");
-                //////                }
-
-                //////                double TT1 = Convert.ToDouble(GiaNhap(table[0].ipid.ToString(), table[0].Quantity.ToString()));
-                //////                double VSoTienNhaCCSeNhan = (TT1) / 1000;
-                //////                double SoTienNguoiMuaBiTru = (SoTienPhaiThanhToanCoin) / 1000;
-
-                //////                ViTamMuaHang obj = new ViTamMuaHang();
-                //////                obj.IDCarts = table[0].ID_Cart;
-                //////                obj.IDCartDetail = table[0].ID;
-                //////                obj.IDSanPham = table[0].ipid;
-                //////                obj.IDThanhVienMua = table[0].IDThanhVien;
-                //////                obj.IDNhaCungCap = table[0].IDNhaCungCap;
-                //////                obj.SoTienNhaCCSeNhan = VSoTienNhaCCSeNhan.ToString();
-                //////                obj.SoTienNguoiMuaBiTru = SoTienNguoiMuaBiTru.ToString();
-                //////                obj.SoDiemThuong = table[0].Diemcoin.ToString();
-                //////                obj.NgayCapNhat = DateTime.Now;
-                //////                obj.LayTienOVi = LayTienTuViNao;
-                //////                db.ViTamMuaHangs.InsertOnSubmit(obj);
-                //////                db.SubmitChanges();
-
-                //////                TextBox txtnoidung = (TextBox)e.Item.FindControl("txtnoidung");
-                //////                if (txtnoidung.Text.Length > 0)
-                //////                {
-                //////                    SCartDetail.Name_Text("UPDATE [CartDetail] SET [TrangThaiNhaCungCap]=1,[TrangThaiNguoiMuaHang]=3,LyDoTraHang='',LyDoHuyHang='',NoiDungGiaoHang=N'" + txtnoidung.Text + "' WHERE ID =" + str2 + "");
-                //////                }
-                //////                else
-                //////                {
-                //////                    SCartDetail.Name_Text("UPDATE [CartDetail] SET [TrangThaiNhaCungCap]=1,[TrangThaiNguoiMuaHang]=3,LyDoTraHang='',LyDoHuyHang='',NoiDungGiaoHang='' WHERE ID =" + str2 + "");
-                //////                }
-                //////                ltthongbao.Text = "<script type=\"text/javascript\">alert('Duyệt đơn hàng thành công..');window.location.href='" + URL + "'; </script></div>";
-                //////            }
-                //////            else
-                //////            {
-                //////                ltthongbao.Text = "<script type=\"text/javascript\">alert('Số tiền trong ví người mua hàng (" + iiit.vfname + ") không đủ để thanh toán');window.location.href='" + URL + "'; </script></div>";
-                //////                //  return;
-                //////            }
-                //////        }
-                //////        else
-                //////        {
-                //////            ltthongbao.Text = "<script type=\"text/javascript\">alert('Số tiền trong ví người mua hàng không đủ để thanh toán');window.location.href='" + URL + "'; </script></div>";
-                //////            //  return;
-                //////        }
-                //////        #endregion
-
-                //////    }
-                //////    return; 
-                #endregion
-
                 case "HuyDon":
-                    // Trả điểm cho người mua và bán lấy ở bảng tạm
-                    #region HuyDon
-                    ViTamMuaHang Listt = db.ViTamMuaHangs.Where(s => s.IDCartDetail == int.Parse(str2)).FirstOrDefault();
-                    if (Listt != null)
-                    //{
-                    //    user iiit = db.users.SingleOrDefault(p => p.iuser_id == int.Parse(Listt.IDThanhVienMua.ToString()));
-                    //    if (iiit != null)
-                    //    {
-                    //        double ViHienTaiCoin = Convert.ToDouble(iiit.TongTienCoinDuocCap);
-
-                    //        double ChietKhauVip = Convert.ToDouble(Listt.ChietKhauVip.ToString());
-                    //        double ViTangTienVip = Convert.ToDouble(iiit.ViTangTienVip);
-
-                    //        double TSoTienNguoiMuaBiTru = Convert.ToDouble(Listt.SoTienNguoiMuaBiTru.ToString());
-
-                    //        double Conglai = 0;
-                    //        Conglai = ((ViHienTaiCoin) + (TSoTienNguoiMuaBiTru));
-                    //        Susers.Name_Text("update users set TongTienCoinDuocCap=" + Conglai.ToString() + "  where iuser_id=" + Listt.IDThanhVienMua.ToString() + "");
-                    //        double CongVip = ((ViTangTienVip) + (ChietKhauVip));
-                    //        // Trả lại tiền vào THƯỞNG MUA HÀNG
-                    //        Susers.Name_Text("update users set ViTangTienVip=" + CongVip.ToString() + "  where iuser_id=" + Listt.IDThanhVienMua.ToString() + "");
-                    //    }
-                    //}
+                    List<CartDetail> item = db.ExecuteQuery<CartDetail>(@"SELECT * FROM CartDetail where ID =" + str2 + " and TrangThaiNguoiMuaHang=3").ToList();
+                    if (item.Count > 0)
                     {
-                        user iiit = db.users.SingleOrDefault(p => p.iuser_id == int.Parse(Listt.IDThanhVienMua.ToString()));
-                        if (iiit != null)
+                        #region Trừ vào ví của NCC
+                        List<Entity.users> thanhtoan = Susers.Name_Text("select * from users where iuser_id=" + int.Parse(item[0].IDNhaCungCap.ToString()) + " ");
+                        if (thanhtoan.Count > 0)
                         {
-                            double ViHienTaiCoin = Convert.ToDouble(iiit.TongTienCoinDuocCap);
-                            double VIAFF = Convert.ToDouble(iiit.ViMuaHangAFF);
-
-                            double ChietKhauVip = Convert.ToDouble(Listt.ChietKhauVip.ToString());
-                            double ViTangTienVip = Convert.ToDouble(iiit.ViTangTienVip);
-
-                            double TSoTienNguoiMuaBiTru = Convert.ToDouble(Listt.SoTienNguoiMuaBiTru.ToString());
-                            if (Listt.LayTienOVi == 0)// trả cho ví AFF
+                            double Money = Convert.ToDouble(item[0].Money.ToString()) / 1000;
+                            double TongTienCoinDuocCap = Convert.ToDouble(thanhtoan[0].TongTienCoinDuocCap.ToString());
+                            double ConglaiCoin = ((TongTienCoinDuocCap) - (Money));
+                            if (TongTienCoinDuocCap >= Money)
                             {
-                                double Conglai = 0;
-                                Conglai = ((VIAFF) + (TSoTienNguoiMuaBiTru));
-                                Susers.Name_Text("update users set ViMuaHangAFF=" + Conglai.ToString() + "  where iuser_id=" + Listt.IDThanhVienMua.ToString() + "");
+                                Susers.Name_Text("update users set TongTienCoinDuocCap='" + ConglaiCoin + "'  where iuser_id=" + thanhtoan[0].iuser_id.ToString() + "");
                             }
-                            else if (Listt.LayTienOVi == 1)// trả cho ví Thương mại
+                            else
                             {
-                                double Conglai = 0;
-                                Conglai = ((ViHienTaiCoin) + (TSoTienNguoiMuaBiTru));
-                                Susers.Name_Text("update users set TongTienCoinDuocCap=" + Conglai.ToString() + "  where iuser_id=" + Listt.IDThanhVienMua.ToString() + "");
+                                ltthongbao.Text = "<script type=\"text/javascript\">alert('Tài khoản nhà cung cấp không đủ để trả.');window.location.href='" + URL + "'; </script></div>";
+                                return;
+                                break;
                             }
-                            double CongVip = ((ViTangTienVip) + (ChietKhauVip));
-                            // Trả lại tiền vào THƯỞNG MUA HÀNG
-                            Susers.Name_Text("update users set ViTangTienVip=" + CongVip.ToString() + "  where iuser_id=" + Listt.IDThanhVienMua.ToString() + "");
                         }
-                    }
-                    // Xóa tiền ở bảng tạm
-                    ViTamMuaHang delc = db.ViTamMuaHangs.Where(s => s.IDCartDetail == int.Parse(str2)).FirstOrDefault();// xóa 1
-                    if (delc != null)
-                    {
-                        db.ViTamMuaHangs.DeleteOnSubmit(delc);
-                        db.SubmitChanges();
-                    }
-                    // Gửi mail
-                    #region Gửi mail cho thành viên mua, khi NCC chấp nhận đơn hàng
-                    List<CartDetail> table = db.CartDetails.Where(s => s.ID == int.Parse(str2) && s.TrangThaiNhaCungCap == 3 && s.TrangThaiNguoiMuaHang == 3).ToList();
-                    if (table.Count > 0)
-                    {
-                        List<Entity.users> dc = Susers.GET_BY_ID(table[0].IDThanhVien.ToString());
-                        if (dc.Count > 0)
+                        #endregion
+
+                        #region Thanh toán tiền cho ng mua
+                        List<Entity.users> Nhanve = Susers.Name_Text("select * from users where iuser_id=" + int.Parse(item[0].IDThanhVien.ToString()) + " ");
+                        if (Nhanve.Count > 0)
                         {
-                            string Emails = dc[0].vemail.ToString();
-
-                            //Gửi email cho người mua
-                            string Noidung = "";
-
-                            Noidung += "Kính gửi: <b>" + dc[0].vfname.ToString() + "</b><br />";
-
-                            Noidung += "Chúng tôi rất xin lỗi!. Đơn hàng <a href=\"http://aggroup365.com/account/orders/" + table[0].ID_Cart.ToString() + "\" target=\"_blank\"><b>#" + table[0].ID_Cart.ToString() + "</b></a> của bạn đã bị hủy do nhà cung cấp không thể chuyển hàng tại thời điểm này. Một lần nữa chúng tôi chân thành xin lỗi vì sự bất tiện này. Hãy dạo một vòng quanh web của chúng tôi. Chúng tôi còn rất nhiều sản phẩm khác mà bạn có thể thích.";
-
-                            Noidung += "<br />";
-                            Noidung += "<br />";
-                            Noidung += "<b>Tên sản phẩm  </b>: " + Commond.ShowPro(table[0].ipid.ToString()) + "<br />";
-                            Noidung += "<b>Số lượng sản phẩm  </b>: " + table[0].Quantity.ToString() + "<br />";
-                            Noidung += "<b>Tổng số tiền  </b>: " + table[0].Money.ToString() + "<br />";
-
-                            Noidung += "---------------------------------";
-                            Noidung += "<br />";
-
-                            Noidung += "<b>Người mua hàng: </b>" + dc[0].vfname.ToString() + "<br />";
-                            Noidung += "<b>Địa chỉ: </b>" + dc[0].vaddress.ToString() + "<br />";
-                            Noidung += "<b>Điện thoại: </b>" + dc[0].vphone.ToString() + "<br />";
-                            Noidung += "<b>Email: </b>" + dc[0].vemail.ToString() + "<br />";
-
-                            Noidung += "<br />";
-                            Noidung += "<br />";
-                            Noidung += Commond.Setting("txtfooterEmail");
-                            Noidung += "<br />";
-                            try
-                            {
-                                new MailHelper().SendMail(dc[0].vemail.ToString(), "Hủy đơn hàng từ webiste: " + Request.Url.Host + " - Mã đơn hàng #" + table[0].ID_Cart.ToString() + " ", Noidung.ToString());
-                            }
-                            catch { }
+                            double Money = Convert.ToDouble(item[0].Money.ToString()) / 1000;
+                            double TongTienCoinDuocCap = Convert.ToDouble(Nhanve[0].TongTienCoinDuocCap.ToString());
+                            double ConglaiCoin = ((TongTienCoinDuocCap) + (Money));
+                            Susers.Name_Text("update users set TongTienCoinDuocCap='" + ConglaiCoin + "'  where iuser_id=" + Nhanve[0].iuser_id.ToString() + "");
                         }
-                    }
-                    #endregion
+                        #endregion
 
-                    SCartDetail.Name_Text("UPDATE [CartDetail] SET [TrangThaiNhaCungCap]=2,LyDoHuyHang='',LyDoTraHang='',TienTuViNao=0 WHERE ID =" + str2 + "");
+                        SCartDetail.Name_Text("UPDATE [CartDetail] SET [TrangThaiNguoiMuaHang]=2 WHERE ID =" + str2 + "");
+                        #region Gửi mail cho thành viên mua, NCC hoàn trả tiền
+                        List<CartDetail> tablv = db.CartDetails.Where(s => s.ID == int.Parse(str2)).ToList();
+                        if (tablv.Count > 0)
+                        {
+                            List<Entity.users> dc = Susers.GET_BY_ID(tablv[0].IDThanhVien.ToString());
+                            if (dc.Count > 0)
+                            {
+                                string Emails = dc[0].vemail.ToString();
+                                //Gửi email cho người mua
+                                string Noidung = "";
+                                Noidung += "Kính gửi: <b>" + dc[0].vfname.ToString() + "</b><br />";
+
+                                Noidung += "Đơn hàng <a href=\"http://lienhiephoptac.vn/account/orders/" + tablv[0].ID_Cart.ToString() + "\" target=\"_blank\"><b>#" + tablv[0].ID_Cart.ToString() + "</b></a> đã được hoàn tiền . Quý khách vui lòng kiểm tra lại.";
+
+                                Noidung += "<br />";
+                                Noidung += "<br />";
+                                Noidung += "<b>Tên sản phẩm  </b>: " + Commond.ShowPro(tablv[0].ipid.ToString()) + "<br />";
+                                Noidung += "<b>Số lượng sản phẩm  </b>: " + tablv[0].Quantity.ToString() + "<br />";
+                                Noidung += "<b>Tổng số tiền  </b>: " + tablv[0].Money.ToString() + "<br />";
+
+                                Noidung += "---------------------------------";
+                                Noidung += "<br />";
+
+                                Noidung += "THÔNG TIN NGƯỜI MUA HÀNG:";
+                                Noidung += "<br />";
+                                Noidung += "<b>Người mua hàng: </b>" + dc[0].vfname.ToString() + "<br />";
+                                Noidung += "<b>Địa chỉ: </b>" + dc[0].vaddress.ToString() + "<br />";
+                                Noidung += "<b>Điện thoại: </b>" + dc[0].vphone.ToString() + "<br />";
+                                Noidung += "<b>Email: </b>" + dc[0].vemail.ToString() + "<br />";
+
+                                Noidung += "---------------------------------";
+                                Noidung += "<br />";
+
+                                Noidung += "THÔNG TIN NHÀ CUNG CẤP:";
+                                Noidung += "<br />";
+                                Noidung += ShowNameNCC(tablv[0].IDNhaCungCap.ToString()) + "<br />";
+                                Noidung += "<br />";
+                                Noidung += "<br />";
+                                Noidung += Commond.Setting("txtfooterEmail");
+                                Noidung += "<br />";
+                                try
+                                {
+                                    new MailHelper().SendMail(ShowEmailNhaCungCap(tablv[0].IDNhaCungCap.ToString()), "Hoàn tiền từ webiste: " + Request.Url.Host + " - Mã đơn hàng #" + tablv[0].ID_Cart.ToString() + " ", Noidung.ToString());
+                                    new MailHelper().SendMail(dc[0].vemail.ToString(), "Hoàn tiền từ webiste: " + Request.Url.Host + " - Mã đơn hàng #" + tablv[0].ID_Cart.ToString() + " ", Noidung.ToString());
+                                }
+                                catch
+                                {
+                                    ltthongbao.Text = "<script type=\"text/javascript\">alert('Hoàn tiền lại cho người mua thành công. Hãy Nêu lý do hủy đơn vào ô lý do.');window.location.href='" + URL + "'; </script></div>";
+                                }
+                            }
+                        }
+                        #endregion
+                        return;
+                    }
+
                     ltthongbao.Text = "<script type=\"text/javascript\">alert('Hủy hàng thành công. Hãy Nêu lý do hủy hàng vào ô lý do.');window.location.href='" + URL + "'; </script></div>";
-                    #endregion
                     return;
-                case "HoanTien":
-                    // Trả điểm cho người mua và bán lấy ở bảng tạm
-                    #region HoanTien
-                    ViTamMuaHang Listv = db.ViTamMuaHangs.Where(s => s.IDCartDetail == int.Parse(str2)).FirstOrDefault();
-                    if (Listv != null)
-                    {
-                        user iiit = db.users.SingleOrDefault(p => p.iuser_id == int.Parse(Listv.IDThanhVienMua.ToString()));
-                        if (iiit != null)
-                        {
-                            double ViHienTaiCoin = Convert.ToDouble(iiit.TongTienCoinDuocCap);
 
-                            double ChietKhauVip = Convert.ToDouble(Listv.ChietKhauVip.ToString());
-                            double ViTangTienVip = Convert.ToDouble(iiit.ViTangTienVip);
 
-                            double TSoTienNguoiMuaBiTru = Convert.ToDouble(Listv.SoTienNguoiMuaBiTru.ToString());
-
-                            double Conglai = 0;
-                            Conglai = ((ViHienTaiCoin) + (TSoTienNguoiMuaBiTru));
-                            Susers.Name_Text("update users set TongTienCoinDuocCap=" + Conglai.ToString() + "  where iuser_id=" + Listv.IDThanhVienMua.ToString() + "");
-                            double CongVip = ((ViTangTienVip) + (ChietKhauVip));
-                            // Trả lại tiền vào THƯỞNG MUA HÀNG
-                            Susers.Name_Text("update users set ViTangTienVip=" + CongVip.ToString() + "  where iuser_id=" + Listv.IDThanhVienMua.ToString() + "");
-                        }
-                    }
-                    // Xóa tiền ở bảng tạm
-                    ViTamMuaHang delv = db.ViTamMuaHangs.Where(s => s.IDCartDetail == int.Parse(str2)).FirstOrDefault();// xóa 1
-                    if (delv != null)
-                    {
-                        db.ViTamMuaHangs.DeleteOnSubmit(delv);
-                        db.SubmitChanges();
-                    }
-
-                    #region Gửi mail cho thành viên mua, NCC hoàn trả tiền
-                    List<CartDetail> tablv = db.CartDetails.Where(s => s.ID == int.Parse(str2)).ToList();
-                    if (tablv.Count > 0)
-                    {
-                        List<Entity.users> dc = Susers.GET_BY_ID(tablv[0].IDThanhVien.ToString());
-                        if (dc.Count > 0)
-                        {
-                            string Emails = dc[0].vemail.ToString();
-                            //Gửi email cho người mua
-                            string Noidung = "";
-                            Noidung += "Kính gửi: <b>" + dc[0].vfname.ToString() + "</b><br />";
-
-                            Noidung += "Đơn hàng <a href=\"http://aggroup365.com/account/orders/" + tablv[0].ID_Cart.ToString() + "\" target=\"_blank\"><b>#" + tablv[0].ID_Cart.ToString() + "</b></a> đã được hoàn tiền . Quý khách vui lòng kiểm tra lại.";
-
-                            Noidung += "<br />";
-                            Noidung += "<br />";
-                            Noidung += "<b>Tên sản phẩm  </b>: " + Commond.ShowPro(tablv[0].ipid.ToString()) + "<br />";
-                            Noidung += "<b>Số lượng sản phẩm  </b>: " + tablv[0].Quantity.ToString() + "<br />";
-                            Noidung += "<b>Tổng số tiền  </b>: " + tablv[0].Money.ToString() + "<br />";
-
-                            Noidung += "---------------------------------";
-                            Noidung += "<br />";
-
-                            Noidung += "<b>Người mua hàng: </b>" + dc[0].vfname.ToString() + "<br />";
-                            Noidung += "<b>Địa chỉ: </b>" + dc[0].vaddress.ToString() + "<br />";
-                            Noidung += "<b>Điện thoại: </b>" + dc[0].vphone.ToString() + "<br />";
-                            Noidung += "<b>Email: </b>" + dc[0].vemail.ToString() + "<br />";
-
-                            Noidung += "<br />";
-                            Noidung += "<br />";
-                            Noidung += Commond.Setting("txtfooterEmail");
-                            Noidung += "<br />";
-                            try
-                            {
-                                new MailHelper().SendMail(dc[0].vemail.ToString(), "Hoàn trả lại đơn hàng từ webiste: " + Request.Url.Host + " - Mã đơn hàng #" + tablv[0].ID_Cart.ToString() + " ", Noidung.ToString());
-                            }
-                            catch { }
-                        }
-                    }
-                    #endregion
-
-                    SCartDetail.Name_Text("UPDATE [CartDetail] SET [TrangThaiNhaCungCap]=5,TienTuViNao=0 WHERE ID =" + str2 + "");
-                    ltthongbao.Text = "<script type=\"text/javascript\">alert('Hoàn tiền lại cho người mua.');window.location.href='" + URL + "'; </script>";
-
-                    #endregion
-                    return;
-                case "KhieuKien":
-                    #region KhieuKien
-                    #region Gửi mail cho thành viên mua, Khiếu kiện lên admin
-                    List<CartDetail> tablj = db.CartDetails.Where(s => s.ID == int.Parse(str2)).ToList();
-                    if (tablj.Count > 0)
-                    {
-                        List<Entity.users> dc = Susers.GET_BY_ID(tablj[0].IDThanhVien.ToString());
-                        if (dc.Count > 0)
-                        {
-                            string Noidung = "";
-                            Noidung += "Bạn có 1 đơn hàng kiếu kiện cần giải quyết!. Đơn hàng <a href=\"http://aggroup365.com/account/orders/" + tablj[0].ID_Cart.ToString() + "\" target=\"_blank\"><b>#" + tablj[0].ID_Cart.ToString() + "</b></a> . Quý khách vui lòng kiểm tra lại.";
-
-                            Noidung += "<br />";
-                            Noidung += "<br />";
-                            Noidung += "<b>Tên sản phẩm  </b>: " + Commond.ShowPro(tablj[0].ipid.ToString()) + "<br />";
-                            Noidung += "<b>Số lượng sản phẩm  </b>: " + tablj[0].Quantity.ToString() + "<br />";
-                            Noidung += "<b>Tổng số tiền  </b>: " + tablj[0].Money.ToString() + "<br />";
-
-                            Noidung += "---------------------------------";
-                            Noidung += "<br />";
-
-                            Noidung += "THÔNG TIN NGƯỜI MUA HÀNG:";
-                            Noidung += "<br />";
-                            Noidung += "<b>Người mua hàng: </b>" + dc[0].vfname.ToString() + "<br />";
-                            Noidung += "<b>Địa chỉ: </b>" + dc[0].vaddress.ToString() + "<br />";
-                            Noidung += "<b>Điện thoại: </b>" + dc[0].vphone.ToString() + "<br />";
-                            Noidung += "<b>Email: </b>" + dc[0].vemail.ToString() + "<br />";
-
-                            Noidung += "---------------------------------";
-                            Noidung += "<br />";
-
-                            Noidung += "THÔNG TIN NHÀ CUNG CẤP:";
-                            Noidung += "<br />";
-                            Noidung += ShowNameNhaCungCap(tablj[0].IDNhaCungCap.ToString()) + "<br />";
-                            Noidung += "<br />";
-                            Noidung += "<br />";
-                            Noidung += Commond.Setting("txtfooterEmail");
-                            Noidung += "<br />";
-                            try
-                            {
-                                var toEmail = Commond.Setting("Emailden");
-                                new MailHelper().SendMail(toEmail, "Khiếu kiện đơn hàng từ webiste: " + Request.Url.Host + " - Mã đơn hàng #" + tablj[0].ID_Cart.ToString() + " ", Noidung.ToString());
-                            }
-                            catch { }
-                        }
-                    }
-                    #endregion
-
-                    SCartDetail.Name_Text("UPDATE [CartDetail] SET [TrangThaiNhaCungCap]=6,TrangThaiKhieuKien=1 WHERE ID =" + str2 + "");
-                    ltthongbao.Text = "<script type=\"text/javascript\">alert('Khiếu kiện lên admin xử lý.');window.location.href='" + URL + "'; </script>";
-                    #endregion
-                    return;
             }
+        }
+        public string ShowNameNCC(string id)
+        {
+            string Noidung = "";
+            List<Entity.users> dt = Susers.GET_BY_ID(id);
+            if (dt.Count > 0)
+            {
+                Noidung += "<b>Tên nhà cung cấp: </b>" + dt[0].vfname.ToString() + "<br />";
+                Noidung += "<b>Email: </b>" + dt[0].vemail.ToString() + "<br />";
+                Noidung += "<b>Điện thoại: </b>" + dt[0].vphone.ToString() + "<br />";
+            }
+            return Noidung;
         }
         protected string GiaNhap(string id, string quantity)
         {
@@ -827,7 +574,7 @@ namespace VS.E_Commerce.cms.Display.QuanLyDangBai
                 if (dt1[0].DuyetTienDanap.ToString() == "0")
                 {
                     ltthongbao.Text = ("<script type=\"text/javascript\" > $.toast({ heading: 'Thông báo', text: 'Bạn không thể duyệt đơn hàng này vì tài khoản của quý khách đã hết hạn 1 năm kích hoạt .<br /> Vui lòng kích hoạt lại 480 điểm để được hưởng các chính sách của đại lý<br />', position: 'top-center', stack: false }) </script>");
-                   // ltthongbao.Text = "<script type=\"text/javascript\">alert('Bạn không thể duyệt đơn hàng này vì tài khoản của quý khách đã hết hạn 1 năm kích hoạt . Vui lòng kích hoạt lại 480 điểm để được hưởng các chính sách của đại lý.');window.location.href='" + URL + "'; </script></div>";
+                    // ltthongbao.Text = "<script type=\"text/javascript\">alert('Bạn không thể duyệt đơn hàng này vì tài khoản của quý khách đã hết hạn 1 năm kích hoạt . Vui lòng kích hoạt lại 480 điểm để được hưởng các chính sách của đại lý.');window.location.href='" + URL + "'; </script></div>";
                     return;
                 }
             }
@@ -835,9 +582,17 @@ namespace VS.E_Commerce.cms.Display.QuanLyDangBai
             // duyệt đơn kiểu mới , có thêm phần nội dung thông báo ngày chuyển hàng
             try
             {
-                List<CartDetail> table = db.CartDetails.Where(s => s.ID == int.Parse(hdgiatri.Value) && s.TrangThaiNhaCungCap == 3 && s.TrangThaiNguoiMuaHang == 3).ToList();
+                List<CartDetail> table = db.ExecuteQuery<CartDetail>(@"SELECT * FROM CartDetail where ID =" + hdgiatri.Value + " and TrangThaiNguoiMuaHang=3").ToList();
                 if (table.Count > 0)
                 {
+                    if (txtnoidung.Text.Length > 0)
+                    {
+                        SCartDetail.Name_Text("UPDATE [CartDetail] SET [TrangThaiNguoiMuaHang]=1,LyDoTraHang='',LyDoHuyHang='',NoiDungGiaoHang=N'" + txtnoidung.Text + "' WHERE ID =" + hdgiatri.Value + "");
+                    }
+                    else
+                    {
+                        SCartDetail.Name_Text("UPDATE [CartDetail] SET [TrangThaiNguoiMuaHang]=1,LyDoTraHang='',LyDoHuyHang='',NoiDungGiaoHang='' WHERE ID =" + hdgiatri.Value + "");
+                    }
                     #region Gửi mail cho thành viên mua, khi NCC chấp nhận đơn hàng
                     List<Entity.users> dc = Susers.GET_BY_ID(table[0].IDThanhVien.ToString());
                     if (dc.Count > 0)
@@ -848,7 +603,7 @@ namespace VS.E_Commerce.cms.Display.QuanLyDangBai
                         string Noidung = "";
 
                         Noidung += "Kính gửi: <b>" + dc[0].vfname.ToString() + "</b><br />";
-                        Noidung += "Chúc mừng bạn. Nhà cung cấp đã xác nhận đơn hàng <a href=\"http://aggroup365.com/account/orders/" + table[0].ID_Cart.ToString() + "\" target=\"_blank\"><b>#" + table[0].ID_Cart.ToString() + "</b></a> của bạn. Vui lòng xem lời nhắn phía dưới!<br />";
+                        Noidung += "Chúc mừng bạn. Nhà cung cấp đã xác nhận đơn hàng <a href=\"http://lienhiephoptac.vn/account/orders/" + table[0].ID_Cart.ToString() + "\" target=\"_blank\"><b>#" + table[0].ID_Cart.ToString() + "</b></a> của bạn. Vui lòng xem lời nhắn phía dưới!<br />";
                         Noidung += "<br />";
                         Noidung += "Tên sản phẩm : " + Commond.ShowPro(table[0].ipid.ToString()) + "<br />";
                         Noidung += "Số lượng sản phẩm : " + table[0].Quantity.ToString() + "<br />";
@@ -869,21 +624,12 @@ namespace VS.E_Commerce.cms.Display.QuanLyDangBai
                         Noidung += "<br />";
                         try
                         {
-                            // new MailHelper().SendMail(ShowEmailNhaCungCap(table[0].IDNhaCungCap.ToString()), "Chập nhận đơn hàng từ webiste: " + Request.Url.Host + " - Mã đơn hàng #" + table[0].ID_Cart.ToString() + " ", Noidung.ToString());
                             new MailHelper().SendMail(dc[0].vemail.ToString(), "Chập nhận đơn hàng từ webiste: " + Request.Url.Host + " - Mã đơn hàng #" + table[0].ID_Cart.ToString() + " ", Noidung.ToString());
                         }
-                        catch { }
+                        catch { ltthongbao.Text = "<script type=\"text/javascript\">alert('Duyệt đơn hàng thành công..');window.location.href='" + URL + "'; </script></div>"; }
                     }
                     #endregion
-                    if (txtnoidung.Text.Length > 0)
-                    {
-                        SCartDetail.Name_Text("UPDATE [CartDetail] SET [TrangThaiNhaCungCap]=1,[TrangThaiNguoiMuaHang]=3,LyDoTraHang='',LyDoHuyHang='',NoiDungGiaoHang=N'" + txtnoidung.Text + "' WHERE ID =" + hdgiatri.Value + "");
-                    }
-                    else
-                    {
-                        SCartDetail.Name_Text("UPDATE [CartDetail] SET [TrangThaiNhaCungCap]=1,[TrangThaiNguoiMuaHang]=3,LyDoTraHang='',LyDoHuyHang='',NoiDungGiaoHang='' WHERE ID =" + hdgiatri.Value + "");
-                    }
-                    SViTamMuaHang.Name_Text("UPDATE [ViTamMuaHang] SET [NCCDuyet]=2  WHERE IDCartDetail =" + table[0].ID.ToString() + "");
+
                     ltthongbao.Text = "<script type=\"text/javascript\">alert('Duyệt đơn hàng thành công..');window.location.href='" + URL + "'; </script></div>";
                 }
 

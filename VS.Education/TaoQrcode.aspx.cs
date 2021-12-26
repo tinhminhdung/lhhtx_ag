@@ -354,7 +354,7 @@ namespace VS.E_Commerce
 
                                 //Gửi email
                                 string Noidung = "";
-                                Noidung += "<b>Chúng tôi rất xin lỗi! </b><br /> Đơn hàng <a href=\"http://aggroup365.com/account/orders/" + ds[0].ID_Cart.ToString() + "\" target=\"_blank\"><b>#" + ds[0].ID_Cart.ToString() + "</b></a> của bạn đã bị hủy do nhà cung cấp không thể phản hồi sớm cho bạn. Chúng tôi đã hoàn lại điểm cho thành viên <b>" + dc[0].vfname.ToString() + " </b>. ";
+                                Noidung += "<b>Chúng tôi rất xin lỗi! </b><br /> Đơn hàng <a href=\"http://lienhiephoptac.vn/account/orders/" + ds[0].ID_Cart.ToString() + "\" target=\"_blank\"><b>#" + ds[0].ID_Cart.ToString() + "</b></a> của bạn đã bị hủy do nhà cung cấp không thể phản hồi sớm cho bạn. Chúng tôi đã hoàn lại điểm cho thành viên <b>" + dc[0].vfname.ToString() + " </b>. ";
                                 Noidung += "Quý khách vui lòng kiểm tra lại điểm của mình.";
                                 Noidung += "<br />";
                                 Noidung += "<br />";

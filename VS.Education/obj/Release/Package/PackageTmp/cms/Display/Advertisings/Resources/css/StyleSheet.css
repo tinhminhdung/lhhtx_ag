@@ -1,0 +1,68 @@
+﻿.advitem {
+    border: medium none;
+    display: block;
+    margin-bottom: 10px;
+    padding: 7px;
+}
+.advitem a.lnktxt {
+    color: #e2131b;
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 2px;
+    text-decoration:none;
+}
+.advitem a.lnktxt:hover {
+    color: #FF790B;
+    text-decoration: none;
+}
+.advitem .advdesc {
+    color: #73615D;
+    display: block;
+    font-size: 11px;
+    margin-bottom: 2px;
+    margin-left: 0;
+    text-align: justify;
+}
+.advitem .lnk {
+    color: #0E774A;
+    display: block;
+    font-size: 12px;
+    font-style: normal;
+}
+.advitem .lnk a{
+    color: #0E774A;
+    display: block;
+    font-size: 12px;
+    font-style: normal;
+}
+.advitem .lnk a:hover{
+    color: #e2131b;
+    display: block;
+    font-size: 12px;
+    font-style: normal;
+}
+.adrtieude a
+{
+    color: #e2131b;
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 2px;
+    text-decoration:none;
+    text-align:center;
+        padding-top:3px;
+    padding-bottom:3px;
+}
+.adrtieude a:hover
+{
+    color: #fe820a;
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 2px;
+    text-decoration:none;
+    text-align:center;
+    padding-top:3px;
+    padding-bottom:3px;
+}

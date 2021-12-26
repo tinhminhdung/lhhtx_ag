@@ -26,16 +26,16 @@ namespace VS.E_Commerce.cms.Display.QuanLyDangBai
             }
             if (!base.IsPostBack)
             {
-                if (MoreAll.MoreAll.GetCookies("MembersID") != "")
-                {
-                    if (Commond.Setting("StatusNCC").Equals("1"))
-                    {
-                        ltthongbaotoanbonhacc.Text += ThongBaoToanBoNhaCC();
-                    }
-                    ltthongbao.Text += ThongBaoDuyetViTam();
-                    // cho js xuất hiện popup và cho dạng sesion xuất hiện 1 lần
-                    // so sánh trong cấu hình còn lại 5 ngày thì mới thông báo.....
-                }
+                //if (MoreAll.MoreAll.GetCookies("MembersID") != "")
+                //{
+                //    if (Commond.Setting("StatusNCC").Equals("1"))
+                //    {
+                //        ltthongbaotoanbonhacc.Text += ThongBaoToanBoNhaCC();
+                //    }
+                //    ltthongbao.Text += ThongBaoDuyetViTam();
+                //    // cho js xuất hiện popup và cho dạng sesion xuất hiện 1 lần
+                //    // so sánh trong cấu hình còn lại 5 ngày thì mới thông báo.....
+                //}
             }
         }
         protected string ShowTongThongBao()

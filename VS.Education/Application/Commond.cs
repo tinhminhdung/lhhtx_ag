@@ -357,7 +357,7 @@ public class Commond
                 List<Entity.Products> dt = SProducts.GetById(id);
                 if (dt.Count >= 1)
                 {
-                    str = "<a class='mausp' href=\"http://aggroup365.com/" + dt[0].TangName + "_sp" + dt[0].ipid + ".html\" target=\"_blank\">" + dt[0].Name + "</a>";
+                    str = "<a class='mausp' href=\"http://lienhiephoptac.vn/" + dt[0].TangName + "_sp" + dt[0].ipid + ".html\" target=\"_blank\">" + dt[0].Name + "</a>";
                 }
             }
         }
@@ -678,27 +678,9 @@ public class Commond
             str.Append("    <div class=\"price-box clearfix\">");
             str.Append("    <div class=\"special-price f-left\">");
 
-            str.Append("        <div class=\"price product-price giathanh \">" + AllQuery.MorePro.FormatMoney(item.Price.ToString()) + "</div>");
 
-            if (item.GiaThanhVienFree.ToString() != "0")
-            {
-                str.Append("        <div class=\"price product-price giathanh giathanhvien \">Thành viên (Thưởng): " + AllQuery.MorePro.FormatMoney_TV(item.GiaThanhVienFree.ToString()) + " </div>");
-                str.Append("        <div class=\"price product-price giathanh giathanhvien AnGiathanhvienfree_daily\">Giá đại lý :" + AllQuery.MorePro.FormatMoney_VND(GiaDaiLy_FormatMoney(item.GiaChietKhauDaiLy.ToString(), item.Price.ToString())) + "</div>");
-            }
-            else
-            {
-                str.Append("        <div class=\"price product-price giathanh giathanhvien \">Thành viên (Thưởng): " + AllQuery.MorePro.FormatMoney_TV(Commond.ThanhVienFree(item.Price.ToString(), item.GiaThanhVien.ToString())) + " </div>");
-                str.Append("        <div class=\"price product-price giathanh giathanhvien AnGiathanhvienfree_daily\">Giá đại lý : " + AllQuery.MorePro.FormatMoney_VND(GiaDaiLy_FormatMoney(Commond.ThanhVienDaiLy(item.Price.ToString(), item.GiaThanhVien.ToString()), item.Price.ToString())) + "</div>");
-            }
-
-            if (item.GiaCuaHang.ToString() != "0")
-            {
-                str.Append("<div class=\"price product-price giathanh giathanhvien giacuahang\">Giá cửa hàng:" + AllQuery.MorePro.FormatMoney_VND(GiaDaiLy_FormatMoney(item.GiaCuaHang.ToString(), item.Price.ToString())) + "</div>");
-            }
-            else
-            {
-                str.Append("<div class=\"price product-price giathanh giathanhvien giacuahang\">Giá cửa hàng: " + AllQuery.MorePro.FormatMoney_VND(GiaDaiLy_FormatMoney(Commond.ThanhVienCuaHang(item.Price.ToString(), item.GiaThanhVien.ToString()), item.Price.ToString())) + "</div>");
-            }
+            str.Append("        <div class=\"price product-price giathanh \">" + AllQuery.MorePro.FormatMoney(item.OldPrice.ToString()) + "</div>");
+            str.Append("        <div class=\"price product-price giathanh \">Giá đại lý :" + AllQuery.MorePro.FormatMoney_VND(item.Price.ToString()) + "</div>");
 
             str.Append("    </div>");
             str.Append("    </div>");
@@ -749,27 +731,10 @@ public class Commond
             str.Append("    <div class=\"price-box clearfix\">");
             str.Append("    <div class=\"special-price f-left\">");
 
-            str.Append("        <div class=\"price product-price giathanh \">" + AllQuery.MorePro.FormatMoney(item.Price.ToString()) + "</div>");
 
-            if (item.GiaThanhVienFree.ToString() != "0")
-            {
-                str.Append("        <div class=\"price product-price giathanh giathanhvien \">Thành viên (Thưởng): " + AllQuery.MorePro.FormatMoney_TV(item.GiaThanhVienFree.ToString()) + " </div>");
-                str.Append("        <div class=\"price product-price giathanh giathanhvien AnGiathanhvienfree_daily\">Giá đại lý :" + AllQuery.MorePro.FormatMoney_VND(GiaDaiLy_FormatMoney(item.GiaChietKhauDaiLy.ToString(), item.Price.ToString())) + "</div>");
-            }
-            else
-            {
-                str.Append("        <div class=\"price product-price giathanh giathanhvien \">Thành viên (Thưởng): " + AllQuery.MorePro.FormatMoney_TV(Commond.ThanhVienFree(item.Price.ToString(), item.GiaThanhVien.ToString())) + " </div>");
-                str.Append("        <div class=\"price product-price giathanh giathanhvien AnGiathanhvienfree_daily\">Giá đại lý : " + AllQuery.MorePro.FormatMoney_VND(GiaDaiLy_FormatMoney(Commond.ThanhVienDaiLy(item.Price.ToString(), item.GiaThanhVien.ToString()), item.Price.ToString())) + "</div>");
-            }
+            str.Append("        <div class=\"price product-price giathanh \">" + AllQuery.MorePro.FormatMoney(item.OldPrice.ToString()) + "</div>");
+            str.Append("        <div class=\"price product-price giathanh \">Giá đại lý :" + AllQuery.MorePro.FormatMoney_VND(item.Price.ToString()) + "</div>");
 
-            if (item.GiaCuaHang.ToString() != "0")
-            {
-                str.Append("<div class=\"price product-price giathanh giathanhvien giacuahang\">Giá cửa hàng:" + AllQuery.MorePro.FormatMoney_VND(GiaDaiLy_FormatMoney(item.GiaCuaHang.ToString(), item.Price.ToString())) + "</div>");
-            }
-            else
-            {
-                str.Append("<div class=\"price product-price giathanh giathanhvien giacuahang\">Giá cửa hàng: " + AllQuery.MorePro.FormatMoney_VND(GiaDaiLy_FormatMoney(Commond.ThanhVienCuaHang(item.Price.ToString(), item.GiaThanhVien.ToString()), item.Price.ToString())) + "</div>");
-            }
 
             str.Append("    </div>");
             str.Append("    </div>");
@@ -820,26 +785,9 @@ public class Commond
             str.Append("    <div class=\"special-price f-left\">");
 
 
-            str.Append("        <div class=\"price product-price giathanh \">" + AllQuery.MorePro.FormatMoney(item.Price.ToString()) + "</div>");
-            if (item.GiaThanhVienFree.ToString() != "0")
-            {
-                str.Append("        <div class=\"price product-price giathanh giathanhvien \">Thành viên (Thưởng): " + AllQuery.MorePro.FormatMoney_TV(item.GiaThanhVienFree.ToString()) + " </div>");
-                str.Append("        <div class=\"price product-price giathanh giathanhvien AnGiathanhvienfree_daily\">Giá đại lý :" + AllQuery.MorePro.FormatMoney_VND(GiaDaiLy_FormatMoney(item.GiaChietKhauDaiLy.ToString(), item.Price.ToString())) + "</div>");
-            }
-            else
-            {
-                str.Append("        <div class=\"price product-price giathanh giathanhvien \">Thành viên (Thưởng): " + AllQuery.MorePro.FormatMoney_TV(Commond.ThanhVienFree(item.Price.ToString(), item.GiaThanhVien.ToString())) + " </div>");
-                str.Append("        <div class=\"price product-price giathanh giathanhvien AnGiathanhvienfree_daily\">Giá đại lý : " + AllQuery.MorePro.FormatMoney_VND(GiaDaiLy_FormatMoney(Commond.ThanhVienDaiLy(item.Price.ToString(), item.GiaThanhVien.ToString()), item.Price.ToString())) + "</div>");
-            }
+            str.Append("        <div class=\"price product-price giathanh \">" + AllQuery.MorePro.FormatMoney(item.OldPrice.ToString()) + "</div>");
+            str.Append("        <div class=\"price product-price giathanh \">Giá đại lý :" + AllQuery.MorePro.FormatMoney_VND(item.Price.ToString()) + "</div>");
 
-            if (item.GiaCuaHang.ToString() != "0")
-            {
-                str.Append("<div class=\"price product-price giathanh giathanhvien giacuahang\">Giá cửa hàng:" + AllQuery.MorePro.FormatMoney_VND(GiaDaiLy_FormatMoney(item.GiaCuaHang.ToString(), item.Price.ToString())) + "</div>");
-            }
-            else
-            {
-                str.Append("<div class=\"price product-price giathanh giathanhvien giacuahang\">Giá cửa hàng: " + AllQuery.MorePro.FormatMoney_VND(GiaDaiLy_FormatMoney(Commond.ThanhVienCuaHang(item.Price.ToString(), item.GiaThanhVien.ToString()), item.Price.ToString())) + "</div>");
-            }
             // str.Append("        <span class=\"price product-price-old giacu\">" + AllQuery.MorePro.Detail_Price(item.OldPrice.ToString()) + "</span>");
             //if (item.GiaThanhVien.Length > 0)
             //{
@@ -895,28 +843,9 @@ public class Commond
             str.Append("    <div class=\"special-price f-left\">");
 
 
-            str.Append("        <div class=\"price product-price giathanh \">" + AllQuery.MorePro.FormatMoney(item.Price.ToString()) + "</div>");
 
-            if (item.GiaThanhVienFree.ToString() != "0")
-            {
-                str.Append("        <div class=\"price product-price giathanh giathanhvien \">Thành viên (Thưởng): " + AllQuery.MorePro.FormatMoney_TV(item.GiaThanhVienFree.ToString()) + " </div>");
-                str.Append("        <div class=\"price product-price giathanh giathanhvien AnGiathanhvienfree_daily\">Giá đại lý :" + AllQuery.MorePro.FormatMoney_VND(GiaDaiLy_FormatMoney(item.GiaChietKhauDaiLy.ToString(), item.Price.ToString())) + "</div>");
-            }
-            else
-            {
-                str.Append("        <div class=\"price product-price giathanh giathanhvien \">Thành viên (Thưởng): " + AllQuery.MorePro.FormatMoney_TV(Commond.ThanhVienFree(item.Price.ToString(), item.GiaThanhVien.ToString())) + " </div>");
-                str.Append("        <div class=\"price product-price giathanh giathanhvien AnGiathanhvienfree_daily\">Giá đại lý : " + AllQuery.MorePro.FormatMoney_VND(GiaDaiLy_FormatMoney(Commond.ThanhVienDaiLy(item.Price.ToString(), item.GiaThanhVien.ToString()), item.Price.ToString())) + "</div>");
-            }
-
-            if (item.GiaCuaHang.ToString() != "0")
-            {
-                str.Append("<div class=\"price product-price giathanh giathanhvien giacuahang\">Giá cửa hàng:" + AllQuery.MorePro.FormatMoney_VND(GiaDaiLy_FormatMoney(item.GiaCuaHang.ToString(), item.Price.ToString())) + "</div>");
-            }
-            else
-            {
-                str.Append("<div class=\"price product-price giathanh giathanhvien giacuahang\">Giá cửa hàng: " + AllQuery.MorePro.FormatMoney_VND(GiaDaiLy_FormatMoney(Commond.ThanhVienCuaHang(item.Price.ToString(), item.GiaThanhVien.ToString()), item.Price.ToString())) + "</div>");
-            }
-
+            str.Append("        <div class=\"price product-price giathanh \">" + AllQuery.MorePro.FormatMoney(item.OldPrice.ToString()) + "</div>");
+            str.Append("        <div class=\"price product-price giathanh \">Giá đại lý :" + AllQuery.MorePro.FormatMoney_VND(item.Price.ToString()) + "</div>");
 
 
 

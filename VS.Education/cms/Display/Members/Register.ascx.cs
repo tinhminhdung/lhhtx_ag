@@ -270,11 +270,11 @@ namespace VS.E_Commerce.cms.Display.Members
 
                         //System.Text.StringBuilder strb = new System.Text.StringBuilder();
                         //strb.AppendLine("<p>Xin chào : " + txtlastname.Text + "</p>");
-                        //strb.AppendLine("<p>Cảm ơn bạn đã đăng ký tài khoản, trên hệ webiste: aggroup365.com</p>");
+                        //strb.AppendLine("<p>Cảm ơn bạn đã đăng ký tài khoản, trên hệ webiste: lienhiephoptac.vn</p>");
                         //strb.AppendLine("<p>Bạn có thể đăng nhập bằng tài khoản trên.</p>");
                         //strb.AppendLine("<p><b>THÔNG TIN HỖ TRỢ :</b></p>");
                         //strb.AppendLine("<p><b>Hotline:</b> (+1)415.792.7729 - <b>");
-                        //strb.AppendLine("<p><b>Website:</b> www.aggroup365.com </p>");
+                        //strb.AppendLine("<p><b>Website:</b> www.lienhiephoptac.vn </p>");
 
                         //string email = Email.email();
                         //string password = Email.password();

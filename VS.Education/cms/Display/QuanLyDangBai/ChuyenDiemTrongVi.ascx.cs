@@ -78,7 +78,7 @@ namespace VS.E_Commerce.cms.Display.QuanLyDangBai
                             #endregion
 
 
-                            LichSuGiaoDich("14", "Chuyển điểm từ ví thương mại sang ví mua hàng của chính mình.", table.iuser_id.ToString(), table.iuser_id.ToString(), "0", TongTienChuyen.ToString());
+                            LichSuGiaoDich("14", "THU NHẬP SAU THUẾ - > VÍ MUA HÀNG", table.iuser_id.ToString(), table.iuser_id.ToString(), "0", TongTienChuyen.ToString());
 
                             #region Thêm vào Bảng ChuyenDiemThanhVien
                             ChuyenDiemThanhVien obks = new ChuyenDiemThanhVien();
@@ -100,7 +100,7 @@ namespace VS.E_Commerce.cms.Display.QuanLyDangBai
                             obkp.IDNguoiNhanDiemCoin = int.Parse(table.iuser_id.ToString());
                             obkp.SoDiemCoin = TongTienChuyen.ToString();
                             obkp.NgayCap = DateTime.Now;
-                            obkp.MoTa = "Chuyển điểm từ ví thương mại sang ví mua hàng của chính mình";
+                            obkp.MoTa = "THU NHẬP SAU THUẾ - > VÍ MUA HÀNG";
                             obkp.NguoiTao = MoreAll.MoreAll.GetCookies("Members");
                             obkp.TrangThai = 1;
                             obkp.KieuVi = int.Parse("3");

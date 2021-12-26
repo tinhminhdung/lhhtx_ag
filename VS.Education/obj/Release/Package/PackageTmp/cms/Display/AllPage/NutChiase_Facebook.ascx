@@ -1,0 +1,2 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="NutChiase_Facebook.ascx.cs" Inherits="VS.E_Commerce.cms.Display.AllPage.NutChiase_Facebook" %>
+<div class="fb-share-button" data-href="<%=ShowUrl %>" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=<%=ShowUrl %>%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Chia sẻ</a></div>

@@ -56,17 +56,17 @@ namespace VS.E_Commerce.cms.Display.Products
                     pid = dt.ipid.ToString();
                     hdipid.Value = dt.ipid.ToString();
 
-                    List<Entity.users> dt1 = Susers.GET_BY_ID(dt.IDThanhVien.ToString());
-                    if (dt1.Count >= 1)
-                    {
-                        if (dt1[0].DuyetTienDanap.ToString() == "1")
-                        {
-                            if (dt.Status.ToString() == "1")
-                            {
-                                Panel1.Visible = true;
-                            }
-                        }
-                    }
+                    //List<Entity.users> dt1 = Susers.GET_BY_ID(dt.IDThanhVien.ToString());
+                    //if (dt1.Count >= 1)
+                    //{
+                    //    if (dt1[0].DuyetTienDanap.ToString() == "1")
+                    //    {
+                    //        if (dt.Status.ToString() == "1")
+                    //        {
+                    //            Panel1.Visible = true;
+                    //        }
+                    //    }
+                    //}
 
 
                     //ShowGiaThanh();
@@ -89,11 +89,9 @@ namespace VS.E_Commerce.cms.Display.Products
 
                     ltcode.Text = dt.Code.ToString();
                     //  ltpricebanbuon.Text = Commond.Setting("Giathanhvien") + AllQuery.MorePro.FormatMoney_VND(dt.GiaThanhVien.ToString());
-                    ltprice.Text = AllQuery.MorePro.FormatMoney_VND(dt.Price.ToString());
+                    ltprice.Text = AllQuery.MorePro.FormatMoney_VND(dt.OldPrice.ToString());
 
-                    ltthuongthanhvien.Text = AllQuery.MorePro.FormatMoney_TV(Commond.ThanhVienFree(dt.Price.ToString(), dt.GiaThanhVien.ToString()));
-                    ltgiadaily.Text = AllQuery.MorePro.FormatMoney_VND(Commond.GiaDaiLy_FormatMoney(Commond.ThanhVienDaiLy(dt.Price.ToString(), dt.GiaThanhVien.ToString()), dt.Price.ToString()));
-                    ltgiacuahang.Text = AllQuery.MorePro.FormatMoney_VND(Commond.GiaDaiLy_FormatMoney(Commond.ThanhVienCuaHang(dt.Price.ToString(), dt.GiaThanhVien.ToString()), dt.Price.ToString()));
+                    ltgiadaily.Text = AllQuery.MorePro.FormatMoney_VND(dt.Price.ToString());
 
                     #region Show ảnh đại diện và nhiều ảnh thum
                     if (dt != null)
@@ -279,7 +277,7 @@ namespace VS.E_Commerce.cms.Display.Products
             }
             else
             {
-                SessionCarts.ShoppingCart_AddProduct_Sesion(hdipid.Value, Convert.ToInt32(txtsoluong.Text), Mausac, Kichco, "1");
+                SessionCarts.ShoppingCart_AddProduct_Sesion(hdipid.Value, Convert.ToInt32(txtsoluong.Text), Mausac, Kichco);
             }
             System.Web.HttpContext.Current.Session["MuaTheoGiaThanhVien"] = null;
             System.Web.HttpContext.Current.Session["Session_Size"] = null;

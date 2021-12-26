@@ -228,6 +228,7 @@
     <Content Include="cms\Admin\Member\MLichSuQRCodeThanhToan.ascx" />
     <Content Include="cms\Admin\Member\MLichSuQRCode.ascx" />
     <Content Include="cms\Admin\Member\ThongKeFull.ascx" />
+    <Content Include="cms\Admin\Products\Cart.ascx" />
     <Content Include="cms\Admin\Products\XemAnhPhapLy.aspx" />
     <Content Include="cms\Admin\settings\ThongBaoChoToanNhaCungCap.ascx" />
     <Content Include="cms\Admin\ThongKe\1.htm" />
@@ -703,7 +704,6 @@
     <Content Include="cms\Admin\Marketing\MarketingSenmail.ascx" />
     <Content Include="cms\Admin\MenuLogin.ascx" />
     <Content Include="cms\Admin\Products\GiaDaiLy.ascx" />
-    <Content Include="cms\Admin\Products\Cart.ascx" />
     <Content Include="cms\Admin\Products\Cartdetail.aspx" />
     <Content Include="cms\Admin\Products\Control.ascx" />
     <Content Include="cms\Admin\Products\CProducts.ascx" />
@@ -1641,7 +1641,6 @@
     <Compile Include="Application\AllQuery.cs" />
     <Compile Include="Application\CapBacBatDongSan.cs" />
     <Compile Include="Application\CheckPassWord.cs" />
-    <Compile Include="Application\GioHang.cs" />
     <Compile Include="Application\Commond.cs" />
     <Compile Include="Application\LamTronSo.cs" />
     <Compile Include="Application\Library.cs" />
@@ -1900,6 +1899,13 @@
     </Compile>
     <Compile Include="cms\Admin\Member\ThongKeFull.ascx.designer.cs">
       <DependentUpon>ThongKeFull.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\Admin\Products\Cart.ascx.cs">
+      <DependentUpon>Cart.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\Admin\Products\Cart.ascx.designer.cs">
+      <DependentUpon>Cart.ascx</DependentUpon>
     </Compile>
     <Compile Include="cms\Admin\Products\XemAnhPhapLy.aspx.cs">
       <DependentUpon>XemAnhPhapLy.aspx</DependentUpon>
@@ -3098,13 +3104,6 @@
     </Compile>
     <Compile Include="cms\Admin\Products\GiaDaiLy.ascx.designer.cs">
       <DependentUpon>GiaDaiLy.ascx</DependentUpon>
-    </Compile>
-    <Compile Include="cms\Admin\Products\Cart.ascx.cs">
-      <DependentUpon>Cart.ascx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="cms\Admin\Products\Cart.ascx.designer.cs">
-      <DependentUpon>Cart.ascx</DependentUpon>
     </Compile>
     <Compile Include="cms\Admin\Products\Cartdetail.aspx.cs">
       <DependentUpon>Cartdetail.aspx</DependentUpon>

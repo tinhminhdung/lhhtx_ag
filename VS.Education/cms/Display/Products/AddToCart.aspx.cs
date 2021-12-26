@@ -40,7 +40,7 @@ namespace VS.E_Commerce.cms.Display.Products
                     }
                     else
                     {
-                        SessionCarts.ShoppingCart_AddProduct_Sesion(ipid.ToString(), Convert.ToInt32("1"), "0", "0", "1");
+                        SessionCarts.ShoppingCart_AddProduct_Sesion(ipid.ToString(), Convert.ToInt32("1"), "0", "0");
                     }
 
                 }

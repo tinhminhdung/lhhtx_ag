@@ -1,0 +1,258 @@
+﻿.guithongntin  table tr td input{ width:275px !important;border:1px solid #d7d7d7; border-radius:3px; height:20px}
+.guithongntin  table tr td textarea { width:275px !important;border:1px solid #d7d7d7; border-radius:3px;} 
+.MenuMobile{ display:none}
+.Mobile{ display:none !important}
+.Destop{ display:block !important}
+
+@media screen and  (min-width:1901px) and (max-width:1930px){
+.ketquangay .tongngay {margin: auto;width: 100%;padding-left: 695px;position: relative;}
+.Gachke{width: 26%;}
+}
+@media screen and  (min-width:1600px) and (max-width:1900px){
+.ketquangay .tongngay {margin: auto;width: 100%;padding-left: 572px;position: relative;}
+.Gachke{width: 29%;}
+}
+@media screen and  (min-width:1400px) and (max-width:1590px){
+.ketquangay .tongngay {margin: auto;width: 100%;padding-left: 500px;position: relative;}
+.Gachke{width: 33%;}
+}
+@media screen and (min-width:1001px) and (max-width:1399px)
+{
+.ketquangay .tongngay {margin: auto;width: 100%;padding-left: 436px;position: relative;}
+.Gachke{width: 37%;}
+}
+
+
+@media screen and (min-width:768px) and (max-width:1000px)
+{
+.ketquangay .tongngay {padding-left: 152px;  }
+.Gachke { width: 56%;}
+.dropdown-content { display: none; position: absolute; background-color: #f1f1f1; min-width: 271px; overflow: auto; box-shadow: 0 8px 6px 0 rgb(0 0 0 / 20%); z-index: 1; margin-left: -288px; float: left; text-align: left; margin-top: 32px; }
+
+}
+
+@media screen and (min-width:640px) and (max-width:767px)
+{
+.ketquangay .tongngay {padding-left: 152px;  }
+.Gachke { width: 56%;}
+.dropdown-content { display: none; position: absolute; background-color: #f1f1f1; min-width: 271px; overflow: auto; box-shadow: 0 8px 6px 0 rgb(0 0 0 / 20%); z-index: 1; margin-left: -288px; float: left; text-align: left; margin-top: 32px; }
+
+}
+
+@media screen and (min-width:480px) and (max-width:639px)
+{
+.ketquangay .tongngay {padding-left: 152px;  }
+.Gachke { width: 56%;}
+.dropdown-content { display: none; position: absolute; background-color: #f1f1f1; min-width: 271px; overflow: auto; box-shadow: 0 8px 6px 0 rgb(0 0 0 / 20%); z-index: 1; margin-left: -288px; float: left; text-align: left; margin-top: 32px; }
+
+}
+@media screen and (min-width:281px) and (max-width:479px)
+{
+.vithanhtoan{ width: 100% !important;}
+.csscapcha{  width:100% !important;margin-right:0px !important;}
+.ketquangay .tongngay {padding-left: 0px;  }
+.Gachke { width: 100%;}
+.dropdown-content { display: none; position: absolute; background-color: #f1f1f1; min-width: 271px; overflow: auto; box-shadow: 0 8px 6px 0 rgb(0 0 0 / 20%); z-index: 1; margin-left: -288px; float: left; text-align: left; margin-top: 32px; }
+
+}
+@media screen and (max-width: 1px) and (min-width: 280px)
+{
+.vithanhtoan{ width: 100% !important;}
+.csscapcha{  width:100% !important;margin-right:0px !important;}
+.ketquangay .tongngay {padding-left: 0px;  }
+.Gachke { width: 100%;}
+.dropdown-content {
+    min-width: -256px;
+}
+}
+@media screen and (min-width:1px) and (max-width:1000px)
+{
+img{border:medium none;height:auto;line-height:normal;margin:0;max-width:100%;padding:0;vertical-align:middle;width:auto;transition:all 0.2s ease-in;}
+body{width:100%;}
+*{padding:0px; margin:0px;}
+#divAdvLeft{ display:none}
+#divAdvRight{ display:none}
+#col-left{ display:none}
+  
+.guithongntin  table tr td input{ width:275px !important;border:1px solid #d7d7d7; border-radius:3px; height:20px}
+.guithongntin  table tr td textarea { width:275px !important;border:1px solid #d7d7d7; border-radius:3px;} 
+.contact-button{ height:35px!important;}
+
+.jwplayer{ width:100% !important;  margin:0; padding:0; height:250px !important}
+#MyPlayer_wrapper{ left:0px;width:100% !important;  margin:0; padding:0; height:250px !important; top: 10px;}
+#MyPlayer{ width:100% !important;  margin:0; padding:0; height:250px !important}
+
+.An{  display:none}
+.Hien{ display:block}
+#divAdvLeft{display:none}
+#divAdvRight{display:none}
+
+.News-content {margin: 5px;width: 97%;}
+.News-content div{width:100% !important;margin:0px;padding:0px;}
+.News-content p{margin:0!important;padding:0!important;}
+.News-content table{width:100% !important;}
+.News-content table tbody{width:100% !important;}
+.News-content table tr{width:100% !important;}
+.News-content table tr td{width:100%;}
+.News-content table tr td img{width:98% !important;}
+.News-content img{margin:0px;padding:0px; height:auto!important; max-width:100%!important}
+.News-content p img{margin:0px;padding:0px; height:auto!important;max-width:100%!important}
+.News-content p embed{width:100% !important;}
+.News-content p iframe{width:100% !important;}
+.News-content p object{width:100% !important;}
+.News-content embed{width:100% !important;}
+.News-content iframe{width:100% !important;}
+.News-content object{width:100% !important;}
+.News-content table tr td embed{width:100% !important;}
+.News-content table tr td iframe{width:100% !important;}
+.News-content table tr td object{width:100% !important;}
+
+.scollgiohang {border: 1px solid #ddd;margin-bottom: 15px;overflow-y: hidden;width: 100%;}
+.scollgiohang {min-height: 0.01%;overflow-x: auto;}
+.scoll{ width:1000px}
+
+.Mobile{ display:block!important}
+.Destop{ display:none !important}
+
+.nivo-directionNav a {top: 33%;}
+.ad-gallery{ width:100%!important}
+.slider{ width:100%!important}
+.ad-gallery .ad-nav {position: relative;width: 99% !important;}
+.ad-gallery .ad-nav .ad-thumbs {margin-left:0px!important;overflow: hidden;padding: 5px!important;width: 100% !important;}
+.ad-gallery .ad-image-wrapper .ad-image {left: 0 !important;margin: auto;text-align: center;width: 100% !important;}
+.ad-gallery .ad-image-wrapper {width: 100%;}
+.ad-gallery {width: 100% !important;}
+.slider {margin: 15px auto auto;padding-bottom: 20px;width: 100% !important;}
+.ad-gallery .ad-image-wrapper {text-align: center;width: 100%;}
+.top-line{display: none;}
+
+#myElement_wrapper{width: 100%!important;}
+.player div#myElement_wrapper object{width: 100%!important;}
+.player div#myElement_wrapper object#myElement{width: 100%!important;}
+.Menutop .top{width: 100%!important; display:none}
+.fixpadding {padding-left: 5px !important;padding-right: 5px !important;}
+#form1 > div.full-width > section > a:nth-child(2) {margin-left: 0;margin-right: 0;}
+#upper-footer div.row div.col-md-9.col-sm-9.col-xs-12 {margin-top: 0;}
+#newsletter{ margin-bottom: 10px;}
+.Menutop .Mlogo {background: #4fa4dd none repeat scroll 0 0;}
+.Menutop .Mlogo .logo a img {margin-bottom: 10px;margin-top: 10px;text-align: center;}
+#upper-footer {margin-top: 5px;}
+.lineke {border-top: 1px solid #dfe6f3;margin: auto;width: 97%;margin-top: 5px;}
+.muahang{margin-bottom: 5px;}
+.videos .vd-item:nth-child(4n+1) {margin-left: 13px !important;}
+.chinhgiua iframe {width: 100%!important;}
+
+.Danhmucmenu { background: red; color: #fff; text-align: left; height: 35px; padding-top: 3px; font-size: 16px; text-transform: uppercase; padding-left: 6px; }
+.tkiemmobule { width: 100% !important; }
+.section_tab_product .product-box .product-info { padding: 2px; }
+.pricessale {top: 6px;}
+.menubar.hidden-md.hidden-lg {padding-top: 40px;position: absolute; top: calc(31% - 8px); left: 0; transform: translateY(-50%); -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); z-index: 1000; font-size: 20px; color: #fe3232; }
+form { margin-bottom: 0px; }
+.awe-section-1 { margin-bottom: 5px; }
+.widget-policy .policy-item .media { float: left; margin-right: 12px; }
+.bread-crumb { margin-bottom: 0px;}
+.News-content .title h1 { font: 400 24px/28px arial; color: #203b91; padding: 0px; margin: 0px; }
+footer h4 {  margin-bottom: 5px; }
+.padding-top-40 { padding-top: 0px!important; }
+.blog-item-thumbnail img { width:100%!important; height:100%!important}
+.News-content .des-news{padding-top: 12px;}
+.btn{ border:none}
+.logo a { display: inline-block; margin: auto; text-align: center; }
+.logo a { display: inline-block; margin: auto; text-align: center; width: 72%;margin-left:0px; }
+.site-header { padding: 5px 0 0; }
+.header-right { float: right; padding-top: 19px; }
+body { padding-bottom: 45px; }
+.nutgui { padding-left: 0px; clear: both; padding-top: 10px; }
+.thongbao{padding-left:0px;clear: both;padding-top: 10px;}
+.nutguicd { padding-left: 0px; clear: both; padding-top: 10px; }
+
+.header-left { float: left; display: inline-block; width: auto; margin-left: 0px; }
+.dangnhaaa { float: right; padding-top: 4px; }
+
+.header-right {  z-index: 99;}
+.thanhviemobile { float: right; padding-top: 5px; margin-right: 5px; }
+.Aavatar { width: 30px; height: 30px; border-radius: 30px; border: 1px solid #d7d7d7; }
+
+h1.title-head { font-size: 15px; font-weight: 600; padding-right: 10px; background: #fff; text-transform: uppercase; padding-top: 8px; }
+.frm_hoahong select { width: 100% !important; float: left; margin-right: 8px; margin-top: 2px; margin-bottom: 3px; }
+.list_item table{ width:900px !important}
+.Danhchothanhvien { padding-left: 0px!important; color: #ed1c24; font-size: 15px; text-align: left; text-transform: uppercase; padding: 0px; float: left; width: 100%; }
+.NPMP{padding: 0px; margin: 0px;}
+.frm_Thanhvien { margin-top: 0px; }
+.frm_Thanhvien .tenthanhvien { width: 100%; font-weight: bold; float: left; }
+.iconnthanhvien { position: relative; float: left; width: 100%; }
+.DiaChi { position: relative; float: left; width: 100%; }
+.Phone { position: relative; float: left; width: 100%; }
+.Emails { position: relative; float: left; width: 100%; }
+.iconngaysinh{ position: relative; float: left; width: 100%; }
+.tennguoigioithieu { position: relative; float: left; width: 100%; }
+.Password { position: relative; float: left; width: 100%; }
+.iconsoCoin { position: relative; float: left; width: 100%; }
+.frm_Thanhvien input {width: 95% !important; }
+.canchieucao { height:74px;}
+.bread-crumb {  border-bottom:none }
+
+.frm_search select  { width: 100% !important; float: left; margin-right: 8px; margin-top: 2px; margin-bottom: 3px; }
+.frm-add.sssssssss { width: 100%;}
+
+.frm-add.sssssssss select{ width: 100% !important;}
+.widget-title h4 { font-size: 14px; }
+.nutsukien { padding-left: 10px!important }
+.frm-contact { margin: 0px; color: #404040; }
+.product-box .product-price {font-size: 12px;}
+.ruttienthongbaos{color: #fff;font-weight:bold;background: #ec0606;padding: 4px;margin-left: -8px;border-radius: 3px; width:100%}
+.nutsukiensp { padding-left: 0px!important; margin-top: 0px!important; float: none; }
+.booo .tongcc .noidungcc .ipuu { padding: 0px 5px !important; width: 100% !important; }
+#popupContact { top: 20%; }
+
+.frm-contact textarea {width: 100% !important; }
+.droploc{  width:100% !important;float:none; margin-left:0px}
+
+.Udai { font-size: 22px !important; }
+
+.ui-menu-item { border-bottom: 1px solid #ccc; height: 31px!important; line-height: 28px!important; padding-top: 0px; width: 100%; overflow: hidden; }
+.ui-menu-item-wrapper { font-size: 13px;    text-transform: lowercase; }
+.ui-widget-content {left: 0 !important;}
+.ketquangay .Ngay { color: #fff; font-size: 12px; float: left; margin-right: 2px; margin-left: 2px; }
+#popupContact {
+    width: 85%;
+}
+.btnadd{ width:100% !important}
+.bar-l { position: fixed; top: 40%!important; right: 5px; z-index: 99; }
+.thongbaoss{padding-left:5px; padding-left:5px; clear:both; padding-top:10px;}
+.capchass{color: #000;background: #d7d7d7;width: 100%;text-align: center;display: table;padding: 1px;font-size: 23px;float: left;margin-top: 7px;}
+
+.jq-toast-wrap { padding: 10px !important;width: 100% !important}
+.kichhoattaikhan .purchase-popup .btnv.purchase-button { background-color: rgba(172,50,228,0.9); background-image: -owg-linear-gradient(to right,#da8cff,#9a55ff); background-image: -webkit-gradient(linear,left top,right top,from(#da8cff),to(#9a55ff)); background-image: linear-gradient(to right,#da8cff,#9a55ff); color: #fff; border: none; line-height: 44px; vertical-align: middle; height: 44px; display: table-cell; float: none; width: 200px; text-align: center; margin-top: 0px !important; }
+.kichhoattaikhan .purchase-popup p { padding-bottom: 10px;     line-height: 18px;}
+.TopMenu { background: #ffff; padding-top: 0px; padding-bottom: 0px; }
+.Giohang a { color: #000; font-size: 11px; }
+.Giohang { display: inline-block; padding-left: 0px; padding-top: 19px; }
+i.fa.fa-shopping-cart { margin-right: 8px; font-size: 17px; }
+.site-header .logo { padding-top: 3px; }
+.header_search.hidden-lg.hidden-md { width: 98%; margin: auto; }
+.ui-widget-content{ width:100% !important}
+.btnMuaHang { width: 210px;}
+.container.hommshopncc { padding: 0px; }
+.Nhomtrangchu { padding-left: 0px !important; padding-right: 0px ​!important; padding-bottom: 10px; background: #fff; border: 1px solid #faf7f7; }
+section.main_container.collection.col-lg-12.col-md-12.nhomsaa { padding: 0px !important; margin: 0px !important; }
+.product-box .product-thumbnail a img { border: 1px solid #d7d7d7; max-height: 98%; max-width: 98%; object-fit: cover; }
+.product-box .product-name a { color: #333; text-decoration: none; padding-left: 0px; }
+.nhomsaa .container { padding: 0px; }
+section.awe-section-2d .container { padding: 0px; }
+.awe-section-1 .container { padding: 0px; }
+.section_tab_product { padding-top: 0px; padding-bottom: 0px; }
+.hottt .section-title h2 { border: none; color: #fff; font-size: 13px; padding-top: 12px; }
+.hottt .section-title { padding-left: 20px; height: 46px;}
+.ketquangay .Ngay .vongtron {width: 33px; height: 33px;    margin-left: 5px;}
+.ketquangay .Ngay span { float: left; padding-top: 5px; margin-left: 2px; font-size: 11px; font-weight: bold; color: #000; }
+.list-catalog-main .catalog-main-item { padding-top: 15px; width: 33.33%;}
+.img_footer a img { width: 100%!important; border: 1px solid #d7d7d7; }
+.img_footer a { padding-bottom: 8px; background: #fff; margin: 0px; border-radius: 3px; display: block; }
+.line_branch { font-size: 20px; position: relative; text-align: center; }
+
+.site-header .logo { padding-top: 3px; margin-left: 80px; }
+.News-content .contents img { text-align: center; margin: auto; width: 100%; padding: 0px; }
+.Doitac{ display:none}
+.widget-policy{ display:none}
+}

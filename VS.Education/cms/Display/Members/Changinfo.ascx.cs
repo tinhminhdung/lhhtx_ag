@@ -3730,7 +3730,7 @@ namespace VS.E_Commerce.cms.Display.Members
             user data = db.users.SingleOrDefault(p => p.iuser_id == int.Parse(hdid.Value));
             if (data != null)
             {
-                string code = "aggroup365.com/QRCode/" + data.vuserun.Trim();
+                string code = "lienhiephoptac.vn/QRCode/" + data.vuserun.Trim();
                 QRCodeGenerator qrGenerator = new QRCodeGenerator();
                 QRCodeGenerator.QRCode qrCode = qrGenerator.CreateQrCode(code, QRCodeGenerator.ECCLevel.Q);
                 System.Web.UI.WebControls.Image imgBarCode = new System.Web.UI.WebControls.Image();
