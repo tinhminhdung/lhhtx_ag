@@ -117,6 +117,13 @@ namespace VS.E_Commerce.cms.Admin.Member
             List<DauTuBatDongSan> iitem = db.ExecuteQuery<DauTuBatDongSan>(@"SELECT * FROM DauTuBatDongSan where 1=1 " + sql + " order by NgayTao desc").ToList();
             if (iitem.Count() > 0)
             {
+                double coin = 0.0;
+                for (int i = 0; i < iitem.Count; i++)
+                {
+                    coin += Convert.ToDouble(iitem[i].TongTienDauTu.ToString());
+                }
+                lttongtien.Text = AllQuery.MorePro.FormatMoney_Cart(coin.ToString());
+                lttongtienbangchu.Text = "Tổng số thành viên: " + iitem.Count().ToString();
                 Tongsobanghi = iitem.Count();
             }
             int PageIndex = (pages - 1);

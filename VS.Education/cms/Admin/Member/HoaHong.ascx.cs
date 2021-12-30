@@ -223,6 +223,7 @@ namespace VS.E_Commerce.cms.Admin.Member
                     coin += Convert.ToDouble(iitem[i].SoCoin.ToString());
                 }
                 lttongtien.Text = coin.ToString();
+                
                 Tongsobanghi = iitem.Count();
             }
             List<Entity.EHoaHongThanhVien> dt = SHoaHongThanhVien.CATEGORY_PHANTRANG2(sql, (pages - 1), Tongsotrang);
